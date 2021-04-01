@@ -25,7 +25,8 @@ SECRET_KEY = '1k%^ft(&iqp=cgliq69ge8o6lcip7ro-*e%2rp8vr#_&*k&k5%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+import os
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'job4.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -118,3 +119,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
