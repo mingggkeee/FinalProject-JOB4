@@ -1,10 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-</body>
-</html>
+{% load static %}
+
+{% block content %}
+    <!-- Searching -->
+    <section id="booking">
+        <!-- <div class="bg-holder" style="background-image:url(assets/img//gallery/booking.png);background-position:center;background-size:cover;">
+        </div> -->
+        <!--/.bg-holder-->
+  
+        <div class="container">
+          <div class="row">
+            <div class="col-12 py-8 text-white">
+              <div class="d-flex flex-column flex-center">
+                <h2 class="text-dark fs-2 fs-md-3">싹(SSAC) 가능 JOB4</h2>
+                <h1 class="text-dark fs-2 fs-sm-4 fs-lg-7 fw-bold">자기소개서를 검색하세요</h1>
+              </div>
+              <form class="row gy-2 gx-md-2 gx-lg-4 flex-center my-6">
+                <div class="col-6 col-md-3">
+                  <label class="visually-hidden" for="inlineFormSelectPref">Destinations</label>
+                  <select class="form-select" id="inlineFormSelectPref">
+                    <option selected="">Corporations</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="col-6 col-md-3">
+                  <label class="visually-hidden" for="autoSizingSelect">Package</label>
+                  <select class="form-select" id="autoSizingSelect">
+                    <option selected="">Task</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="col-6 col-md-3">
+                  <label class="visually-hidden" for="date">Date</label>
+                  <div class="input-group">
+                    <input class="form-control" id="date" type="date" />
+                  </div>
+                </div>
+                <div class="col-6 col-md-auto">
+                  <button class="btn btn-lg btn-primary" type="submit">Book Now</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+{% endblock %}

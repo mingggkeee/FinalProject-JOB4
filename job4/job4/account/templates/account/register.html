@@ -1,0 +1,56 @@
+{% extends 'base_auth.html' %}
+
+{% load static%}
+
+{% block title %}Register{% endblock %}
+
+{% block heading %}Registeration{% endblock %}
+
+{% block content %}
+<!-- 현재와 동일한 url로 폼 요청 -->
+<form action="{% url 'account:register_request' %}" id="loginForm" method="post">
+    {% csrf_token %}
+    <div class="row">
+        <div class="form-group col-lg-12">
+            <label>Username</label>
+            <input class="form-control" name="username">
+        </div>
+        <div class="form-group col-lg-6">
+            <label>Password</label>
+            <input type="password" class="form-control" name="password">
+        </div>
+        <div class="form-group col-lg-6">
+            <label>Repeat Password</label>
+            <input type="password" class="form-control" name="repeat-password">
+        </div>
+        <div class="form-group col-lg-6">
+            <label>Email Address</label>
+            <input class="form-control" name="email">
+        </div>
+        <div class="form-group col-lg-6">
+            <label>Address</label>
+            <input class="form-control" name="address">
+        </div>
+        <div class="checkbox col-lg-12">
+            <input type="checkbox" class="i-checks" checked> Sigh up for our newsletter
+        </div>
+    </div>
+    <div class="text-center">
+        <input class="btn btn-success loginbtn register-btn" type="submit" value="Register">
+<!--        <button class="btn btn-success loginbtn register-btn">Register</button>-->
+        <button class="btn btn-default cancel-btn">Cancel</button>
+    </div>
+</form>
+{% endblock %}
+
+{% block extra-script %}
+<script>
+    $(function () {
+        $('.cancel-btn').on('click', function(event){
+            event.preventDefault();
+            event.stopPropagation();
+            history.back();
+        })
+    });
+</script>
+{% endblock %}
