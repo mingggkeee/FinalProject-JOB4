@@ -28,6 +28,8 @@ DEBUG = True
 import os
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0']
 
+import pymysql
+pymysql.install_as_MySQLdb()
 
 # Application definition
 
@@ -79,8 +81,12 @@ WSGI_APPLICATION = 'job4.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': '192.168.20.145',
+        'PORT': '3306',
+        'NAME': "job4",
+        'USER': "ssac",
+        'PASSWORD': "ssac123!@#"
     }
 }
 
