@@ -1,0 +1,16 @@
+{% extends 'base_auth.html' %}
+
+{% load static%}
+
+{% block title %}Register Done{% endblock %}
+
+{% block heading %}Registeration is DONE !!{% endblock %}
+
+{% block content %}
+<a href="{% url 'accounts:login' %}" class="btn btn-success btn-block loginbtn">Login</a>
+{% endblock %}
+
+{% block extra-script %}
+<script>
+</script>
+{% endblock %}
