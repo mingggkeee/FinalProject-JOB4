@@ -49,7 +49,6 @@ class LogoutView(View):
 class RegisterView(TemplateView):
     template_name = 'account/register.html'
 
-class RegisterRequestView(TemplateView):
     def post(self, request):
         if request.method == "POST":
             if request.POST["password"] == request.POST["repeat-password"]:
@@ -64,6 +63,21 @@ class RegisterRequestView(TemplateView):
 
             return render(request, 'account/register.html')
 
+# class RegisterRequestView(TemplateView):
+#     def post(self, request):
+#         if request.method == "POST":
+#             if request.POST["password"] == request.POST["repeat-password"]:
+#                 user = User.objects.create(id=request.POST["id"], \
+#                                            password=request.POST["password"], \
+#                                            birth=request.POST["birth"], \
+#                                            email=request.POST["email"], \
+#                                            phone_number=request.POST["phone_number"], \
+#                                            address=request.POST["address"], \
+#                                            gender=request.POST["gender"])
+#                 return render(request, 'account/register_done.html')
+
+#             return render(request, 'account/register.html')
+
 class RecoverIDView(TemplateView):
     template_name = 'account/recover_id.html'
 
@@ -75,3 +89,15 @@ class RecoverPWView(TemplateView):
 
 class RecoverPWRequestView(View):
     print('recover pw')
+
+
+class DupCheckView(View):
+
+    def get(self, request, key):
+        from .user_repository import UserRepository
+        import json
+
+        repository = UserRepository()
+        count = repository.select_count_by_userid(key)
+        json_count = json.dumps(count, ensure_ascii=False)
+        return HttpResponse(json_count, content_type="application/json")
