@@ -57,11 +57,16 @@
                     <li class="nav-item"><a class="nav-link text-600" href="">Destinations</a></li>
                     <li class="nav-item"><a class="nav-link text-600" href="">Booking </a></li>
                     {% if request.session.is_active %}
-                    <li class="nav-item"><a class="nav-link text-600" href="">My Page </a></li>
+                    <li class="nav-item"><a class="nav-link text-600" href="{% url 'mypage:home' %}">My Page </a></li>
                     {% endif %}
                 </ul>
                 {% if request.session.is_active %}
                 {{ request.session.user_id }}
+                <form class="ps-lg-5">
+                    <button class="btn btn-lg btn-outline-primary order-0" type="submit">
+                        <a href="{% url 'account:logout' %}">Log Out</a>
+                    </button>
+                </form>
                 {% else %}
                 <form class="ps-lg-5">
                     <button class="btn btn-lg btn-outline-primary order-0" type="submit">
