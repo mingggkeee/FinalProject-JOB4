@@ -33,6 +33,9 @@
         <input type="submit" class="btn btn-success btn-block loginbtn" value="Login">
         <a class="btn btn-default btn-block" href="{% url 'account:register' %}">Register</a>
     </div>
+    <a href="{% url 'account:recover_pw' %}" class="text-small forgot-ID text-black">Forgot ID</a>
+    <a href="{% url 'account:recover_id' %}" class="text-small forgot-password text-black">Forgot Password</a>
+    
 </form>
 
 {% endblock %}
