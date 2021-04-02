@@ -68,10 +68,50 @@ class RecoverIDView(TemplateView):
     template_name = 'account/recover_id.html'
 
 class RecoverIDRequestView(View):
-    print('recover id')
+    # print('recover id')
+    def post(self, request):
+        if request.method == "POST":
+            # print(request.POST['email'])
+            
+            email = request.POST.get('email')
+            result_id = User.objects.get(email=email)
+            print(result_id)
+            return render(request, 'account/register_done.html')
+
+        return render(request, 'account/recover_id_done.html')
 
 class RecoverPWView(TemplateView):
     template_name = 'account/recover_pw.html'
 
 class RecoverPWRequestView(View):
-    print('recover pw')
+    # print('recover pw')
+    def post(self, request):
+        if request.method == "POST":
+            # print(request.POST['id'])
+            # print(request.POST['email'])
+
+            user_id = request.POST['id']
+            result_id = User.objects.get(id=user_id)
+            print(result_id.birth)
+            # result_id = User.objects.get(email=email)
+            
+            user_email = request.POST['email']
+            if user_email == result_id.email:
+                print(result_id.password)
+                return render(request, 'account/recover_pw_done.html')
+
+            return render(request, 'home.html')
+
+class RecoverPWRequestDoneView(View):
+    def post(self, request):
+        return render(request, '/account/recover-pw/request_pw_done copy.html')
+    def password_edit(self):
+        if request.method == 'POST':
+            user = User.objects(password=request.POST["password"])
+            print(result_id.password)
+
+        if request.POST["password"] == request.POST["password_again"]:
+            print(result_id.password)
+            # user = User.objects.update(password=request.POST["password"])
+            
+            # if request.POST["password"] == request.POST["password"]:

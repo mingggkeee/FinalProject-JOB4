@@ -12,15 +12,45 @@
 <p>
     Enter your email address and your password will be reset and emailed to you.
 </p>
-<form action="." id="loginForm" method="post">
+<form action="/account/recover-id/request/" id="loginForm" method="post">
     {% csrf_token %}
     <div class="form-group">
-        <label class="control-label" for="username">Email</label>
+        <label class="control-label" for="email">Email</label>
         <input type="text" placeholder="example@gmail.com" title="Please enter you email adress" required="" value=""
-               name="username" id="username" class="form-control">
+               name="email" id="email" class="form-control">
         <span class="help-block small">Your registered email address</span>
     </div>
 
-    <button class="btn btn-success btn-block">Reset password</button>
+    <button class="btn btn-success btn-block">ID를 이메일로 전송</button>
 </form>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#find_id').click(function () {
+            
+            var email = $("#form_email").val();
+
+            $.ajax({
+                type: "POST",
+                url: "",
+                dataType: "json",
+                data: {
+                    'email': email,
+                    'csrfmiddlewaretoken': '{{csrf_token}}',
+                },
+                success: function (response) {
+                    $('#result_id').replaceWith(
+                        '<div id="result_id"><hr><div><span>입력된 정보로 가입된 아이디는 </span><span id="result_id">' +
+                            response.result_id +'</span><span> 입니다.</span></div><hr></div>')
+                },
+                error: function () {
+                    if (email == "") {
+                        alert('이메일을 입력해주세요.');
+                    } else {
+                        alert('입력하신 정보가 일치하지 않거나 존재하지 않습니다.');
+                    }
+                },
+            });
+        })
+    });
+</script>
 {% endblock %}
