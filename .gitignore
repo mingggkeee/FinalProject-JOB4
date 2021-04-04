@@ -1,1 +1,10 @@
+.idea
+.DS_Store
+test.py
+
 venv/
+
+crawling/.ipynb_checkpoints
+crawling/src/.ipynb_checkpoints
+crawling/src/__pycache__
+datafiles/raw-data/.DS_Store
