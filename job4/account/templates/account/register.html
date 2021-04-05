@@ -1,0 +1,200 @@
+{% extends 'base_auth.html' %}
+
+{% load static%}
+
+{% block title %}Register{% endblock %}
+
+{% block heading %}Registeration{% endblock %}
+
+{% block content %}
+<!-- 현재와 동일한 url로 폼 요청 -->
+<form action="{% url 'account:register' %}" id="loginForm" method="post">
+    {% csrf_token %}
+    <div class="row">
+        <div class="form-group col-lg-12">
+            <label>UserID</label>
+            <input class="form-control" name="id" type="search" size="60" placeholder="영문자로 시작하는 6~20자 영문자 또는 숫자이어야 합니다." onfocus="this.placeholder=''" onblur="this.placeholder= '영문자로 시작하는 6~20자 영문자 또는 숫자이어야 합니다.'" id="id">
+            <input type="button" id="checkbtn" class="btn btn-default" value="중복확인">
+        </div>
+        <div class="form-group col-lg-12">
+            <label>Email</label>
+            <input class="form-control" name="email" id="email">
+        </div>
+        <div class="form-group col-lg-6">
+            <label>Password</label>
+            <input type="password" class="form-control" name="password" id="password">
+        </div>
+        <div class="form-group col-lg-6">
+            <label>Repeat Password</label>
+            <input type="password" class="form-control" name="repeat-password" id="ck_password">
+        </div>
+        <div class="form-group col-lg-6">
+            <label>Phone number</label>
+            <input class="form-control"  type="search" size="60" placeholder=" &apos; - &apos; 제외" onfocus="this.placeholder=''" onblur="this.placeholder=' - 제외'"  id='phone_number' name="phone_number">
+        </div>
+        <div class="form-group col-lg-6">
+            <label>Address</label>
+            <input class="form-control" type="search" size="60" placeholder="＊선택 항목" onfocus="this.placeholder=''" onblur="this.placeholder='＊선택 항목'"name="address">
+        </div>
+        <div class="form-group col-lg-6">
+            <label>Birth</label>
+            <input class="form-control"type="search" size="60" placeholder="ex)1995-01-20" onfocus="this.placeholder=''" onblur="this.placeholder='ex)1995-01-20'" name="birth" id="date">
+        </div>
+        <div class="form-group col-lg-6">
+            <label>Gender</label>
+                <br>
+                <input type="radio" name="gender" value="0" style="width:15px;height:15px" >남
+                <input type="radio" name="gender" value="1"style="width:15px;height:15px">여
+        </div>
+        <div class="checkbox col-lg-12">
+            <input type="checkbox" class="i-checks" checked> Sigh up for our newsletter
+        </div>
+    </div>
+    <div class="text-center">
+        <input class="btn btn-success loginbtn register-btn" type="submit" value="Register">
+        <button class="btn btn-default cancel-btn">Cancel</button>
+    </div>
+</form>
+{% endblock %}
+
+{% block extra-script %}
+<script>
+    $(function () {
+        $('.cancel-btn').on('click', function(event){
+            event.preventDefault();
+            event.stopPropagation();
+            history.back();
+        });
+        var getCheck= RegExp(/^[a-z]+[a-z0-9]{5,19}$/);
+        var getMail = RegExp(/^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/i);
+        var getphone = RegExp(/^[0-9]{0,12}$/);
+        var date_pattern = RegExp(/^(19|20)\d{2}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[0-1])$/);
+
+        $('.register-btn').on('click', function(event) {
+
+            // 아이디 공백 확인
+            if($("#id").val() == ""){
+                alert("아이디 입력해주세요"); 
+                $("#id").focus();
+                return false; 
+            }
+            // 아이디 유효성 검사 
+            if(!getCheck.test($("#id").val())){
+                alert("아이디 형식에 맞게 입력해주세요"); 
+                $("#id").val(""); 
+                $("#id").focus(); 
+                return false; 
+            }
+            // 비밀번호 공백 확인 
+
+            if($("#password").val() == ""){
+                alert("패스워드 입력바람"); 
+                $("#password").focus(); 
+                return false; 
+            }
+            //아이디 비밀번호 같음 확인 
+            if($("#id").val() == $("#password").val()){
+                alert("아이디와 비밀번호가 같습니다"); 
+                $("#password").val(""); 
+                $("#password").focus(); 
+                return false; 
+            }
+
+            // //비밀번호 유효성검사  (할지 말지 생각중)
+            // if(!getCheck.test($("#password").val())){
+            //     alert("비밀번호 형식에 맞게 입력해주세요"); 
+            //     $("#password").val(""); 
+            //     $("#password").focus(); 
+            //     return false; 
+            // }
+
+            //비밀번호 확인란 공백 확인
+            if($("#ck_password").val() == ""){ 
+                alert("패스워드 확인란을 입력해주세요"); 
+                $("#ck_password").focus();
+                return false; 
+            }
+            //비밀번호 서로확인 
+            if($("#password").val() != $("#ck_password").val()){
+                alert("비밀번호가 상이합니다"); 
+                $("#password").val("");
+                $("#ck_password").val(""); 
+                $("#password").focus();
+                return false;
+            }
+
+            //이메일 공백 확인 
+            if($("#email").val() == ""){
+                alert("이메일을 입력해주세요"); 
+                $("#email").focus(); 
+                return false; 
+            }
+
+            //이메일 유효성 검사 
+            if(!getMail.test($("#email").val())){
+                alert("이메일형식에 맞게 입력해주세요") 
+                $("#email").val(""); 
+                $("#email").focus(); 
+                return false; 
+            }
+            
+            //휴대폰 번호 공백 확인
+            if($("#phone_number").val() == ""){
+                alert("휴대폰 번호 입력 바랍니다"); 
+                $("#phone_number").focus(); 
+                return false; 
+            }
+
+            //휴대폰 번호 유호성 검사
+            if(!getphone.test($("#phone_number").val())){
+                alert("휴대폰 번호 형식에 맞게 입력해주세요") 
+                $("#phone_number").val(""); 
+                $("#phone_number").focus(); 
+                return false; 
+            }
+
+            //생년월일 유호성 검사
+            if(!date_pattern.test($("#date").val())){
+                alert("생년월일 형식에 맞게 입력해주세요") 
+                $("#date").val(""); 
+                $("#date").focus(); 
+                return false; 
+            }
+
+        });
+
+        $('#checkbtn').on('click', function(event) {
+
+            // ajax 요청
+            $.ajax({
+                "url": "/account/register/dupcheck/" + $("#id").val(),
+                "method": "GET",
+                "dataType": "json",
+                "success": function(data, status, xhr) {
+
+                    if(!getCheck.test($("#id").val())){
+                        alert("아이디 형식에 맞게 입력해주세요"); 
+                        $("#id").val(""); 
+                        $("#id").focus(); 
+                    }
+                    else{
+                        if(data[0] == 1){
+                            alert("이미 등록된 아이디 입니다");
+                            $("#id").val(""); 
+                            $("#id").focus(); 
+                        }
+                        else{
+                            alert("사용 가능한 아이디 입니다");
+                        }
+                    }
+                        
+                },
+                "error": function(xhr, status, err) {
+                    alert("아이디를 입력하세요");
+                }
+            });
+        });
+    
+    });
+</script>
+{% endblock %}

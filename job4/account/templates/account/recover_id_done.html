@@ -1,0 +1,21 @@
+{% extends 'base_auth.html' %}
+
+{% load static%}
+
+{% block title %}Recover Password Done{% endblock %}
+
+{% block heading %}Password recovery is complete!!!{% endblock %}
+
+{% block content %}
+<div id="result_pw"><hr><div><span>Check your Email !</span></div><hr></div>
+
+
+
+<a href="{% url 'account:login' %}" class="btn btn-success btn-block loginbtn">Login</a>
+
+{% endblock %}
+
+{% block extra-script %}
+<script>
+</script>
+{% endblock %}
