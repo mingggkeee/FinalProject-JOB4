@@ -1,4 +1,5 @@
 import json
+from functools import lru_cache
 
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
@@ -8,8 +9,6 @@ from django.contrib import auth
 from django.conf import settings
 
 from .models import User
-
-# Create your views here.
 
 
 class LoginView(TemplateView):
@@ -64,6 +63,7 @@ class RegisterView(TemplateView):
             # return render(request, 'account/register.html')
             return redirect('/account/register')
 
+
 class RecoverIDView(TemplateView):
     template_name = 'account/recover_id.html'
 
@@ -72,67 +72,75 @@ class RecoverIDRequestView(View):
     def post(self, request):
         if request.method == "POST":
             email = request.POST.get('email')
+            print(email)
             if User.objects.filter(email=email).exists() and \
                 User.objects.filter(email=email).count() == 1:
 
                 userObj = User.objects.get(email=email)
 
+                # start of sending email
+
                 from django.core import mail
+                from django.template.loader import render_to_string
 
                 connection = mail.get_connection()
 
                 connection.open()
 
-                email = mail.EmailMessage(
+                template = 'account/recover_id_email.html'
+                html_content = render_to_string(template)
+
+                email = mail.EmailMultiAlternatives(
                     'ID recovery from JOB4',
-                    'This is test email.',
+                    'this is a test.',
                     'ssac.job4@gmail.com',
-                    [userObj.email],
+                    ['dksskgus923@naver.com'],
                     connection=connection,
                 )
+                email.attach_alternative(html_content, "text/html")
                 email.send()
 
-                return render(request, 'account/recover_id_done.html')
+                # end of sending email
 
+                return render(request, 'account/recover_id_done.html')
             else:
-                return render(request, '/account/recover_id')
+                return redirect('/account/recover-id/')
+
 
 class RecoverPWView(TemplateView):
     template_name = 'account/recover_pw.html'
+
 
 class RecoverPWRequestView(View):
     def post(self, request):
         if request.method == "POST":
             user_id = request.POST['id']
-            result_id = User.objects.get(id=user_id)
-            print(result_id.birth)
-            # result_id = User.objects.get(email=email)
-            
+            userObj = User.objects.get(id=user_id)
+
             user_email = request.POST['email']
-            if user_email == result_id.email:
-                print(result_id.password)
+            if user_email == userObj.email:
+                print(userObj.password)
+                request.session['id'] = user_id
                 return render(request, 'account/recover_pw_done.html')
 
-            return render(request, 'home.html')
+            # email이 다름
+            return redirect('/')
 
 class RecoverPWRequestDoneView(View):
     def post(self, request):
-        return render(request, '/account/recover-pw/request_pw_done copy.html')
-    def password_edit(self):
         if request.method == 'POST':
-            user = User.objects(password=request.POST["password"])
-            print(result_id.password)
+            pw = request.POST['password']
+            if pw == request.POST['password_again']:
+                userObj = User.objects.get(id=request.session['id'])
+                userObj.password = pw
+                userObj.save()
 
-        if request.POST["password"] == request.POST["password_again"]:
-            print(result_id.password)
-            # user = User.objects.update(password=request.POST["password"])
-            
-            # if request.POST["password"] == request.POST["password"]:
-    print('recover pw')
+                return redirect('/account/login/')
+
+        return redirect('/')
 
 
 class DupCheckView(View):
-
     def get(self, request, key):
         from .user_repository import UserRepository
         import json

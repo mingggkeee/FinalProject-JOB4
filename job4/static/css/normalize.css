@@ -347,3 +347,8 @@ template {
 [hidden] {
   display: none;
 }
+
+/* custom */
+button.naver-login {
+    background: url('img/naver_login_green.PNG') no-repeat !important;
+}

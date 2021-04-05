@@ -1,12 +1,12 @@
 {% extends 'base_auth.html' %}
 
-{% load static%}
+{% load static %}
 
-{% block title %}Login{% endblock %}
+{% block title %}JOB4 | Login{% endblock %}
 
-{% block heading %}PLEASE LOGIN TO APP{% endblock %}
+{% block heading %}PLEASE LOGIN TO JOB4{% endblock %}
 
-{% block simple-explain %}This is the best app ever!{% endblock %}
+{% block simple-explain %}Welcome to Job4 ! 취업 뽀개기? 싹 가능 !{% endblock %}
 
 {% block content %}
 <form action="{% url 'account:login_request' %}" id="loginForm" method="post">
@@ -33,9 +33,23 @@
         <input type="submit" class="btn btn-success btn-block loginbtn" value="Login">
         <a class="btn btn-default btn-block" href="{% url 'account:register' %}">Register</a>
     </div>
-    <a href="{% url 'account:recover_pw' %}" class="text-small forgot-ID text-black">Forgot ID</a>
-    <a href="{% url 'account:recover_id' %}" class="text-small forgot-password text-black">Forgot Password</a>
-    
+    <a href="{% url 'account:recover_id' %}" class="text-small id-recover" style="background: none; color: #737373"> Forgot ID </a>
+    <a href="{% url 'account:recover_pw' %}" class="text-small pull-right pw-recover" style="background: none; color: #737373"> Forgot Password </a>
 </form>
+
+<div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <a href="/" class="button btn-social basic-ele-mg-b-10 pull-left" style="background: none;"><img
+                src="/static/img/google_login.png"></a>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <a href="/" class="button btn-social basic-ele-mg-b-10 span-left" style="background: none;"><img
+                src="/static/img/kakao_login.png"></a>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <a href="/" class="button btn-social basic-ele-mg-b-10 pull-right" style="background: none;"><img
+                src="/static/img/naver_login_green.PNG"></a>
+    </div>
+</div>
 
 {% endblock %}
