@@ -1,1 +1,8 @@
 venv/
+
+.idea
+test.py
+.vscode/
+
+crawling/.ipynb_checkpoints
+datafiles/.ipynb_checkpoints
