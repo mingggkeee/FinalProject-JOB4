@@ -1,0 +1,955 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>SK이노베이션(주) 합격자소서 샘플 | 인크루트</title>
+
+	<meta name="Title" content="SK이노베이션(주) 합격자소서 샘플 | 인크루트"/>
+	<meta name="Keywords" content="[SK이노베이션(주)]SK이노베이션 합격 자기소개서, 재료·화학, 합격자소서 샘플 자기소개서샘플, 자소서샘플, 자기소개서, 자소서, 30대그룹사, 매출1000대기업, 합격자자기소개서, 합격자자소서자료실, 이력서/자소서/ 면접, 공채자료, 인사/비즈, 커뮤니티, 상담, 뉴스, 이력서양식, 자기소개서 샘플, 합격 자기소개서, 기업별 자소서항목, 글자수세기, 학점변환, 어학변환, 이력서 사진수정, 자소서 무료 컨설팅,  내 자소서를 부탁해, 이력서 뱃지, 이력서 PR서비스, 면접족보, 30대 그룹사, 매출 1000대 기업, 면접후기, 면접가이드북, 공채자료, 공채총정리, 공채달력, 채용설명회, 기업별 공채속보, 취업가이드북, 합격자 스펙, 취업선배 인터뷰, 적성검사, 인사/비즈, 인사자료, 인사지식자료, 인사/총무 실무서식, 회사규정/규정, 비즈자료, 회사서식, 각종 계약서, 부서별 업무서식, 인사총무 자료, 취업상담, 이직/경력상담, 노동법률 산재상담, 해외취업자료, 해외취업 성공기, 국가별 현지정보, 직종별 취업정보, 해외 취업뉴스"/>
+	<meta name="Description" content="SK이노베이션(주) 합격자소서 | 기업별, 직무별, 최신 합격자소서 샘플을 무료로 확인하세요. - 인크루트"/>
+
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-language" content="ko">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="classification" content="GENERAL">
+<meta name="revisit" content="1 days">
+<meta property="og:title" content="SK이노베이션(주) 합격자소서 샘플 | 인크루트">
+<meta property="og:url" content="//people.incruit.com/resumeguide/pdsview.asp?pds1=1&pds2=11&pdsno=332757&listseq=&page=9&sot=0&pass=y">
+<meta property="og:image" content="//img.incruit.com/ui/static/image/common/social/incruit_icon_200_200.png">
+<meta property="og:description" content="SK이노베이션(주) 합격자소서 | 기업별, 직무별, 최신 합격자소서 샘플을 무료로 확인하세요. - 인크루트">
+<meta property="og:type" content="website">
+
+<link rel="canonical" href="https://people.incruit.com/resumeguide/pdsview.asp?pdsno=332757">
+
+<link type="text/css" rel="stylesheet" href="//i.incru.it/ui/static/css/module/default_2020.css?20210323150000">
+<link type="text/css" rel="stylesheet" href="//i.incru.it/ui/static/css/module/pm_banner.css?20210323150000">
+<link type="text/css" rel="stylesheet" href="//i.incru.it/ui/static/css/people/main_new_2020.css?20210323150000">
+<link rel="shortcut icon" href="https://www.incruit.com/favicon.ico" type="image/x-icon">
+<script type="text/javascript" src="//i.incru.it/ui/static/js/perfect-scrollbar/jquery-2.2.0.js"></script>
+<script type="text/javascript" src="//i.incru.it/ui/static/js/perfect-scrollbar/perfect-scrollbar.jquery.js"></script>
+<link type="text/css" rel="stylesheet" href="//i.incru.it/ui/static/js/perfect-scrollbar/perfect-scrollbar.css">
+<script type="text/javascript">var G_SERVER_SET="";</script><script type="text/javascript" charset="utf-8" src="//s.incru.it/gjs/v2/ida.js?20210326100000"></script><script type="text/javascript" src="//code.jquery.com/jquery-1.8.3.min.js" integrity="sha256-YcbK69I5IXQftf/mYD8WY0/KmEDCv1asggHpJk1trM8=" crossorigin="anonymous"></script><script type="text/javascript" src="//s.incru.it/gjs/v2/incruit.util.js?20210326100000"></script><script type="text/javascript" src="//s.incru.it/gjs/json/sub_gnb.v6.json.min.js?20210326100000"></script><script type="text/javascript" defer src="//s.incru.it/mjs/owl.carousel.2.1.1.js?20210326100000"></script><script type="text/javascript" defer src="//s.incru.it/gjs/v2/ev_m_globallayer_banner.js?20210326100000"></script>
+<script type="text/javascript">
+<!--
+ var gatrackingid = 'UA-1707882-1';
+-->
+</script><script src="//s.incru.it/gjs/ga.js?20210326100000"></script><script async src="https://www.googletagmanager.com/gtag/js?id=AW-881718353"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'AW-881718353');</script><script type="text/javascript" defer src="https://sc.11h11m.net/s/E795.js"></script><script type="text/javascript" src="https://cdn.megadata.co.kr/js/enliple_min2.js" defer onload="mobRf()"></script><script type="text/javascript" defer src="//s.incru.it/gjs/uservoice.v2.min.js?20210326100000"></script><script type="text/javascript" defer src="//s.incru.it/gjs/v2/incruit.footer.scrolltop.min.js?20210326100000"></script><script type="text/javascript" src="//s.incru.it/gjs/common.js?20210326100000"></script><script type="text/javascript" src="//s.incru.it/gjs/adservice.js?20210326100000"></script><script type="text/javascript" src="//s.incru.it/gjs/ajaxconnector.js"></script><script type="text/javascript" src="//s.incru.it/gjs/ajaxhelper.js"></script><script type="text/javascript" src="//s.incru.it/gjs/crossevent.js"></script><script type="text/javascript" src="//s.incru.it/gjs/page.js"></script><script type="text/javascript" src="//s.incru.it/gjs/combo.js"></script><script type="text/javascript" defer src="//s.incru.it/gjs/popup_calendar.js"></script><script type="text/javascript" defer src="//s.incru.it/gjs/sociallogin.js?20210326100000"></script><script type="text/javascript" defer src="//s.incru.it/gjs/v2/socialloginv2.js?20210326100000"></script><script type="text/javascript" defer src="/l_common/clientscript/l_common.js?20210326100000"></script><script type="text/javascript" defer src="//s.incru.it/gjs/V2/jquery.validate-1.7.min.js"></script><script type="text/javascript" defer src="//s.incru.it/gjs/V2/jquery.incruit.commons.js?20210326100000"></script><script type="text/javascript" defer src="//s.incru.it/gjs/md5Helper.js"></script><script type="text/javascript" defer src="//s.incru.it/gjs/json2.js"></script><script type="text/javascript" src="//s.incru.it/gjs/scrap.js"></script><script type="text/javascript" src="//s.incru.it/gjs/v2/resumeinputlayer.js?20210326100000"></script><script type="text/javascript" defer src="/g_common/ClientScript/V2/incruit.login.layer.js?20210326100000"></script>
+</head>
+<body class="gnbVer3 active width_default">
+
+<div id="incruit_header_wrap">
+	<div id="incruit_header">
+	
+<h1 class="logo">
+	<a href="https://www.incruit.com" class="link"  onclick="return goCL(this,'19087','people','인크루트 로고');"><span>인크루트</span></a>
+	<a href="https://people.incruit.com"  onclick="return goCL(this,'19087','people','서브타이틀_자료실');"><img src="//i.incru.it/ui/static/image/sub/logo_people.png" alt="자료실" /></a>
+</h1>
+
+	<div class="gnb-navWrap" id="utilMenu">
+		<input type="hidden" id="CACHE_YN" name="CACHE_YN" value="hidden">
+		<div class="gnb-navCnt">
+			<div class="allMenu">
+				<a href="javascript:" class="slct btnAllCategory"  onclick="return goCL(this,'19087','people','서브GNB_채용정보');"><span>채용정보</span></a>
+				<div id="gnbsubAllMenu">
+				
+				</div>
+			</div>
+			<ul class="nav_list">
+				<li><a href="https://job.incruit.com/entry/"  onclick="return goCL(this,'19087','people','서브GNB_신입공채');"><span>신입공채</span></a></li>
+				<li><a href="https://www.incruit.com/matchjob/"  onclick="return goCL(this,'19087','people','서브GNB_맞춤정보');"><span>맞춤정보</span></a></li>
+				<li><a href="http://albacall.incruit.com/" target="_blank"  onclick="return goCL(this,'19087','people','서브GNB_알바콜');"><span>알바콜</span></a></li>
+				<li><a href="https://resumedb.incruit.com/main/resumedb.asp"  onclick="return goCL(this,'19087','people','서브GNB_인재검색');"><span>인재검색</span></a></li>
+				<li class="subMain "><a href="https://people.incruit.com"  onclick="return goCL(this,'19087','people','서브GNB_자료실');"><span>자료실</span></a></li>
+				<li class="subMain"><a href="https://www.opensalary.com"  onclick="return goCL(this,'19087','people','서브GNB_연봉');" target="_blank"><span>연봉</span></a></li>
+				<li class="subMain hide"><a href="https://edu.incruit.com"  onclick="return goCL(this,'19087','people','서브GNB_교육');"><span>교육</span></a></li>
+				<li class="subMain hide"><a href="https://school.incruit.com"  onclick="return goCL(this,'19087','people','서브GNB_취업학교');"><span>취업학교</span></a></li>
+			</ul>
+			<div class="nav_list more">
+				<a href="javascript:"  onclick="return goCL(this,'19087','people','서브GNB_더보기');"><span>더보기</span></a>
+				<div class="serviceBox">
+					<ul>
+						<li><a href="https://edu.incruit.com"  onclick="return goCL(this,'19087','people','서브GNB_교육');">교육</a></li>
+						<li><a href="https://school.incruit.com"  onclick="return goCL(this,'19087','people','서브GNB_취업학교');">취업학교</a></li>
+						
+						<li><a href="https://gongmo.incruit.com"  onclick="return goCL(this,'19087','people','서브GNB_공모전');">공모전</a></li>
+						<!--<li><a href="#">박람회</a></li>//-->
+						<li><a href="https://unse.incruit.com"  onclick="return goCL(this,'19087','people','서브GNB_취업운세');">취업운세</a></li>
+						
+					</ul>
+				</div>
+			</div>
+
+			<ul class="gnb_utilList lv0" id="utilMenu_Sub" style="display:none;">
+				<li class="noteNotice" id="gnb_login"><button type="button" class="link" onclick="goCL(this,'19087','people','서브GNB_로그인');location.href='https://edit.incruit.com/login/login.asp?gotoURL=https%3A%2F%2Fpeople%2Eincruit%2Ecom%2Fresumeguide%2Fpdsview%2Easp%3Fpds1%3D1%26pds2%3D11%26pdsno%3D332757%26listseq%3D%26page%3D9%26sot%3D0%26pass%3Dy';"><span>로그인</span></button></li>
+<li class="myInfo depth" id="gnb_personal">
+	<button type="button" class="link" onclick="goCL(this,'19087','people','서브GNB_개인서비스');"><span>개인서비스</span></button>
+	<div id="pmnulist" name="pmnulist" class="serviceBox">
+		<ul>
+			<li><a  onclick="return goCL(this,'18404','people','Layer-개인회원홈');" href="https://www.incruit.com/myhome/" target="_top">개인회원홈</a></li>
+			<li><a href="https://www.incruit.com/resume/resume.asp"  onclick="return goCL(this,'18404','people','Layer-이력서 등록');"  target="_top" class="blank">이력서 등록</a><a  onclick="return goCL(this,'18404','people','Layer-이력서 등록');" href="https://www.incruit.com/resume/resumelist.asp"   target="_top">관리</a></li>
+			<li><a  onclick="return goCL(this,'18404','people','Layer-입사지원관리');" href="https://www.incruit.com/applymng/applystatus.asp" target="_top">입사지원관리</a></li>
+			<li><a  onclick="return goCL(this,'18404','people','Layer-맞춤정보');" href="https://www.incruit.com/matchjob/" target="_top">맞춤정보</a></li>
+			<li><a  onclick="return goCL(this,'18404','people','Layer-스크랩정보');" href="https://www.incruit.com/matchjob/scrapjob.asp"  target="_top">스크랩정보</a></li>
+			<li><a  onclick="return goCL(this,'18404','people','Layer-관심기업정보');" href="https://www.incruit.com/matchjob/scrapcompany.asp"  target="_top">관심기업정보</a></li>
+			<li><a  onclick="return goCL(this,'18404','people','Layer-인증');" href="https://my.incruit.com/service/trustmarkcenter.asp"  target="_top">인증(이력서뱃지)</a></li>
+			<li><a  onclick="return goCL(this,'18404','people','Layer-취업지원서비스');" href="https://my.incruit.com/service/myservice.asp"  target="_top">취업지원서비스</a></li>
+			<li><a  onclick="return goCL(this,'18404','people','Layer-회원정보관리');" href="https://edit.incruit.com/profile/managememinfo.asp"  target="_top">회원정보관리</a></li>
+		</ul>
+	</div>
+</li><li class="myCmpInfo depth" id="gnb_company">	<button type="button" class="link" onclick="goCL(this,'19087','people','서브GNB_기업서비스');" ><span id="cmnunm">기업서비스</span></button>	<div id="cmnulist" name="cmnulist"  class="serviceBox" >		<ul>			<li><a  onclick="return goCL(this,'18405','people','Layer-기업회원홈');" href="https://recruiter.incruit.com/main/recruiter.asp"  target="_top">기업회원홈</a></li>			<li><a  onclick="return goCL(this,'18405','people','Layer-서비스소개');" href="https://recruiter.incruit.com/service/recruiterservice.asp"  target="_top">서비스 소개</a></li>			<li><a  onclick="return goCL(this,'18405','people','Layer-공고등록');" href="https://recruiter.incruit.com/jobpost/jobbuilder.asp"  target="_top">공고등록</a></li>			<li><a  onclick="return goCL(this,'18405','people','Layer-공고관리');" href="https://recruiter.incruit.com/jobpost/jobpostmng.asp"  target="_top">공고관리</a></li>			<li><a  onclick="return goCL(this,'18405','people','Layer-인재검색');" href="https://resumedb.incruit.com/"  target="_top">인재검색</a></li>			<li><a  onclick="return goCL(this,'18405','people','Layer-인사비즈자료');" href="https://people.incruit.com/bizpds/pdslist.asp?pds1=2&amp;pds2=13"  target="_top">인사비즈자료</a></li>			<li><a  onclick="return goCL(this,'18405','people','Layer-결제/이용내역');" href="https://recruiter.incruit.com/recruiter/purchaselist.asp"  target="_top">결제/이용내역</a></li>			<li><a  onclick="return goCL(this,'18405','people','Layer-회원정보관리');" href="https://recruiter.incruit.com/recruiter/recruiterinfomng.asp"  target="_top">회원정보관리</a></li>		</ul>	</div></li><li class="myInfo depth" id="gnb_personal_login">	<button type="button" id="gnb_personal_login_name" class="link" onclick="goCL(this,'18404','Layer-개인서비스','');" ><span id="pmnunm">개인서비스</span></button>	<div id="pmnulist" name="pmnulist" class="serviceBox">		<ul>			<li><a  onclick="return goCL(this,'18489','people','Layer-개인회원홈');" href="https://www.incruit.com/myhome/" target="_top">개인회원홈</a></li>			<li><a  onclick="return goCL(this,'18489','people','Layer-이력서 등록');" href="https://www.incruit.com/resume/resume.asp" target="_top"  class="blank">이력서등록</a><a  onclick="return goCL(this,'18489','people','Layer-이력서 관리');" href="https://www.incruit.com/resume/resumelist.asp" target="_top" >관리</a></li>			<li><a  onclick="return goCL(this,'18489','people','Layer-입사지원관리');" href="https://www.incruit.com/applymng/applystatus.asp" target="_top" >입사지원관리</a></li>			<li><a  onclick="return goCL(this,'18489','people','Layer-맞춤정보');" href="https://www.incruit.com/matchjob/" target="_top" >맞춤정보</a></li>			<li><a  onclick="return goCL(this,'18489','people','Layer-스크랩정보');" href="https://www.incruit.com/matchjob/scrapjob.asp" target="_top" >스크랩정보</a></li>			<li><a  onclick="return goCL(this,'18489','people','Layer-관심기업정보');" href="https://www.incruit.com/matchjob/scrapcompany.asp" target="_top" >관심기업정보</a></li>			<li><a  onclick="return goCL(this,'18489','people','Layer-인증');" href="https://my.incruit.com/service/trustmarkcenter.asp" target="_top" >인증(이력서뱃지)</a></li>			<li><a  onclick="return goCL(this,'18489','people','Layer-취업지원서비스');" href="https://my.incruit.com/service/myservice.asp" target="_top" >취업지원서비스</a></li>			<li class="divisionLine"></li>			<li><a  onclick="return goCL(this,'18489','people','Layer-회원정보관리');" href="https://edit.incruit.com/profile/managememinfo.asp" target="_top" >회원정보관리</a></li>			<li><a  onclick="return goCL(this,'18489','people','Layer-정보수신설정');" href="https://edit.incruit.com/profile/managememinfo.asp?pageid=03" target="_top" >정보수신설정</a></li>			<li><a  onclick="return goCL(this,'18489','people','Layer-간편로그인관리');" href="https://edit.incruit.com/profile/managememinfo.asp?pageid=08" target="_top" >간편로그인관리</a></li>			<li><a  onclick="goCL(this,'18489','people','Layer-로그아웃');document.location.href='https://edit.incruit.com/login/logoutProcess.asp?gotourl=' + escape(document.location);return false;return false;" href="https://edit.incruit.com/login/logoutprocess.asp" >로그아웃</a></li>		</ul>	</div></li><li id="gnbsidemenu1"><a href="https://www.incruit.com/resume/resumelist.asp"  onclick="return goCL(this,'19087','people','서브GNB_이력서 관리');" class="link bold_link"><span>이력서 관리</span></a></li><li class="myCmpInfo depth" id="gnb_company_login">	<button type="button" class="link" onclick="goCL(this,'18405','Layer-기업서비스','');" ><span id="cmnunm">기업서비스</span></button>	<div id="cmnulist" name="cmnulist" class="serviceBox">		<ul>			<li><a  onclick="return goCL(this,'18490','people','Layer-기업회원홈');" href="https://recruiter.incruit.com/main/recruiter.asp"  target="_top">기업회원홈</a></li>			<li><a  onclick="return goCL(this,'18490','people','Layer-서비스소개');" href="https://recruiter.incruit.com/service/recruiterservice.asp" target="_top" >서비스 소개</a></li>			<li><a  onclick="return goCL(this,'18490','people','Layer-공고등록');" href="https://recruiter.incruit.com/jobpost/jobbuilder.asp" target="_top" >공고등록</a></li>			<li><a  onclick="return goCL(this,'18490','people','Layer-공고관리');" href="https://recruiter.incruit.com/jobpost/jobpostmng.asp" target="_top" >공고관리</a></li>			<li><a  onclick="return goCL(this,'18490','people','Layer-인재검색');" href="https://resumedb.incruit.com/" target="_top" >인재검색</a></li>		<li><a  onclick="return goCL(this,'18490','people','Layer-채용담당자관리');" href="https://recruiter.incruit.com/hrmanager/employchargeper.asp" target="_top" >채용담당자관리</a></li>			<li><a  onclick="return goCL(this,'18490','people','Layer-인사비즈자료');" href="https://people.incruit.com/bizpds/pdslist.asp?pds1=2&pds2=13" target="_top" >인사비즈자료</a></li>			<li><a  onclick="return goCL(this,'18490','people','Layer-연봉');" href="https://www.opensalary.com"		 										target="_blank" >연봉</a></li>			<li><a  onclick="return goCL(this,'18490','people','Layer-결제/이용내역');" href="https://recruiter.incruit.com/recruiter/purchaselist.asp" target="_top" >결제/이용내역</a></li>			<li><a  onclick="return goCL(this,'18490','people','Layer-회원정보관리');" href="https://edit.incruit.com/profile/managememinfo.asp" target="_top" >회원정보관리</a></li>			<li><a  onclick="goCL(this,'18490','people','Layer-로그아웃');document.location.href='https://edit.incruit.com/login/logoutProcess.asp?gotourl=' + escape(document.location);return false;return false;" href="https://edit.incruit.com/login/logoutprocess.asp" >로그아웃</a></li>		</ul>	</div></li><li id="gnbsidemenu2"><a href="https://recruiter.incruit.com/jobpost/jobpostmng.asp"  onclick="return goCL(this,'19087','people','서브GNB_공고등록');" class="link bold_link"><span>공고등록</span></a></li><li class="noteNotice last" id="mynews" ><button id="gnbnoteNotice" type="button" class="link"  onclick="return goCL(this,'19087','people','서브GNB_알림');" ><span id="gnb_mynews_layer">알림</span></button>
+<input type="hidden" id="gnb_mynewscnt" >
+<div class="noticeBox">
+	<div class="scroll" id="psBox">
+		<ul id="mynewslist">
+		</ul>
+	</div>
+	<a href="https://www.incruit.com/myalarm/" class="btn_noticeMore"><span>알림 더보기</span></a>
+</div></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="gnbDimlayer"></div>
+	
+<script type="text/javascript" defer src="//s.incru.it/gjs/v2/globalsearchlayer.js?20210326100000"></script>
+<div class="gnbSearchForm">
+	<form name="search" id="search" method="get" action="https://search.incruit.com">
+		<fieldset id="searchWrap" >
+			<legend>통합검색</legend>
+			<input id="kw"  name="kw" value="" class="ipt-search" maxlength="50" placeholder="" autocomplete="off">
+			<button type="submit" id="btnMainSearch" class="btnSearch"  onclick="return goCL(this,'19087','people','서브GNB_통합검색버튼');"><span>검색</span></button>
+		</fieldset>
+		<input type="hidden" name="pco" value="0">
+		<input type="hidden" name="src" value="gsw*job">
+	</form>
+	<div class="autoCompletWrap"></div>
+</div>
+<script>
+	jQuery(document).ready(function(){
+		jQuery("#kw").bind("blur", function() {
+			clearTimeout(window._auto_cmplt_timer);
+			window._auto_cmplt_timer = null;
+			window._auto_cmplt_timer = setTimeout(function() {
+				jQuery("#auto_cmplt").hide();
+			}, 500);
+		});
+		jQuery("#kw").bind("focus", function() {
+			clearTimeout(window._auto_cmplt_timer);
+			window._auto_cmplt_timer = null;
+			jQuery("#auto_cmplt").show();
+		});
+
+		//jQuery(".ipt-search#kw").focus(function(){
+		//	var _placeholder = jQuery(this).attr("placeholder");
+		//	jQuery(this).attr("placeholder","검색어 입력중");
+
+		//	jQuery(".ipt-search#kw").blur(function(){
+		//		jQuery(this).attr("placeholder",_placeholder);
+		//	});
+		//});
+	})
+</script>
+
+	</div>
+</div>
+<script type="text/javascript" src="//s.incru.it/gjs/v2/incruit.globalheader.gnb.v7.min.js?20210326100000"></script>
+
+<div id="incruit_wrap">
+	
+<div id="incruit_sider">
+	<div class="Scrollbar Scrollbar1">
+		<div class="Scrollbar-cont">
+			<div class="siderMenu">
+				<div class="sub_layout_rfirst">
+					<div class="sub_layout">
+						<div class="my_smenu">
+							<h3 class="top_line"><a href="https://people.incruit.com/news/newslist.asp?gcd=11">취업뉴스</a></h3>
+							<h3 id="hLeftMenu1" class="tit tooltip active btm_line">
+								<a href="https://people.incruit.com/resumeguide/">이력서·자소서</a>
+								<button class="btn_toggleArrow" onclick="fn_ShowLeftMenu_V1(1)" type="button"><em>열기ㆍ닫기</em></button>
+							</h3>
+							<ul id="LeftMenu1">
+								
+			<li><a href="https://people.incruit.com/resumeguide/pdslist.asp?pds1=1&amp;pds2=10" onclick="return goCL(this,'18317','people','자료실-이력서·자기소개서 자료실');"   >이력서·자기소개서 자료실   </a>
+			<ul class="depth">
+		<li>- <a href="https://people.incruit.com/resumeguide/pdslist.asp?pds1=1&amp;pds2=10" onclick="return goCL(this,'18317','people','자료실-이력서 양식');" >이력서 양식   </a></li>
+		<li>- <a href="https://people.incruit.com/resumeguide/pdslist.asp?pds1=1&pds2=11" onclick="return goCL(this,'18317','people','자료실-자기소개서 샘플');"  class="on">자기소개서 샘플   <span class="state up">UP</span> </a></li>
+		<li>- <a href="https://people.incruit.com/resumeguide/companyselfintro.asp" onclick="return goCL(this,'18317','people','자료실-기업별 자소서항목');" >기업별 자소서항목  <span class="state new">N</span>  </a></li>
+			</ul>
+		</li>
+			<li><a href="https://www.incruit.com/tools/" onclick="return goCL(this,'18317','people','자료실-이력서작성프로그램');"   >이력서작성프로그램   </a>
+			<ul class="depth">
+		<li>- <a href="https://www.incruit.com/tools/salary/" onclick="return goCL(this,'18317','people','자료실-연봉계산기');" >연봉계산기   </a></li>
+		<li>- <a href="https://www.incruit.com/tools/text/" onclick="return goCL(this,'18317','people','자료실-글자수세기');" >글자수세기   </a></li>
+		<li>- <a href="https://www.incruit.com/tools/spell/" onclick="return goCL(this,'18317','people','자료실-맞춤법검사기');" >맞춤법검사기   </a></li>
+		<li>- <a href="https://www.incruit.com/tools/grade/" onclick="return goCL(this,'18317','people','자료실-학점변환');" >학점변환   </a></li>
+		<li>- <a href="https://www.incruit.com/tools/score/" onclick="return goCL(this,'18317','people','자료실-어학변환');" >어학변환   </a></li>
+			</ul>
+		</li>
+			<li><a href="https://people.incruit.com/resumeguide/bbsphotolist.asp" onclick="return goCL(this,'18317','people','자료실-이력서지원서비스');"   >이력서지원서비스   </a>
+			<ul class="depth">
+		<li>- <a href="https://people.incruit.com/resumeguide/bbsphotolist.asp" onclick="return goCL(this,'18317','people','자료실-이력서 사진수정');" >이력서 사진수정  <span class="state new">N</span>  </a></li>
+		<li>- <a href="https://people.incruit.com/resumeguide/resumeconsulting.asp" onclick="return goCL(this,'18317','people','자료실-자소서 무료 컨설팅');" >자소서 무료 컨설팅  <span class="state new">N</span>  </a></li>
+		<li>- <a href="https://my.incruit.com/service/trustmarkcenter.asp" onclick="return goCL(this,'18317','people','자료실-이력서 뱃지');" target="_blank" >이력서 뱃지    <span class="state windowOpen">새창</span></a></li>
+			</ul>
+							</ul>
+
+							<h3 id="hLeftMenu2" class="tit tooltip active">
+								<a href="https://people.incruit.com/interview/">면접</a>
+								<button class="btn_toggleArrow" onclick="fn_ShowLeftMenu_V1(2)" type="button"><em>열기ㆍ닫기</em></button>
+							</h3>
+							<ul id="LeftMenu2">
+								
+			<li><a href="https://people.incruit.com/interview/intvtable.asp" onclick="return goCL(this,'18318','people','자료실-면접족보');"   >면접족보  <span class="state new">N</span>  </a>
+			<li><a href="https://people.incruit.com/community/bbsintvlist.asp" onclick="return goCL(this,'18318','people','자료실-면접후기');"   >면접후기  <span class="state new">N</span>  </a>
+							</ul>
+
+							<h3 id="hLeftMenu3" class="tit tooltip active">
+								<a href="https://people.incruit.com/openemp/">공채자료</a>
+								<button class="btn_toggleArrow" onclick="fn_ShowLeftMenu_V1(3)" type="button"><em>열기ㆍ닫기</em></button>
+							</h3>
+							<ul id="LeftMenu3">
+								
+			<li><a href="https://job.incruit.com/entry/openempcorelist.asp" onclick="return goCL(this,'18497','people','자료실-공채총정리');"   target="_blank" >공채총정리    <span class="state windowOpen">새창</span></a>
+			<li><a href="https://job.incruit.com/calendar/calendar.asp?ct=01" onclick="return goCL(this,'18497','people','자료실-공채달력');"   target="_blank" >공채달력    <span class="state windowOpen">새창</span></a>
+			<li><a href="https://people.incruit.com/community/bbslist.asp?bdno=147" onclick="return goCL(this,'18497','people','자료실-채용설명회');"   >채용설명회   </a>
+			<ul class="depth">
+		<li>- <a href="https://people.incruit.com/community/openempschedule.asp?mode=1" onclick="return goCL(this,'18497','people','자료실-채용설명회 일정');" >채용설명회 일정   </a></li>
+		<li>- <a href="https://people.incruit.com/community/bbslist.asp?bdno=147" onclick="return goCL(this,'18497','people','자료실-채용설명회 취재기');" >채용설명회 취재기  <span class="state new">N</span>  </a></li>
+			</ul>
+		</li>
+			<li><a href="https://people.incruit.com/bizpds/pdslist.asp?pds1=1&pds2=12#rshIdx:1" onclick="return goCL(this,'18497','people','자료실-취업가이드북');"   >취업가이드북   <span class="state up">UP</span> </a>
+							</ul>
+
+							<h3 id="hLeftMenu4" class="tit tooltip active">
+								<a href="https://my.incruit.com/service/myservice.asp">취업지원서비스</a>
+								<button class="btn_toggleArrow" onclick="fn_ShowLeftMenu_V1(4)" type="button"><em>열기ㆍ닫기</em></button>
+							</h3>
+							<ul id="LeftMenu4">
+								
+			<li><a href="https://my.incruit.com/jobsuppsvc/prservice.asp" onclick="return goCL(this,'18497','people','자료실-이력서 PR 서비스');"   target="_blank" >이력서 PR 서비스    <span class="state windowOpen">새창</span></a>
+			<li><a href="http://salary.incruit.com/" onclick="return goCL(this,'18497','people','자료실-연봉');"   target="_blank" >연봉    <span class="state windowOpen">새창</span></a>
+			<li><a href="https://my.incruit.com/jobsuppsvc/jat.asp" onclick="return goCL(this,'18497','people','자료실-적성검사');"   target="_blank" >적성검사  <span class="state new">N</span>   <span class="state windowOpen">새창</span></a>
+			<ul class="depth">
+		<li>- <a href="https://my.incruit.com/jobsuppsvc/jat.asp" onclick="return goCL(this,'18497','people','자료실-적성검사 신청');" target="_blank" >적성검사 신청    <span class="state windowOpen">새창</span></a></li>
+		<li>- <a href="https://my.incruit.com/jobsuppsvc/jatstatus.asp" onclick="return goCL(this,'18497','people','자료실-적성검사 이용현황');" target="_blank" >적성검사 이용현황    <span class="state windowOpen">새창</span></a></li>
+			</ul>
+		</li>
+			<li><a href="https://gift.incruit.com/gift/giftguide.asp" onclick="return goCL(this,'18497','people','자료실-취업상품권');"   target="_blank" >취업상품권    <span class="state windowOpen">새창</span></a>
+			<li><a href="https://my.incruit.com/jobsuppsvc/purchase.asp" onclick="return goCL(this,'18497','people','자료실-결제/이용내역');"   target="_blank" >결제/이용내역    <span class="state windowOpen">새창</span></a>
+			<li><a href="https://people.incruit.com/service/applycert.asp" onclick="return goCL(this,'18497','people','자료실-취업활동증명서');"   >취업활동증명서   </a>
+							</ul>
+
+							<h3 id="hLeftMenu5" class="tit tooltip active">
+								<a href="https://people.incruit.com/bizpds/">인사·비즈</a>
+								<button class="btn_toggleArrow" onclick="fn_ShowLeftMenu_V1(5)" type="button"><em>열기ㆍ닫기</em></button>
+							</h3>
+							<ul id="LeftMenu5">
+								
+			<li><a href="https://people.incruit.com/bizpds/pdslist.asp?pds1=2&amp;pds2=13" onclick="return goCL(this,'18320','people','자료실-인사자료');"   >인사자료   </a>
+			<ul class="depth">
+		<li>- <a href="https://people.incruit.com/bizpds/pdslist.asp?pds1=2&amp;pds2=13" onclick="return goCL(this,'18320','people','자료실-인사지식자료');" >인사지식자료   </a></li>
+		<li>- <a href="https://people.incruit.com/bizpds/pdslist.asp?pds1=2&amp;pds2=14" onclick="return goCL(this,'18320','people','자료실-인사/총무 실무서식');" >인사/총무 실무서식   </a></li>
+		<li>- <a href="https://people.incruit.com/bizpds/pdslist.asp?pds1=2&amp;pds2=15" onclick="return goCL(this,'18320','people','자료실-회사사규/규정');" >회사사규/규정   </a></li>
+			</ul>
+		</li>
+			<li><a href="https://people.incruit.com/bizpds/pdslist.asp?pds1=3&amp;pds2=16" onclick="return goCL(this,'18320','people','자료실-비즈자료');"   >비즈자료   </a>
+			<ul class="depth">
+		<li>- <a href="https://people.incruit.com/bizpds/pdslist.asp?pds1=3&amp;pds2=16" onclick="return goCL(this,'18320','people','자료실-회사서식');" >회사서식   </a></li>
+		<li>- <a href="https://people.incruit.com/bizpds/pdslist.asp?pds1=3&amp;pds2=17" onclick="return goCL(this,'18320','people','자료실-각종 계약서');" >각종 계약서   </a></li>
+		<li>- <a href="https://people.incruit.com/bizpds/pdslist.asp?pds1=3&amp;pds2=18" onclick="return goCL(this,'18320','people','자료실-부서별 업무서식');" >부서별 업무서식   </a></li>
+			</ul>
+							</ul>
+
+							<!--<h3 id="hLeftMenu6" class="tit tooltip active">
+								<a href="https://people.incruit.com/community/">커뮤니티</a>
+								<button class="btn_toggleArrow" onclick="fn_ShowLeftMenu_V1(6)" type="button"><em>열기ㆍ닫기</em></button>
+							</h3>
+							<ul id="LeftMenu6">
+								
+			<li><a href="https://people.incruit.com/community/bbslist.asp?bdno=138" onclick="return goCL(this,'18321','people','자료실-직장인 필살기');"   >직장인 필살기   </a>
+			<li><a href="https://people.incruit.com/community/bbscompanylist.asp" onclick="return goCL(this,'18321','people','자료실-이 회사 어때요?');"   >이 회사 어때요?   </a>
+			<li><a href="https://people.incruit.com/community/bbsleclist.asp" onclick="return goCL(this,'18321','people','자료실-이 교육 어때요?');"   >이 교육 어때요?   </a>
+							</ul>
+							//-->
+
+							<h3 id="hLeftMenu7" class="tit tooltip active">
+								<a href="https://people.incruit.com/counseling/">상담</a>
+								<button class="btn_toggleArrow" onclick="fn_ShowLeftMenu_V1(7)" type="button"><em>열기ㆍ닫기</em></button>
+							</h3>
+							<ul id="LeftMenu7">
+								
+			<li><a href="https://people.incruit.com/community/counselinglist.asp" onclick="return goCL(this,'18322','people','자료실-취업상담');"   >취업상담   </a>
+			<li><a href="https://people.incruit.com/community/counselinglist.asp?fty=03" onclick="return goCL(this,'18322','people','자료실-이직·경력상담');"   >이직·경력상담   </a>
+			<li><a href="https://people.incruit.com/main/mycounseling.asp" onclick="return goCL(this,'18322','people','자료실-나의상담실');"   >나의상담실   </a>
+							</ul>
+							<h3 id="hLeftMenu8" class="tit tooltip active">
+								<a href="https://people.incruit.com/news/notice.asp">공지사항</a>
+								<!--<button class="btn_toggleArrow" onclick="fn_ShowLeftMenu_V1(8)" type="button"><em>열기ㆍ닫기</em></button>//-->
+							</h3>
+
+							<!--<ul class="top_line">
+								<li><a href="https://people.incruit.com/company/company.asp" onclick="return goCL(this,'18737','people','자료실-기업정보');" class="blank" target="new">기업정보 <span class="state windowOpen">새창</span></a></li>
+							</ul>//-->
+						</div>
+					</div>
+				</div>
+				<div class="sub_layout_row">
+					<div class="sub_layout">
+						<!-- <p class="subtitle noArrow">
+							<a href="#">채용 전문관</a>
+						</p> -->
+						<ul class="list barST">
+							<li><a href="https://job.incruit.com/jobdb_list/searchjob.asp?ct=9&ty=1&cd=5" target="_blank">공기업·공공기관</a></li>
+							<li><a href="https://job.incruit.com/group/" target="_blank">50대그룹사 전용관</a></li>
+							<li><a href="https://job.incruit.com/jobdb_list/searchjob.asp?ct=31&ty=1&cd=1" target="_blank">우수기업 인증 전문관</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<button type="button" class="sider_btn"></button>
+</div>
+
+	<div id="incruit_container">
+		<div id="incruit_contents">
+			<div class="section_layout default">
+			
+<div style="padding:0"><img src="//i.incru.it/people/Title/title_people_011.jpg" alt="자기소개서 샘플" height="30" /></div>
+
+
+<div class="bbsview_title">
+	<h2 class="title_area"><img src="//i.incru.it/common/icon/icon_scrap_no.gif" width="14" height="14" id="icon_scrap_bbsview_11-332757" name="icon_scrap" title="클릭하면 스크랩됩니다" style="vertical-align:middle; margin-top:-1px;cursor:pointer " onclick="callScrapAddArticle('BBS', '11', '332757', 'bbsview')" />&nbsp;SK이노베이션 합격 자기소개서</h2>
+	<span class="read_count">조회수 <em style="color:#f54c02; font-weight:bold; ">22,614</em></span>
+</div>
+<div id="bbsview_content">
+	
+<div id="companylogo_box">
+	<p class="logo">
+		<span><img width="160" height="150"  src="//l.incru.it/2011/02/sk_logo.gif" id="corplogo" name="corplogo" alt="SK이노베이션" onload="resize_image(this,160,150);"></span>
+	</p>
+<span class="under">
+			<button id="btScrapCompany" class="btScrapCompany" f_login="" f_scrapcompany="" f_comp="00A96B7A07A2090FE7CDA5445157BEF468AF9E19D816D0986AC4D62B28402AA1" f_mem="2560608B205264557082288510D44EA345EC1D500923EA24F57801DA80D1FC47" f_act="" onclick="Regist_InstrComp('00A96B7A07A2090FE7CDA5445157BEF468AF9E19D816D0986AC4D62B28402AA1','2560608B205264557082288510D44EA345EC1D500923EA24F57801DA80D1FC47','SK이노베이션');return false;" >관심기업등록(<em id="job_srcomp_cnt">2103</em>)</button>
+</span>
+</div>
+	<div id="section_brief_info">
+		<div class="each_line" style="background:none;">
+			<span class="tit">기업명 : </span>
+			<span class="cont">
+			<a href="https://www.incruit.com/company/11297401" target="_blank">SK이노베이션</a>
+			</span>
+		</div>
+
+			<div class="each_line">
+				<span class="tit">직　종 : </span>
+				<span class="cont"><a href="https://job.incruit.com/jobdb_list/searchjob.asp?ct=1&amp;ty=1&amp;cd=120" target="_blank">전자·기계·기술·화학·연구개발</a> &gt; <a href="https://job.incruit.com/jobdb_list/searchjob.asp?ct=1&amp;ty=2&amp;cd=255" target="_blank">연구원·연구개발</a> &gt; <a href="https://job.incruit.com/jobdb_list/searchjob.asp?ct=1&amp;ty=3&amp;cd=16161" target="_blank">재료·화학</a></span>
+			</div>
+
+		<div class="each_line">
+			<span class="tit">등　급 : </span>
+			<span class="cont">인크루트 회원 (무료)</span>
+		</div>
+
+		<div class="each_line">
+			<span class="btnarea">
+				<script type="text/javascript" src="/g_common/clientscript/v2/inc_pe_email.js"></script><script type="text/javascript" src="https://people.incruit.com/l_common/clientscript/incruit.share.m.js"></script><div class="shareWrap">    <p class="btShare">        <button type="button" class="btTwitter" onclick="share(4, 'SK이노베이션 합격 자기소개서', 'https://people.incruit.com/resumeguide/pdsview.asp?pds1=1&amp;pds2=11&amp;pds3=&amp;pds4=&amp;pdsno=332757');" title="트위터"><span>트위터</span></button>        <button type="button" class="btFacebook" onclick="share(3, 'SK이노베이션 합격 자기소개서', 'https://people.incruit.com/resumeguide/pdsview.asp?pds1=1&amp;pds2=11&amp;pds3=&amp;pds4=&amp;pdsno=332757');" title="페이스북"><span>페이스북</span></button>        <button type="button" id="ShareWrap_btMail" class="btMail" onclick="fn_sendpdsemail('SK이노베이션 합격 자기소개서', 'https://people.incruit.com/resumeguide/pdsview.asp?pds1=1&amp;pds2=11&amp;pds3=&amp;pds4=&amp;pdsno=332757');" title="이메일로 보내기"><span>이메일로 보내기</span></button>        <button type="button" class="btCopy" onclick="fn_copyClipboard('https://people.incruit.com/resumeguide/pdsview.asp?pds1=1&amp;pds2=11&amp;pds3=&amp;pds4=&amp;pdsno=332757');" title="주소복사"><span>주소복사</span></button>    </p>    <div id="divrecruitInfoEmailWrap" class="recruitInfoEmailWrap show" style="position:absolute; top:30px; right:0;"><div class="recruitInfoEmail" style="display:none;"></div></div></div>
+			</span>
+		</div>
+	</div>
+
+	<div id="file_info_box">
+		<div id="detail_info">
+			<span class="tit">자료설명</span>
+			<span class="cont"><div><br><p class="HStyle0" style="margin-bottom: 10.0pt; text-align: center; line-height: 138%;"><span style="font-size: 20pt;"><strong><span style="font-family: '맑은 고딕'; line-height: 138%;">[SK이노베이션] 합격 자기소개서</span></strong></span></p><br><p class="HStyle0" style="margin-bottom: 10.0pt; text-align: right; line-height: 138%;"><span style="font-size: 11pt;"><strong><span style="font-family: '맑은 고딕'; line-height: 138%;">직무 : 연구개발</span></strong></span></p><br></div><br><p class="HStyle0" style="text-align: left;">&nbsp;</p><br><p class="HStyle0" style="text-align: left;">&nbsp;</p><br><p class="HStyle0" style="text-align: left;"><strong><span style="font-weight: 'bold';">Q.</span></strong><strong>	자발적으로 최고 수준의 목표를 세우고 끈질기게 성취한 경험에 대해 서술해 주십시오.(본인이 설정한 목표/ 목표의 수립 과정/ 처음에 생각했던 목표 달성 가능성/ 수행 과정에서 부딪힌 장애물 및 그 때의 감정(생각)/ 목표 달성을 위한 구체적 노력/ 실제 결과/ 경험의 진실성을 증명할 수 있는 근거가 잘 드러나도록 기술) </strong></p><br><p class="HStyle0" style="text-align: left;">성과는 저를 움직이는 원동력입니다. </p><br><p class="HStyle0" style="text-align: left;">&nbsp;</p><p class="HStyle0" style="text-align: left;">저는 대학교 1학년부터 교내외에서 진행하는 다양한 공모전에 참여하였습니다. 공모전의 결과로 저의 연구를 객관적으로 평가 받을 때마다 더 나은 결과를 만들겠다는 다짐을 하고, 또 더 쉽게 다음 공모전을 목표로 삼을 수 있었습니다. 공모전을 통해 자신의 아이디어를 구체화하면서 화학에 대한 관심이 더욱 높아졌고 이는 공모전 1위라는 결과로 이어졌습니다. 화학공학의 학술적 지식들을 배워가고, 연구실에서 진행하는 실험을 통해 다양한 연구적 노하우가 쌓여가면서 제가 하고 싶고, 할 수 있는 연구 아이디어들이 많아졌습니다. 하지만 연구를 위한 재정적인 발판이 마련되지 않아 고민하던 상황에 교내 OOOO혁신센터에서 주관하는 “창의적 종합설계 대회”의 공고가 올라왔고, 지원서가 통과되면 한 학기 동안 300만원의 연구 지원금이 주어진다는 것을 알게 되었습니다. 연구를 계속하기 위해 설계대회를 지원하게 됐고, 결국 통과했습니다. 학업과 동시에 대회를 함께 진행하는 것은 예상했던 것보다 더 어려웠습니다. 하지만 좋아하는 것을 할 수 있다는 마음에 연구실을 빌려 실험을 하고, 밤새 레포트를 쓰는 등의 과정이 행복하게 느껴졌고 그 열의를 바탕으로 장려상을 획득했습니다. 비록 1등은 하지 못했지만, 스스로 일궈낸 실험과 연구, 그리고 보람은 그 이상의 가치를 가졌습니다. 저는 이후 매 학기 종합설계 경진대회에 참여하였고 참여한지 2년만에 교내 본선에 진출하여, 학교 대표로 OOOO페스티벌 설계아이디어 공모전에 출전하게 되었고 “이온성 액체를 활용한 CCS 공정 개발”을 주제로 출품하여 대상을 획득했습니다. 좋은 성과는 저를 최선을 다해 움직이도록 만드는 좋은 원동력입니다. 이 원동력을 바탕으로 sk이노베이션에서 좋은 성과를 이끌어내겠습니다.  <br><p class="HStyle0" style="text-align: left;">&nbsp;</p><br><p class="HStyle0" style="text-align: left;">&nbsp;</p><br><p class="HStyle0" style="text-align: left;"><strong><span style="font-weight: 'bold';">Q.&nbsp;</span></strong><strong>새로운 것을 접목하거나 남다른 아이디어를 통해 문제를 개선했던 경험에 때해 서술해 주십시오. (기존 방식과 본인이 시도한 방식의 차이/ 새로운 시도를 하게 된 계기/ 새로운 시도를 했을 때의 주변 반응/ 새로운 시도를 위해 감수해야 했던 점/ 구체적인 실행 과정 및 결과/ 경험의 진실성을 증명할 수 있는 근거가 잘 드러나도록 기술)</strong></p><br><p class="HStyle0" style="text-align: left;"><strong><span style="font-weight: 'bold';"> </span></strong></p><br><p>Na 이온 전지에서 FEC는 필수적인 첨가제지만, 효과적인 이유가 밝혀지지 않았습니다. 저는 4개월 동안 FEC를 능가하는 물질을 찾기 위해 기존의 첨가제 탐색 방식인 Coin half cell (CHC)에서 25종 이상의 첨가제를 평가했지만, 성과가 없었습니다. 이 결과들과 Na이온 전착 실험의 profile을 기초로 다음 결론, 가설을 도출하여 이후 실험을 진행했습니다. <br>1. CHC에서는 첨가제가 하드 카본, Na metal에 모두 영향을 주기 때문에 하드 카본에 대한 정확한 평가가 불가능하다. Na metal을 제거해야 한다.  2. 첨가제가 없을 때 하드 카본 CHC에서 Na metal은 망가져 있을 것이다.  먼저 2번을 확인하기 위해 switching cell test를 진행했습니다. 가설과는 반대로 CHC에서 Na metal과 하드 카본을 함께 cell을 구성하면 하드 카본이 망가져 CHC에서는 첨가제 평가가 불가능하다는 결론을 냈습니다. 2가지 결론을 토대로 지금까지와는 다른 방식인 Na 금속을 제거한 하드 카본 대칭 전지에서 첨가제를 평가했습니다.  대칭 전지를 만드려면 CHC로 하드 카본에 Sodiation 후 cell을 재조립하기 때문에 추가적인 시간과 정교하게 cell을 만드는 노력이 필요했습니다. Na metal이 없는 대칭 전지 실험으로 기존에 효과 있는 것으로 알려진 FEC보다 SA가 더 우수한 수명 성능을 보였고 XPS를 통해 원인을 분석했습니다. 또, 이전 CHC 실험에서 SA 첨가제는 형편 없는 성능을 보였는데, 이는 하드 카본에 적합한 첨가제 탐색 실험의 목적을 위해서 Na metal가 반드시 빠져야 하는 것을 뒷받침 하는 결과였습니다.  기존과는 다른 방식을 시도하여 기존에 알려진 FEC보다 우수한 첨가제를 찾았습니다. 더 큰 성과는 첨가제를 평가하는 새롭고 정확한 방법을 정립한 것이었습니다. 이와 같은 태도로 SK이노베이션에서 기존 방식을 존중하지만 매여 있지 않는 태도로 전해액 최적화를 하겠습니다. </p><br><p class="HStyle0" style="text-align: left;">&nbsp;</p><br><p class="HStyle0" style="text-align: left;">&nbsp;</p><br><p class="HStyle0" style="text-align: left;">&nbsp;</p><br><p class="HStyle0" style="text-align: left;"><strong><span style="font-weight: 'bold';">Q.&nbsp;</span></strong><strong>지원 분야와 관련하여 특정영역의 전문성을 키우기 위해 꾸준히 노력한 경험에 대해 서술해 주십시오. (전문성의 구체적 영역 (예. 통계분석)/ 전문성을 높이기 위한 학습과정/ 전문성 획득을 위해 투입한 시간 및 방법/ 습득한 지식 및 기술을 실전적으로 적용해 본 사례/ 전문성을 객관적으로 확인한 경험/ 전문성 향상을 위해 교유하고 있는 네트워크/ 경험의 진실성을 증명할 수 있는 근거가 잘 드러나도록 기술) </strong></p><br><p class="HStyle0" style="text-align: justify;">&nbsp;</p><br><p>학부생일 때, 전기자동차와 리튬이온전지(LIB)가 이슈인 시점에 LIB와 전기자동차에 관심을 두게 되었고 '전기자동차 판매 활성화의 주요 요인에 대한 사례연구'라는 제목으로 졸업논문을 작성했습니다. 이를 통해 전기자동차 보급을 위해 기술개발에 따른 가격경쟁력 확보가 시급한 과제임을 알게 되었습니다. <br><p>LIB기술개발의 주인공이 되고 싶어 전해액을 연구하는 실험실에 입학했습니다. 첫해에는 LIB, 전기화학 과목을 수강하여 실험/연구에 필요한 기초지식을 다졌습니다. 지도교수님께서 지난 몇 년간 학점을 엄격하게 주셨지만, 실력으로 A-, A+ 학점을 받았습니다. 이때 공부한 지식을 활용하여 ‘Na+ 전지용 이온전도도 9mS/cm 이상의 고성능 및 고안전성 전해액 기술개발’ 과제에 참여했습니다. 연구내용을 정리하면 다음과 같습니다. <br><p>1. 전해액 조성(salt, solvent) 별로 Cu/Al-deposition, 이온전도도 측정, 산화안정성, Al부식 실험을 수행하였습니다. <br><p>2. 과제에서 요구하는 이온전도도를 충족시키기 위해 imide salt를 활용하고 집전체 부반응을 억제하는 연구를 수행했습니다. <br><p>3. Hard-carbon half cell과 symmetric cell에서 약 25종 이상의 첨가제에 대해 성능평가를 했습니다. <br><p>4. symmetric cell 첨가제 실험결과에 기초하여 Full cell에서 효과적인 첨가제를 찾고 XPS를 활용해 원인을 규명하고 있습니다. <br><p>5. 안전성을 향상한 전해액을 개발하기 위해 gel polymer electrolyte의 Hard-carbon half cell과 symmetric cell 성능평가를 했습니다. <br><p>6. RRDE를 활용하여 CV-CA, CP-CA 실험으로 disk에서 redox 반응이 일어날 때 전해액의 부반응 확인 실험을 수행하였습니다. <br><p>위의 경험을 기초로 SK이노베이션에서 전해액 최적화 프로젝트에 참여할 수 있습니다. 이 과정을 통해 전문성을 키우고 향후 셀 전체에 능통한 전문가가 되고 싶습니다.<br><p class="HStyle0" style="text-align: justify;">&nbsp;</p><br><p class="HStyle0" style="text-align: justify;">&nbsp;</p><br><p class="HStyle0" style="text-align: justify;">&nbsp;</p><br><p class="HStyle0" style="text-align: left;"><strong><span style="font-weight: 'bold';">Q.&nbsp;</span></strong><strong>혼자하기 어려운 일에서 다양한 자원 활용, 타인의 협력을 최대한 이끌어 내며, Teamwork을 발휘하여 공동의 목표 달성에 기여한 경험에 대해 서술해 주십시오. (관련된 사람들의 관계 (예. 친구, 직장 동료) 및 역할/ 혼자 하기 어렵다고 판단한 이유/ 목표 설정 과정/ 자원(예. 사람, 자료 등) 활용계획 및 행동/ 구성원들의 참여도 및 의견 차이/ 그에 대한 대응 및 협조를 이끌어 내기 위한 구체적 행동/ 목표 달성 정도 및 본인의 기여도/ 경험의 진실성을 증명할 수 있는 근거가 잘 드러나도록 기술) </strong></p><br><p class="HStyle0" style="text-align: justify;">&nbsp;</p><br><p>학업 과제 중 다른 학교 전공자와 함께 TiO2, SiO2 활물질에 대해 함께 성능평가를 수행했습니다. 과제를 위해서 2달 내에 성능 평가 결과에 대해서 논문을 작성해야 했습니다. 팀원은 코인셀 제작, 전극 코팅을 해본 적이 없고, 본인도 1~2종의 활물질만 코팅해봤기에 두사람만이 과제를 진행하기에는 다소 무리라는 생각이 들었습니다.<br><p>따라서 전극 코팅과정에서는 다른 학우에게 문의하여 도움과 교수님의 조언을 구했습니다. 그래서 활물질, 도전재, 바인더의 비율을 8:1:1로 정했고, 믹싱과정에서 코팅하기 알맞은 점도를 익혔습니다. 이후 다양한 두께로 코팅하고 건조시켜 박리가 일어나지 않으면서 균일하게 코팅된 두께를 탐색했습니다. 활물질 입자가 뭉쳐져 입자가 밀리는 현상이 보였습니다. 볼밀 과정을 고려했지만 이는 각 활물질 입자의 특성으로 여기고 진행했습니다. <br><p>코팅이후에는 coin half cell(CHC) 제작방법을 시범으로 보여주며 OO에게 직접 만들 수 있도록 가르쳤습니다. 손이 느렸기 때문에 랩 선후배들과 글러브박스 사용 시간을 미리 조율하였고 뒷정리도 관리, 감독하여 불편을 최대한 줄였습니다. <br><p>CHC 실험을 통해 율속, 수명 성능 평가를 마쳤을 때, OO은 cyclability를 보여주기 위해 CV test를 해보고 싶다고 말했습니다. 그러나 CV test는 cyclability를 평가하는데 적합하지 않고 이미 CHC실험 결과를 보여주는 것으로 충분하다고 설명했습니다. <br><p>또, OO은 투고까지 보름 남았을 때, EIS를 통해 셀 저항 분석을 제안했습니다. 다음 2가지 이유로 EIS 분석을 연기했습니다. 첫째는 손으로 코팅했기 때문에 샘플별로 차이가 커 분석이 까다롭고 둘째로 초반 사이클과 후반 사이클을 같이 얻어 분석하기에는 시간이 부족했습니다. 그리고 전해액 최적화를 할 시간도 아쉬웠습니다. <br><p>이 경험을 바탕으로 SK이노베이션에서도 다른 분야 선배님들과 협업하여 풀셀에서의 성능을 향상하겠습니다.<br></span>
+		</div>
+		
+		<br/>
+		
+		<script language="javascript" type="text/javascript" src="../L_Common/ClientScript/BBS_Common.js"></script>
+		<script>
+			var strTmp = jQuery('div>p.download').eq(0).clone();
+			strTmp.removeClass("download").find('button').removeClass('bbs_btn_download').addClass('bbs_btn_download_mini');
+			jQuery('div.shareWrap').prepend(strTmp);
+		</script>
+		
+		<script type="text/javascript">jQuery(document).ready(function(){jQuery.ResumeInputLayer.PeopleView();});</script>
+		
+	</div>
+	
+	<div id="copyright_box">
+	
+		<p style="width:675px;height:60px;background:url(//i.incru.it/people/Img/content_copyright.gif) no-repeat 0 0;" title="컨텐츠 저작권">&nbsp;</p>
+	
+	</div>
+</div>
+
+<div class="relatedListWrap" style="clear:both;margin-top:5px;margin-bottom:20px;border-top:2px solid #333;">
+	<div class="btGroup">
+		<p class="others">
+			<a href="./pdsview.asp?pds1=1&pds2=11&page=9&sot=0&pass=y&pdsno=332758" class="up"><span>윗글</span></a><a href="./pdsview.asp?pds1=1&pds2=11&page=9&sot=0&pass=y&pdsno=332756" class="down"><span>아랫글</span></a>
+		</p>
+		<p class="write">
+
+			<a href="./pdslist.asp?pds1=1&pds2=11&page=9&sot=0&pass=y" class="all"><span>목록</span></a>
+		</p>
+	</div>
+</div>
+
+	<div class="companyDetail" style="margin-top:20px;">	<div class="sectionWrap">
+<h5 class="titleTxt"><strong>SK이노베이션(주)</strong> 진행중인 채용정보 <em>(총 <strong>7</strong>건)</em></h5>
+<table cellspacing="0" border="1" class="squareSimple" id="tblLive">
+	<caption>
+	</caption>
+	<colgroup>
+	<col class="job21">
+	<col class="job22">
+	<col class="job23">
+	<col class="job24">
+	<col class="job25">
+	<col class="job26">
+	<col class="job27">
+	</colgroup>
+	<thead>
+		<tr>
+			<th class="first"><span>스크랩</span></th>
+			<th><span>직무</span></th>
+			<th><span>고용형태</span></th>
+			<th><span>학력</span></th>
+			<th><span>경력</span></th>
+			<th><span>지역</span></th>
+			<th class="last"><span>마감일</span></th>
+		</tr>
+	</thead>
+	<tbody>
+			<tr>
+				<td class="star">
+<img src="//i.incru.it/common/icon/icon_scrap_no.gif" width="14" height="14" id="icon_scrap__2103310002112" title="클릭하면 스크랩됩니다" style="vertical-align:middle; margin-top:-1px;cursor:pointer " onclick="callScrapAdd('IncJob', '', '', '2103310002112', '')" />
+				</td>
+				<td class="subj"><span><a href="https://job.incruit.com/jobdb_info/jobpost.asp?job=2103310002112" target="_blank">
+[SK이노베이션] 사내 심리상담센터 심리상담사 채용
+					</a></span></td>
+				<td class="center"><span>계약직</span></td>
+				<td class="center"><span>석사이상</span></td>
+				<td class="center"><span>신입/(연차무관)</span></td>
+				<td class="center"><span>대전</span></td>
+				<td class="center"><span>04.12(월)</span></td>
+			</tr>
+			<tr>
+				<td class="star">
+<img src="//i.incru.it/common/icon/icon_scrap_no.gif" width="14" height="14" id="icon_scrap__2103310002219" title="클릭하면 스크랩됩니다" style="vertical-align:middle; margin-top:-1px;cursor:pointer " onclick="callScrapAdd('IncJob', '', '', '2103310002219', '')" />
+				</td>
+				<td class="subj"><span><a href="https://job.incruit.com/jobdb_info/jobpost.asp?job=2103310002219" target="_blank">
+[SK이노베이션] E&P사업(전략기획/사업관리) 경력사원 채용
+					</a></span></td>
+				<td class="center"><span>정규직</span></td>
+				<td class="center"><span>대졸이상</span></td>
+				<td class="center"><span>5년이상</span></td>
+				<td class="center"><span>서울</span></td>
+				<td class="center"><span>04.09(금)</span></td>
+			</tr>
+			<tr>
+				<td class="star">
+<img src="//i.incru.it/common/icon/icon_scrap_no.gif" width="14" height="14" id="icon_scrap__2103310002208" title="클릭하면 스크랩됩니다" style="vertical-align:middle; margin-top:-1px;cursor:pointer " onclick="callScrapAdd('IncJob', '', '', '2103310002208', '')" />
+				</td>
+				<td class="subj"><span><a href="https://job.incruit.com/jobdb_info/jobpost.asp?job=2103310002208" target="_blank">
+[SK이노베이션] Battery 품질센터 내부교정 기술직 채용(계약직)
+					</a></span></td>
+				<td class="center"><span>계약직</span></td>
+				<td class="center"><span>고졸이상</span></td>
+				<td class="center"><span>신입/(연차무관)</span></td>
+				<td class="center"><span>대전</span></td>
+				<td class="center"><span>04.11(일)</span></td>
+			</tr>
+			<tr>
+				<td class="star">
+<img src="//i.incru.it/common/icon/icon_scrap_no.gif" width="14" height="14" id="icon_scrap__2103310001319" title="클릭하면 스크랩됩니다" style="vertical-align:middle; margin-top:-1px;cursor:pointer " onclick="callScrapAdd('IncJob', '', '', '2103310001319', '')" />
+				</td>
+				<td class="subj"><span><a href="https://job.incruit.com/jobdb_info/jobpost.asp?job=2103310001319" target="_blank">
+[SK이노베이션] 정보보호담당(Battery보안담당) 사무운영원 채용
+					</a></span></td>
+				<td class="center"><span>계약직</span></td>
+				<td class="center"><span>초대졸이상</span></td>
+				<td class="center"><span>신입/(연차무관)</span></td>
+				<td class="center"><span>서울</span></td>
+				<td class="center"><span>04.07(수)<br /><span>D-3</span></span></td>
+			</tr>
+			<tr>
+				<td class="star">
+<img src="//i.incru.it/common/icon/icon_scrap_no.gif" width="14" height="14" id="icon_scrap__2103290003769" title="클릭하면 스크랩됩니다" style="vertical-align:middle; margin-top:-1px;cursor:pointer " onclick="callScrapAdd('IncJob', '', '', '2103290003769', '')" />
+				</td>
+				<td class="subj"><span><a href="https://job.incruit.com/jobdb_info/jobpost.asp?job=2103290003769" target="_blank">
+[SK이노베이션] Data Scientist 경력/신입박사 채용
+					</a></span></td>
+				<td class="center"><span>정규직</span></td>
+				<td class="center"><span>석사이상</span></td>
+				<td class="center"><span>신입/(연차무관)</span></td>
+				<td class="center"><span>서울</span></td>
+				<td class="center"><span>04.09(금)</span></td>
+			</tr>
+			</tbody>
+		</table>
+<p class="btwrap"><a class="moreView" href="https://job.incruit.com/jobdb_info/jobpostlistlive.asp?comp=00A96B7A07A2090FE7CDA5445157BEF468AF9E19D816D0986AC4D62B28402AA1" target="_blank">더보기</a></p>
+	</div>
+</div>
+<script language="javascript">
+//<![CDATA[
+  callScrapCheck("INCJOB", "2103310002112,2103310002219,2103310002208,2103310001319,2103290003769", "LV");
+//]]>
+</script><hr><!-- start:취업자료 --><div id='divempknow' style='display:none'>	<ul class='tabMenu' id="empknow" name="empknow">	</ul>	<h4 class='hide'>취업자료</h4>	<div class="openRecruit">		<h5 class="titleTxt"><strong>SK이노베이션</strong> 취업자료</h5>		<div class="incruitData">			<ul id="ulEmpKnowCate"></ul>			<ul class="listTit">				<li><span class="category">분류</span><span class="cont">내용</span><span class="source">출처</span><span class="inquiry">조회수</span></li>			</ul>			<ul id="ulEmpKnow"  class="list"></ul>			<p id="ulEmpKnowPage"  class="paginate pgMedium"></p>		</div>	</div></div><!--   end:취업자료 -->
+<script type="text/javascript" src="/g_common/clientscript/v2/incruit.util.js"></script>
+<script type="text/javascript">
+	var company_no 	= '0001266834';
+	var company_nm 	= 'SK이노베이션';
+	var target 		= '#ulEmpKnow';
+	jQuery.ajax({
+		url		: '/s_common/jobpost/Info_15_EmpKnowledge_AJAX.asp',
+		type	: 'GET',
+		data	: { comps: company_no, compj:company_no, comp_nm:escape(company_nm), ty:"person" },
+		success	: function(data) {
+				if (data != '') { 
+					jQuery('#divempknow').show(); 
+					jQuery(target).html(data);
+					iNcruit.empknow.CreatePage(target, target+"Cate","");
+				} 
+		}
+	});
+jQuery('#empknowSearchBtn').bind('click', function(){ iNcruit.empknow.Search('#ulEmpKnow',jQuery('#empknowSearchWd').val(),'#empknowInitBtn');});
+jQuery('#empknowInitBtn').bind('click', function(){ iNcruit.empknow.SearchInit('#ulEmpKnow','#empknowSearchWd','#empknowInitBtn');});
+jQuery('#empknowSearchWd').bind('keyup', function(e) { if (e.keyCode == '13') {iNcruit.empknow.Search('#ulEmpKnow',jQuery('#empknowSearchWd').val(),'#empknowInitBtn');} });
+	//취업자료 관련 링크
+	function goOpenStockInfo(url) {
+		x = window.open('https://job.incruit.com/l_common/library/empknowchkcnt.asp?comp=00A96B7A07A2090FE7CDA5445157BEF468AF9E19D816D0986AC4D62B28402AA1&type=01&category_cd=04&gotourl=' + url,'','width=720, height=600' );
+	}
+	function goOpenKorchambizInfo(url) {
+		x = window.open('https://job.incruit.com/l_common/library/empknowchkcnt.asp?comp=00A96B7A07A2090FE7CDA5445157BEF468AF9E19D816D0986AC4D62B28402AA1&type=01&category_cd=07&gotourl=' + url,'','width=720, height=600,scrollbars=yes' );
+	}
+	function goOpenKorchambizInfo2(compno) {
+		x = window.open('https://job.incruit.com/l_common/library/empknowchkcnt.asp?comp=00A96B7A07A2090FE7CDA5445157BEF468AF9E19D816D0986AC4D62B28402AA1&type=01&category_cd=07&compno=' + compno, '', 'width=720, height=600,scrollbars=yes' );
+	}
+	function vodOpen(idx) {
+		var hWnd = window.open('http://tv.incruit.com/wndContent/?idx=' + idx + '&vtype=vod', 'wndContent', 'width=1014,height=730,top=0,left=0');
+		hWnd.focus();
+	}	
+	//강소기업 통합기업정보 클릭시 조회수
+	jQuery("a[id='gangSoComp']").live("click", function(e){
+		e.preventDefault();
+		//기업정보 통합기업정보 조회수 카운트
+		jQuery.ajax({
+			url 	: '/s_common/jobpost/Info_15_EmpKnowledge_AJAX.asp',
+			type	: 'GET',
+			data	: { compj:'0001266834', ty:'gangSo' },
+			success : function(data) {}
+		});
+		open_win($(this).attr('href'), '', 930, 700, '', '', 'yes', '');
+	});
+</script>
+
+<div id="divpdslist" style="margin:30px 0 20px;"></div>
+
+<!--파일다운로드회수 증가를 위한 form-->
+<form name="frmfiledownloadcnt" id="frmfiledownloadcnt" action="" method="post">
+	<input type="hidden" id="filenm" name="filenm">
+	<input type="hidden" id="pds1"   name="Pds1" value="1">
+	<input type="hidden" id="pds2"   name="Pds2" value="11">
+	<input type="hidden" id="pds3"   name="Pds3" value="">
+	<input type="hidden" id="downpdsno" name="downpdsno" value="332757">
+	<input type="hidden" id="PdsNo"  name="PdsNo" value="332757">
+</form>
+<!--filedown-->
+<form name="frmdown" id="frmdown" action="https://file.incruit.com/g_common/library/filedownloader.asp" method="post">
+	<input type="hidden" id="filepath" name="FilePath">
+	<input type="hidden" id="filename" name="FileName">
+</form>
+<!--자료평가리스트 AJAX form-->
+<form name="frm" id="frm">
+	<input type="hidden" id="pdsno" name="pdsno" value="332757">
+	<input type="hidden" id="eis"   name="eis" >
+	<input type="hidden" id="star1" name="star" value="5">
+</form>
+<!--GF_PageCounter_AJAX form-->
+<form name="frmlist" id="frmlist">
+	<input type="hidden" id="page" name="page" value="9">
+	<input type="hidden" id="listseq" name="listseq" value="1">
+	<input type="hidden" id="sot" name="sot" value="0">
+	<input type="hidden" id="Pds1" name="Pds1" value="1">
+	<input type="hidden" id="Pds2" name="Pds2" value="11">
+	<input type="hidden" id="Pds3" name="Pds3" value="">
+	<input type="hidden" id="Pds4" name="Pds4" value="">
+	<input type="hidden" id="schword" name="schword" value="">
+	<input type="hidden" id="rschword" name="rschword" value="">
+	<input type="hidden" id="Lang" name="Lang" value="">
+	<input type="hidden" id="Price" name="Price" value="">
+	<input type="hidden" id="ajaxnm" name="ajaxnm" value="RsmPdsList">
+	<input type="hidden" id="Occu_B_Group" name="Occu_B_Group" value="">
+	<input type="hidden" id="Occu_M_Group" name="Occu_M_Group" value="">
+	<input type="hidden" id="Occu_S_Group" name="Occu_S_Group" value="">
+	<input type="hidden" id="Career" name="Career" value="">
+	<input type="hidden" id="Pass" name="Pass" value="y">
+	<input type="hidden" id="CompTy" name="CompTy" value="">
+	<input type="hidden" id="Rank" name="Rank" value="">
+	<input type="hidden" id="summary" name="summary" value="">
+	<input type="hidden" id="path" name="path" value="/resumeguide/pdsview.asp">
+	<input type="hidden" id="rshIdx" name="rshIdx" value="0">
+	<input type="hidden" id="viewno" name="viewno" value="332757">
+</form>
+
+<form name="frmpdsdel" id="frmpdsdel" action="https://people.incruit.com/bizpds/pdswrite.asp" method="post">
+	<input type="hidden" 	name="Act"          id="Act"       		value="D">
+	<input type="hidden" 	name="pds1"     	id="pds1"  			value="1">
+	<input type="hidden" 	name="pds2"     	id="pds2"  			value="11">
+	<input type="hidden" 	name="pds3"     	id="pds3"  			value="">
+	<input type="hidden" 	name="pds4"     	id="pds4"  			value="">
+	<input type="hidden" 	name="pdsno"     	id="pdsno"  		value="332757">
+	<input type="hidden" 	name="action"       id="action"    		value="d">
+	<input type="hidden" 	name="page"         id="page"       	value="9">
+	<input type="hidden" 	name="sot" 			id="sot" 			value="0">
+	<input type="hidden" 	name="listseq" 		id="listseq" 		value="1">
+	<input type="hidden" 	name="schword" 		id="schword" 		value="">
+	<input type="hidden" 	name="rschword" 	id="rschword" 		value="">
+	<input type="hidden" 	name="Lang" 		id="Lang" 			value="">
+	<input type="hidden" 	name="Price" 		id="Price" 			value="">
+	<input type="hidden" 	name="Occu_B_Group" id="Occu_B_Group" 	value="">
+	<input type="hidden" 	name="Occu_M_Group" id="Occu_M_Group" 	value="">
+	<input type="hidden" 	name="Occu_S_Group" id="Occu_S_Group" 	value="">
+</form>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------->
+<script language="javascript" type="text/javascript" src="../g_common/clientscript/v2/inc_pe_cmmty.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+callScrapCheckArticle("BBS", "11", "332757", "bbsview");
+
+addCrossEvent('readystatechange', pageStartInit);
+
+function PdsFileDownload(myauth,filePath,fileName){
+	var form = document.frmfiledownloadcnt;
+
+
+
+	if(confirm("로그인한 회원에 한하여 열람하실 수 있습니다.\n\n로그인 하시겠습니까?")){
+		jQuery("#gotoURL").val(document.URL);
+		var strPcoVal = "";
+		if ( strPcoVal != "") {
+			jQuery("#frmlogin").attr("action", "https://edit.incruit.com/login/login.asp?pco="+strPcoVal);
+		}
+		jQuery("#frmlogin").submit ();
+	}
+
+
+
+
+}
+
+/* 클립보드 복사 */
+function fn_copyClipboard(data) {
+	var IE = (document.all) ? true : false;
+	if (IE) {
+	   window.clipboardData.setData("Text", data);
+	   alert('주소가 복사되었습니다.\n게시판이나 메신저 창에서 ctrl+v를 눌러보세요.');
+	} else {
+		temp = prompt('Ctrl+C를 눌러 클립보드로 복사하세요', data);
+	}
+}
+
+
+function fn_sendpdsemail (stitle, surl){
+	fn_mail_OpenLayer(stitle, surl, "rsmpds");
+}
+
+function pageStartInit(){
+
+  //PdsCommentList("S");
+	getBBSList($F("page"));
+
+  //CM advertise
+	//GetAdSponsor("divSponsorAd","1", "1", "90", "1");
+}
+
+function PdsCommentList(vcMode){
+
+	var arrParams= new Array(8);
+	var ajaxHelper;
+	var PdsNo	= $('pdsno').value;
+	var eis		= $('eis').value;
+	var star	= $('star1').value;
+	var Pds1	= $('pds1').value;
+	var Pds2	= $('pds2').value;
+	var Pds3	= $('pds3').value;
+	var cont	= $('cont').value;
+
+
+	arrParams[0] = new Array("vcMode"	, vcMode);
+	arrParams[1] = new Array("PdsNo"	, PdsNo	);
+	arrParams[2] = new Array("eis"		, eis	);
+	arrParams[3] = new Array("title"	, ""	);
+	arrParams[4] = new Array("cont"		, cont	);
+	arrParams[5] = new Array("star"		, star	);
+	arrParams[6] = new Array("Pds1"		, Pds1	);
+	arrParams[7] = new Array("Pds2"		, Pds2	);
+	arrParams[8] = new Array("Pds3"		, Pds3	);
+
+	ajaxHelper = new AJAXHelper();
+	ajaxHelper.CallAnotherReturnValue("../L_Common/Library/RsmPdsCmmnt_AJAX.asp", arrParams);
+
+	if (vcMode!="S"){
+		$('cont').value = "";
+	}
+}
+
+function ExecuteAJAXComplete(ExecuteResult) {
+
+	eval(ExecuteResult);
+	return false;
+}
+
+//의견체크
+function CheckCommentSubmit(memno) {
+
+	if(memno.length < 1){
+		redirect_login(memno);
+	}else{
+
+		if ($('cont').value.length < 1) {
+			alert("의견을 입력해 주시기 바랍니다.");
+			$('cont').focus() ;
+			return;
+		}
+
+		if (isContentJuminCheck($("cont"))) return;
+
+		PdsCommentList("I");
+	}
+}
+
+//
+function PdsPreview(memno,myauth,path,nm){
+	if (memno.length > 0){
+		if(myauth=="Y"){
+			url = "https://people.incruit.com/resumeguide/popuppdspreview.asp?path=" + path + "&name=" + nm;
+			open_win(url,'pdspreview','0','0','0','0','0');
+		}else{
+			if(confirm("유료회원만 이용하실 수 있습니다.\n\n서비스 신청 페이지로 이동하시겠습니까?")){
+				location.href='https://people.incruit.com/resumeguide/pdschargeapply.asp';
+			}
+		}
+	}else{
+		if(confirm("로그인한 회원에 한하여 열람하실 수 있습니다.\n\n로그인 하시겠습니까?")){
+			jQuery("#gotoURL").val(document.URL);
+			jQuery("#frmlogin").submit ();
+		}
+	}
+}
+
+/*********************************************
+* 전체 리스트
+*********************************************/
+function getBBSList(pageIndex){
+	var vcSort				= $F('sot');
+	var Pds1			 	= $F('Pds1');
+	var Pds2			 	= $F('Pds2');
+	var Pds3			 	= $F('Pds3');
+	var Pds4			 	= $F('Pds4');
+	var searchword			= $F('schword');
+	var resultsearchword	= $F('rschword');
+	var Lang			 	= $F('Lang');
+	var Price			 	= $F('Price');
+	var Occu_B_Group	 	= $F('Occu_B_Group');
+	var Occu_M_Group	 	= $F('Occu_M_Group');
+	var Occu_S_Group	 	= $F('Occu_S_Group');
+	var Career				= $F('Career');
+	var Pass			 	= $F('Pass');
+	var CompTy			 	= $F('CompTy');
+	var Rank			 	= $F('Rank');
+	var summary				= $F('summary');
+	var ListSeq				= $F('listseq');
+	var ViewNo				= $F('viewno');
+	var arrParams			= new Array(20);
+
+	Pds3 = (ListSeq == "2") ? Pds3 : "";
+	Pds4 = (ListSeq == "3") ? Pds4 : "";
+
+	arrParams[0]  = new Array("sot"			, vcSort			);
+	arrParams[1]  = new Array("Pds1"		, Pds1				);
+	arrParams[2]  = new Array("Pds2"		, Pds2				);
+	arrParams[3]  = new Array("Pds3"		, Pds3				);
+	arrParams[4]  = new Array("Pds4"		, Pds4				);
+	arrParams[5]  = new Array("page"		, pageIndex			);
+	arrParams[6]  = new Array("schword"		, searchword		);
+	arrParams[7]  = new Array("rschword"	, resultsearchword	);
+	arrParams[8]  = new Array("Lang"		, Lang				);
+	arrParams[9]  = new Array("Price"		, Price				);
+	arrParams[10] = new Array("Occu_B_Group", Occu_B_Group		);
+	arrParams[11] = new Array("Occu_M_Group", Occu_M_Group		);
+	arrParams[12] = new Array("Occu_S_Group", Occu_S_Group		);
+	arrParams[13] = new Array("Career"		, Career			);
+	arrParams[14] = new Array("Pass"		, Pass				);
+	arrParams[15] = new Array("CompTy"		, CompTy			);
+	arrParams[16] = new Array("Rank"		, Rank				);
+	arrParams[17] = new Array("summary"		, summary			);
+	arrParams[18] = new Array("listseq"		, ListSeq			);
+	arrParams[19] = new Array("type"		, "view"			);
+	arrParams[20] = new Array("viewno"	, ViewNo			);
+
+
+	pagename		 = $('ajaxnm').value;
+	divname			 = "divpdslist";
+	ajaxpagename	 = "../L_Common/Library/" + pagename + "_AJAX.asp";
+
+	var ajaxHelper	 = new AJAXHelper();
+	var customMethod = new ListRslt(divname);
+	ajaxHelper.CallAnotherReturnCustom(ajaxpagename, arrParams, customMethod);
+
+	$('page').value = pageIndex;
+}
+
+function ListRslt(divname) {}
+ListRslt.prototype.ExecuteAJAXComplete=function(returnedXML) {
+	// 리스트 표시
+	$("divpdslist").innerHTML = returnedXML;
+	callScrapCheckArticle('BBS', document.getElementById("BoardNo").value, document.getElementById("ArticleNoList").value, 'bbslist');
+}
+
+/*********************************************
+* 리스트정렬
+*********************************************/
+function getBBSSortList(vcSort){
+
+	$('sot').value = vcSort;
+	$('page').value = 1;
+
+	getBBSList(1);
+}
+
+function fn_PeopleResumePopup_append(){
+	var _tmpHtml = 	"<div id=\"PeopleResumePopup\" class=\"people_resume_pop\">" +
+					"	<img src=\"//i.incru.it/ui/static/image/people/people_resume_pop_img.jpg\" alt=\"\">" +
+					"	<button type=\"button\" onclick=\"fn_PeopleResumePopup_close();\" class=\"closed\"><span>닫기</span></button>" +
+					"	<a href=\"https://www.incruit.com/resume/resume.asp\" onclick=\"goCL(this,'18769','people','레이어_이력서관리_이동');\" class=\"linked\"><span>이력서 작성하기</span></a>" +
+					"	<div class=\"foot\">" +
+					"		<input type=\"checkbox\" name=\"\" id=\"people_resume_pop_today\"><label for=\"people_resume_pop_today\" class=\"on\"><span>오늘은 그만 볼래요</span></label>" +
+					"		<button onclick=\"fn_PeopleResumePopup_close();\"><span>닫기</span></button>" +
+					"	</div>" +
+					"</div>";
+	if(iNcruit.cookie.GetCookie("PeopleResumePopupClose") != "Y"){
+		jQuery('body').append(_tmpHtml);
+	}
+}
+
+function fn_PeopleResumePopup_close(){
+	goCL(this,'18769','people','레이어_이력서관리_닫기');
+	iNcruit.cookie.SetCookie("PeopleResumePopupClose","Y",1)
+	jQuery('#PeopleResumePopup').hide();
+}
+//-->
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+
+	function fnPayForm(){
+
+		
+			if(confirm("로그인한 회원에 한하여 열람하실 수 있습니다.\n\n로그인 하시겠습니까?")){
+				document.frmlogin.gotoURL.value = document.URL;
+				document.frmlogin.submit ();
+			}
+		
+	}
+
+	function fnopenPopupEduce(strEduceCd,strEduceId,strSvcTy,strPayTy,WinWidth,WinHeight){
+		var form = document.frmfiledownloadcnt;
+
+		
+			if(confirm("로그인한 회원에 한하여 열람하실 수 있습니다.\n\n로그인 하시겠습니까?")){
+				jQuery("#gotoURL").val(document.URL);
+				jQuery("#frmlogin").submit ();
+			}
+		
+	}
+
+	function deletePds() {
+		if(confirm("해당 게시물을 삭제 하시겠습니까?")){
+			jQuery("#frmpdsdel").submit ();
+		}
+	}
+//]]>
+</script>
+<div id="div_naver_ad" style="display:block">
+<input type="hidden" name="adCH"      id="adCH"     value ="incruit.ch2">
+<input type="hidden" name="adCat1"    id="adCat1"   value ="일과사람">
+<input type="hidden" name="adCat2"    id="adCat2"   value ="자료실">
+<input type="hidden" name="adCat3"    id="adCat3"   value ="">
+<input type="hidden" name="adCnt"     id="adCnt"    value ="3">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+	<tbody>
+		<tr>
+			<td height="20">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<div id="ADSponsorAll" class="section_content section_size4 w780" style="display:none;">
+    <ul>
+        <li id="sectionAside">
+        </li>
+    </ul>
+    <p class="powerlink"><span class="powertext">파워링크</span><img class="powertext1" src="//i.incru.it/people/img/ico_w_ad_new.gif"><span class="powertext2">|</span> <a style="font-size:11px;" href="https://saedu.naver.com/adbiz/searchad/intro.nhn" target="_blank">가입신청</a></p>
+</div>
+<script type="text/javascript" src="https://ssl.pstatic.net/adimg3.search/adpost/js/adpost_show_ads_v2.min.js"></script>
+<script type="text/javascript">
+getAllianceV2("bottomboxs2");
+</script></div>
+			</div>
+		</div>	
+		<div id="incruit_rightbanner" class="w120">
+			
+			<div class="rightBanner_scrap">
+				<div class="rightMainBanner120">
+					<script type="text/javascript" src="//nvapi.feeldmc.com/ad/p/in/v1_0/imp?slotid=stw_incruit11_128"></script>
+				</div>
+				<div class="right_banner_2020_top Rnone">
+					<button id="btn_top" type="button" onclick="window.scrollTo(0,0);goCL(this,'17950','www','TOP');" class="btn"><span>맨위로</span></button>
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+<div id="incruit_footer">
+	<div class="section_layout">
+		<div id="footer">
+			<h2 class="hide">인크루트 소개 및 서비스 정보</h2>
+			<p class="footerMenu">
+				<a href="https://info.incruit.com/"  class="first" 					target="_top"	 onclick="return goCL(this,'17950','people','회사소개');"><span>회사소개</span></a>
+				<a href="https://help.incruit.com/docs/terms.asp" 						target="_blank"  onclick="return goCL(this,'17950','people','인크루트약관');"><span>인크루트 약관</span></a>
+				<a href="https://help.incruit.com/docs/privacy.asp" 					target="_blank" 	 onclick="return goCL(this,'17950','people','개인정보처리방침');"><strong><span>개인정보 처리방침</span></strong></a>
+				<a  onclick="goCL(this,'17950','people','이메일무단수집거부');fn_EmailCollectionDeny();return false;"><span>이메일무단수집거부</span></a>
+				<a href="https://help.incruit.com/docs/sitemap.asp" 				target="_blank" 	 onclick="return goCL(this,'17950','people','서비스전체보기');"><span>서비스 전체보기</span></a>
+				<a href="https://help.incruit.com/main/help.asp" 						target="_top" 	 onclick="return goCL(this,'17950','people','고객만족센터');"><span>고객만족센터</span></a>
+				<a href="https://help.incruit.com/qna/qnawrite.asp?bno=s&amp;mno=01" 	target="_top" 	 onclick="return goCL(this,'17950','people','오류신고');"><span>오류신고</span></a>
+				<a href="https://people.incruit.com/rss/rss.asp" 						target="_top" 	 onclick="return goCL(this,'17950','people','RSS');"><span>RSS</span></a>
+			</p>
+			<p class="copyright">Copyright ⓒ 1998~2021 <a href="https://info.incruit.com/">Incruit Corporation</a> All rights reserved.</p>
+		</div>
+	</div>
+</div>
+</div>
+
+<script type="text/javascript">
+<!--
+function mobRf(){var rf = new EN();rf.setSSL(true);rf.sendRf();}function jlls(a,b){var c=document.createElement('script');c.type='text/javascript';var d=!1;c.onreadystatechange=function(){if('loaded'==this.readyState||'complete'==this.readyState){if(d)return;d=!0,b()}},c.onload=function(){b()},c.src=a,document.getElementsByTagName('head')[0].appendChild(c)};jQuery(window).load(function(){!function(f,b,e,v,n,t,s){ if(f.fbq)return; n=f.fbq=function(){n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}; if(!f._fbq)f._fbq=n; n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s) }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js'); fbq('set', 'autoConfig', 'false', '1095122293899787'); fbq('init', '1095122293899787'); fbq('track', 'PageView');jlls('//s.incru.it/gjs/v2/incruit.channel.js?20210323140402', function () {});});
+-->
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1067914317;
+var google_conversion_label = "cOb0CJmvjFcQzaic_QM";
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script><noscript><div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1067914317/?value=1.00&amp;currency_code=KRW&amp;label=cOb0CJmvjFcQzaic_QM&amp;guid=ON&amp;script=0"/></div><img height='1' width='1' style='display:none' src='https://www.facebook.com/tr?id=1095122293899787&ev=PageView&noscript=1'/></noscript><script defer src="//s.incru.it/gjs/incruit.console.adv.js?20210326100000"></script>
+</body>
+</html>
