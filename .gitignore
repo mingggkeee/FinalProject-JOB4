@@ -1,8 +1,17 @@
+.idea
+.DS_Store
+../.DS_Store
+../__pycache__
+test.py
+
 venv/
 
-.idea
 test.py
 .vscode/
 
 crawling/.ipynb_checkpoints
 datafiles/.ipynb_checkpoints
+crawling/.ipynb_checkpoints
+crawling/src/.ipynb_checkpoints
+crawling/src/__pycache__
+datafiles/raw-data/.DS_Store
