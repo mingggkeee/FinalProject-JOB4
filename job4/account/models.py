@@ -6,7 +6,7 @@
 #   * Remove `managed = False` lines if you wish to allow Django to create, modify, and delete the table
 # Feel free to rename the models, but don't rename db_table values or field names.
 from django.db import models
-# from django.core.exceptions import validationError
+
 
 class Bookmark(models.Model):
     id = models.OneToOneField('User', models.DO_NOTHING, db_column='id', primary_key=True)
@@ -14,8 +14,19 @@ class Bookmark(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'myaccount'
         db_table = 'BOOKMARK'
         unique_together = (('id', 'letter'),)
+
+
+class Companies(models.Model):
+    company_id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=20)
+
+    class Meta:
+        managed = False
+        app_label = 'myaccount'
+        db_table = 'COMPANIES'
 
 
 class Company(models.Model):
@@ -25,6 +36,7 @@ class Company(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'myaccount'
         db_table = 'COMPANY'
 
 
@@ -34,6 +46,7 @@ class Industry(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'myaccount'
         db_table = 'INDUSTRY'
 
 
@@ -44,6 +57,7 @@ class Interest(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'myaccount'
         db_table = 'INTEREST'
 
 
@@ -56,28 +70,61 @@ class Letter(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'myaccount'
         db_table = 'LETTER'
 
 
 class Question(models.Model):
     question_id = models.AutoField(primary_key=True)
-    content = models.CharField(max_length=300, blank=True, null=True)
+    content = models.CharField(max_length=500, blank=True, null=True)
 
     class Meta:
         managed = False
+        app_label = 'myaccount'
         db_table = 'QUESTION'
 
 
 class Task(models.Model):
     task_id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=20, blank=True, null=True)
+    name = models.CharField(max_length=50, blank=True, null=True)
 
     class Meta:
         managed = False
+        app_label = 'myaccount'
         db_table = 'TASK'
 
 
-class User(models.Model):
+# ========== custom admin page ==========
+from django.contrib.auth.models import (
+    BaseUserManager, AbstractBaseUser
+)
+
+class MyUserManager(BaseUserManager):
+    class Meta:
+        app_label = 'myaccount'
+
+    def create_user(self, id, password=None):
+        if not id:
+            raise ValueError('Users must have an email address')
+
+        user = self.model(
+            id=id,
+        )
+
+        user.set_password(password)
+        user.save(using=self._db)
+        return user
+
+    def create_superuser(self, id, password=None):
+        user = self.create_user(
+            id,
+            password=password,
+        )
+        user.is_admin = True
+        user.save(using=self._db)
+        return user
+
+class User(AbstractBaseUser, models.Model):
     id = models.CharField(primary_key=True, max_length=20)
     password = models.CharField(max_length=20)
     birth = models.DateField(blank=True, null=True)
@@ -86,117 +133,43 @@ class User(models.Model):
     address = models.CharField(max_length=100, blank=True, null=True)
     gender = models.IntegerField(blank=True, null=True)
 
+    username = models.CharField(
+        max_length=20,
+        null=True,
+        default='annonymous'
+    )
+
+    is_active = models.BooleanField(default=True)
+    is_admin = models.BooleanField(default=False)
+
+    last_login = models.DateTimeField(blank=True, null=True, verbose_name='last login')
+
+    objects = MyUserManager()
+
+    USERNAME_FIELD = 'id'
+
     class Meta:
         managed = False
+        app_label = 'myaccount'
         db_table = 'USER'
 
+    def __str__(self):
+        return self.id
 
-class AuthGroup(models.Model):
-    name = models.CharField(unique=True, max_length=150)
+    def has_perm(self, perm, obj=None):
+        "Does the user have a specific permission?"
+        # Simplest possible answer: Yes, always
+        return True
 
-    class Meta:
-        managed = False
-        db_table = 'auth_group'
+    def has_module_perms(self, app_label):
+        "Does the user have permissions to view the app `app_label`?"
+        # Simplest possible answer: Yes, always
+        return True
 
+    @property
+    def is_staff(self):
+        "Is the user a member of staff?"
+        # Simplest possible answer: All admins are staff
+        return self.is_admin
 
-class AuthGroupPermissions(models.Model):
-    group = models.ForeignKey(AuthGroup, models.DO_NOTHING)
-    permission = models.ForeignKey('AuthPermission', models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'auth_group_permissions'
-        unique_together = (('group', 'permission'),)
-
-
-class AuthPermission(models.Model):
-    name = models.CharField(max_length=255)
-    content_type = models.ForeignKey('DjangoContentType', models.DO_NOTHING)
-    codename = models.CharField(max_length=100)
-
-    class Meta:
-        managed = False
-        db_table = 'auth_permission'
-        unique_together = (('content_type', 'codename'),)
-
-
-class AuthUser(models.Model):
-    password = models.CharField(max_length=128)
-    last_login = models.DateTimeField(blank=True, null=True)
-    is_superuser = models.IntegerField()
-    username = models.CharField(unique=True, max_length=150)
-    first_name = models.CharField(max_length=150)
-    last_name = models.CharField(max_length=150)
-    email = models.CharField(max_length=254)
-    is_staff = models.IntegerField()
-    is_active = models.IntegerField()
-    date_joined = models.DateTimeField()
-
-    class Meta:
-        managed = False
-        db_table = 'auth_user'
-
-
-class AuthUserGroups(models.Model):
-    user = models.ForeignKey(AuthUser, models.DO_NOTHING)
-    group = models.ForeignKey(AuthGroup, models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'auth_user_groups'
-        unique_together = (('user', 'group'),)
-
-
-class AuthUserUserPermissions(models.Model):
-    user = models.ForeignKey(AuthUser, models.DO_NOTHING)
-    permission = models.ForeignKey(AuthPermission, models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'auth_user_user_permissions'
-        unique_together = (('user', 'permission'),)
-
-
-class DjangoAdminLog(models.Model):
-    action_time = models.DateTimeField()
-    object_id = models.TextField(blank=True, null=True)
-    object_repr = models.CharField(max_length=200)
-    action_flag = models.PositiveSmallIntegerField()
-    change_message = models.TextField()
-    content_type = models.ForeignKey('DjangoContentType', models.DO_NOTHING, blank=True, null=True)
-    user = models.ForeignKey(AuthUser, models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'django_admin_log'
-
-
-class DjangoContentType(models.Model):
-    app_label = models.CharField(max_length=100)
-    model = models.CharField(max_length=100)
-
-    class Meta:
-        managed = False
-        db_table = 'django_content_type'
-        unique_together = (('app_label', 'model'),)
-
-
-class DjangoMigrations(models.Model):
-    app = models.CharField(max_length=255)
-    name = models.CharField(max_length=255)
-    applied = models.DateTimeField()
-
-    class Meta:
-        managed = False
-        db_table = 'django_migrations'
-
-
-class DjangoSession(models.Model):
-    session_key = models.CharField(primary_key=True, max_length=40)
-    session_data = models.TextField()
-    expire_date = models.DateTimeField()
-
-    class Meta:
-        managed = False
-        db_table = 'django_session'
-
+# ========== custom admin page ==========
