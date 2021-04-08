@@ -41,6 +41,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # django rest auth
+    'rest_framework',
+    'rest_framework.authtoken',
+    'rest_auth',
     # custom social login
     'allauth',
     'allauth.account',
@@ -155,6 +159,16 @@ AUTHENTICATION_BACKENDS = (
 )
 
 SITE_ID = 1  # default site id
+
+SOCIALACCOUNT_PROVIDERS = {
+    'kakao': {
+        'APP': {
+            'client_id': '9a0484415a32934fa843eab02d75fa8b',
+            'secret': 564086,
+            'key': ''
+        }
+    }
+}
 
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'

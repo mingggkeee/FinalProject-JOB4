@@ -60,7 +60,6 @@
                 </ul>
                 {% if request.session.is_active or user.is_authenticated %}
                 {{ request.session.username }}
-                {{ user.username }}
                 <form class="ps-lg-5">
                     <button class="btn btn-lg btn-outline-primary order-0" type="submit">
                         <a href="{% url 'myauth:logout' %}">Log Out</a>
@@ -75,6 +74,7 @@
                 {% endif %}
             </div>
         </div>
+
     </nav>
 
     {% block content %}{% endblock %}
