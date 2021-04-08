@@ -4,9 +4,9 @@ from functools import lru_cache
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from django.views.generic import View, TemplateView
-# from django.contrib.auth.models import User
 from django.contrib import auth
 from django.conf import settings
+from django.contrib.auth.hashers import check_password, make_password
 
 from .models import User
 
@@ -21,7 +21,7 @@ class LoginRequestView(TemplateView):
             if User.objects.filter(id=request.POST["user-id"]).exists():
                     user = User.objects.get(id=request.POST["user-id"])
 
-                    if user.password == request.POST["password"]:
+                    if check_password(request.POST['password'], user.password):
                         request.session['user_id'] = user.id
                         request.session['username'] = user.username
                         request.session['is_active'] = True
@@ -53,13 +53,14 @@ class RegisterView(TemplateView):
         if request.method == "POST":
             if request.POST["password"] == request.POST["repeat-password"]:
                 user = User.objects.create(id=request.POST["id"],
-                                           password=request.POST["password"],
                                            username=request.POST["username"],
                                            birth=request.POST["birth"],
                                            email=request.POST["email"],
                                            phone_number=request.POST["phone_number"],
                                            address=request.POST["address"],
                                            gender=request.POST["gender"])
+                user.set_password(request.POST["password"])
+                user.save()
                 return render(request, 'myauth/register_done.html')
 
             # return render(request, 'myauth/register.html')
@@ -132,7 +133,7 @@ class RecoverPWRequestDoneView(View):
             pw = request.POST['password']
             if pw == request.POST['password_again']:
                 userObj = User.objects.get(id=request.session['id'])
-                userObj.password = pw
+                userObj.set_password(pw)
                 userObj.save()
 
                 return redirect('/myauth/login/')
