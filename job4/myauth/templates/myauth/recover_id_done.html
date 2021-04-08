@@ -1,0 +1,23 @@
+{% extends 'base_auth.html' %}
+
+{% load static%}
+
+{% block title %}JOB4 | ID recovery{% endblock %}
+
+{% block heading %}Id Recovery is Done !{% endblock %}
+
+{% block content %}
+<div id="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+    <h4>
+        <span>Please check your Email. </span>
+    </h4>
+</div>
+
+<a href="{% url 'myauth:login' %}" class="btn btn-success btn-block loginbtn">Login</a>
+
+{% endblock %}
+
+{% block extra-script %}
+<script>
+</script>
+{% endblock %}

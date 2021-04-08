@@ -22,6 +22,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', HomeView.as_view(), name="Home"),
     # custom apps
-    path('account/', include('account.urls')),
+    path('myauth/', include('myauth.urls')),
     path('mypage/', include('mypage.urls')),
+    # allauth : social login
+    path('accounts/', include('allauth.urls')),
 ]

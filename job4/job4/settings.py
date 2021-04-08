@@ -28,14 +28,14 @@ DEBUG = True
 import os
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0']
 
-import pymysql
-pymysql.install_as_MySQLdb()
+# import pymysql
+# pymysql.install_as_MySQLdb()
 
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
     'django.contrib.auth',
+    'django.contrib.admin',
     'django.contrib.sites',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.naver',
     'allauth.socialaccount.providers.kakao',
     # custom
-    'account.apps.AccountConfig',
+    'myauth.apps.MyAuthConfig',
     'mypage.apps.MypageConfig',
 ]
 
@@ -90,11 +90,11 @@ WSGI_APPLICATION = 'job4.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '192.168.20.145',
+        'HOST': '13.124.236.54',
         'PORT': '3306',
         'NAME': "job4",
         'USER': "ssac",
-        'PASSWORD': "ssac123!@#"
+        'PASSWORD': "Ssac123!@#"
     }
 }
 
@@ -164,4 +164,4 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = [
     'https://www.googleapis.com/auth/userinfo.profile',
 ]
 
-AUTH_USER_MODEL = 'myaccount.User'
+AUTH_USER_MODEL = 'myauth.User'
