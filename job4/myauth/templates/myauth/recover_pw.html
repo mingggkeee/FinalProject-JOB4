@@ -1,0 +1,29 @@
+{% extends 'base_auth.html' %}
+
+{% load static%}
+
+{% block title %}Password Recevery{% endblock %}
+
+{% block heading %}PASSWORD RECOVER{% endblock %}
+
+{% block simple-explain %}Please fill the form to recover your password{% endblock %}
+
+{% block content %}
+<p>
+    Enter your email address and your password will be reset and emailed to you.
+</p>
+<form action="/myauth/recover-pw/request/" id="loginForm" method="post">
+    {% csrf_token %}
+    <div class="form-group">
+        <label class="control-label" for="id">ID</label>
+        <input type="text" placeholder="example@gmail.com" title="Please enter you id" required="" value=""
+               name="id" id="id" class="form-control">
+        <label class="control-label" for="email">Email</label>
+        <input type="text" placeholder="example@gmail.com" title="Please enter you email adress" required="" value=""
+               name="email" id="email" class="form-control">
+        <span class="help-block small">Your registered email address</span>
+    </div>
+
+    <button class="btn btn-success btn-block">Reset password</button>
+</form>
+{% endblock %}

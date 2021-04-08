@@ -1,0 +1,34 @@
+{% extends 'base_auth.html' %}
+
+{% load static%}
+
+{% block title %}Recover Password Done{% endblock %}
+
+{% block heading %}Password recovery is complete!!!{% endblock %}
+
+{% block content %}
+<div id="result_pw"><hr><div><span>새로운 비밀 번호를 변경해주세요.</span></div><hr></div>
+
+<form action="/myauth/recover-pw/request/" id="loginForm" method="post"></form>
+<div class="form-group">
+    <label class="control-label" for="password">Password</label>
+    <input type="text" placeholder="example@gmail.com" title="Please enter you id" required="" value=""
+           name="password" id="password" class="form-control">
+    <label class="control-label" for="password_again">Password Again</label>
+    <input type="text" placeholder="example@gmail.com" title="Please check your password" required="" value=""
+           name="password_again" id="password_again" class="form-control">
+    <span class="help-block small">Your Password is changed</span>
+</div>
+
+<div style="padding-top:10px;" class="row justify-content-md-center">
+    <button type="submit" class="btn btn-lg" style="opacity: 90%; font-size: 16px;"><i class="fas fa-check"></i>&nbsp;&nbsp;저장하기</button>
+</div>
+</form>
+<a href="{% url 'myauth:login' %}" class="btn btn-success btn-block loginbtn">Login</a>
+
+{% endblock %}
+
+{% block extra-script %}
+<script>
+</script>
+{% endblock %}

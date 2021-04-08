@@ -53,24 +53,23 @@
             <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="">Home</a></li>
-                    <li class="nav-item"><a class="nav-link text-600" href="">Video</a></li>
-                    <li class="nav-item"><a class="nav-link text-600" href="">Destinations</a></li>
-                    <li class="nav-item"><a class="nav-link text-600" href="">Booking </a></li>
+                    <li class="nav-item"><a class="nav-link text-600" href="">Analyze My Resume</a></li>
                     {% if request.session.is_active %}
                     <li class="nav-item"><a class="nav-link text-600" href="{% url 'mypage:home' %}">My Page </a></li>
                     {% endif %}
                 </ul>
-                {% if request.session.is_active %}
-                {{ request.session.user_id }}
+                {% if request.session.is_active or user.is_authenticated %}
+                {{ request.session.username }}
+                {{ user.username }}
                 <form class="ps-lg-5">
                     <button class="btn btn-lg btn-outline-primary order-0" type="submit">
-                        <a href="{% url 'account:logout' %}">Log Out</a>
+                        <a href="{% url 'myauth:logout' %}">Log Out</a>
                     </button>
                 </form>
                 {% else %}
                 <form class="ps-lg-5">
                     <button class="btn btn-lg btn-outline-primary order-0" type="submit">
-                        <a href="{% url 'account:login' %}">Log In</a>
+                        <a href="{% url 'myauth:login' %}">Log In</a>
                     </button>
                 </form>
                 {% endif %}
