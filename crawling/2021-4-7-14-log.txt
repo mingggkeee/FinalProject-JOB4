@@ -1,0 +1,470 @@
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_KIA_Manufacturing.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_acecyber_Education administration.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_daelim_Management.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_Financial Company.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_태진에프티(사무)_201481112934.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_GSRETAIL_Sales_201512010540.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_bomicorp_Civil execution.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_롯데백화점(영업관리).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_abrand_marketing.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_chunjae_Educational goods envelopment.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_CJ제일제당(품질관리).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_일진그룹.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_PARIS_Bakery.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_유창건설.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_activatedcarbon_Technical sales.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_서울사이버대학교.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_SHINYOUNG.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_doosanheavy_R&D.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_LG화학(생산).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한국전력공사(청년인턴파트).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_동양생명(콜센터).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_콘티넨탈 오토모티브 일렉트로닉스.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_신세계면세점.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_MBC 플레이비.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_BGF푸드.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_투레빗.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_인크루트(인턴십).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_KPR.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_CJ_Civil execution.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_DVS_Accounting_2015115114758.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_중소기업중앙회.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_Hanmi_sales.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_재외동포재단.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_DHL(통관).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_유니온상호저축은행.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_GSRETAIL_Sales manegement.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_CJ오쇼핑.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_중소기업진흥공단_20148617216.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_Lottemart_Sales manegement.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_KEUMJIN_Customer support.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_BGF리테일(SC부문).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_현대오일뱅크(생산관리).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_주식회사용산.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_GS리테일(영업파트).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_현대중공업(생산관리).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한미홀딩스.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_아이디어키(마케팅).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_이니텍.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한국지능형교통체계협회.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_우신솔라테크.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_PRAIN.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_LG전자(영업파트).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_피드윌.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_hyundai-steel_General office job.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_우체국금융.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT__DK Medical Solutions.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_연세대학교 원주캠퍼스.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_I-NOS_Marketing.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_대교(인턴).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_jinair.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_educo_marketing.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_건양대학교.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_IGM_Accounting.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_GS홈쇼핑.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_panpacific_Financial affairs.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_deotis_consulting.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_잡앤잡 신한은행.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_크레텍.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한국유나이티드제약.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_Cuckoo_cook.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_lottesuper.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/incruit_CJ엠디원_신입MD.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_koreanair_General office job1.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_이노스닷컴(마케팅).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_대한항공(승무원).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_hansae_Oversea sales.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_LIG손해보험.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한화생명 (1).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_현대해운.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한국무역보험공사(경영관리).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_에이스코어.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_LG전자(제조팀).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한국청소년활동진흥원.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_미래아이콘(미표기).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_보령메디앙스.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_AHNLAB_PR.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_메트라이프.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_Incruit-Personnel management.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_CJ헬로비전(방송통신기술).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_HT건설.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_롯데마트(시설관리).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_CJ E&M.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_현대자동차(플랜트).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_kepco_General office job.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_GS칼텍스.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_ajrentacar_sales.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_KDB_Management.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_원자력병원.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_오일뱅크(IT기획)_201473115648.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_coway_Sales manegement.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한국환경공단.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한국보훈복지의료공단.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_freshegg.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_KOREAEXIM.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_KBstar_Bank.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_이베이코리아.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_doosanenc_Civil execution.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_OCI.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_전영화전.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_LG전자(영업본부경력).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_BOK_Planning.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_BGF리테일(SC직군).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_CJ헬로비전(영업).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한국시설안전공단.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_POSCO_Facilities management.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_국제자산신탁(영업).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_라이엇게임즈(홍보).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_아츠플레이.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_해태음료(품질).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_GS건설(계장설계).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_cjenm_Design.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한국남동발전.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_megabox.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_LS전선.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_hyundai_R&D_2015120151057.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한솔케미칼.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_gsretail_sales7.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_KYOBO_Marketing.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_GS건설.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_AEO_PR.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/incruit_삼양_영업.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/incruit_동부하이텍스_제조직pdf.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_SAE-A_Oversea sales.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_새마을금고_2014731142644.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_BRIGHTSTONE_Sales.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_조광페인트.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_doosanenc_Production management.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_커피빈코리아.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_jbcitygas_Safety.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_KEPCO3.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_매일테크(품질).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_인터믹스(번역).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한솔섬유(해외영업).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_icymca_General office job.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_농협.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_hyundai_Plant2.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_HANBUL_Marketing.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_엠트론(해외영업).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한국저작권위원회.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_트라이텍코리아.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_INTERMAJOR_Web planning.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_클립서비스(MD).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한국주택금융공사.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_hanaskcard_marketing.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_bsknp_sales.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_BGF리테일(마케팅기획).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한글과컴퓨터.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_AJINOMOTO_qualiry control.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_doosaninfracore_Oversea sales.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_현대자동차(차량설계).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_LGserveone_Construction.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_올림푸스.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_기업은행(청년인턴).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_CGV_manager.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_대한마리나산업진흥회.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_코웰옵틱일렉트로닉스(통계).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_aprofg_management.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_창성CEM철도사업.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한국가스기술공사.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_NHN엔터테인먼트.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_hyundai_R&D.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_KITA.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_중소기업진흥공단.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_LS산전.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_idaehan_Product qualiry control.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한국가스공사(연구개발).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_충남대학교병원.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_광전자(연구개발).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_우정유빅스엔지니어링.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_AK PLAZA_Marketing Intern.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_태한이엔씨.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_삼성중공업(엔지니어링)_2016818165038.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_hmglobal_Operator.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_전략물자관리원.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_gsretail_Sales management.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_현대하이카.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_이영산업기계.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_KLA-Tencor.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_kia_Product qualiry control.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_IBK_Bank.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_hanssem_Distribution management.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_풀무원이씨엠디.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_SK케미칼(국외마케팅).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_서울대의예과.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_hyundai_Plant.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_atlasbx_Production control.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한국신용보증기금.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_케이디씨.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_hysco_Product production2.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_chest_General office job.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_우성산업개발.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_아트박스(기획).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_UNIQLO_Shop management.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_대전광역시시설관리공단.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_지식재산교육.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_OCI스페셜티.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_g7_Oversea business.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_약손명가.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_ZEROWEB_Web planning.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_koreanair_Airline.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_kepco-enc_Electric plan.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한국무역보험공사(미표기).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_하나무역.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_뷰웍스(품질관리).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_CWM_sales.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_kia_Product production.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_frasersuites_sales.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_코리아세븐(직무미표기).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_GS리테일(영업관리).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_KIA_Purchasing_2015120132340.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_GS25.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_KESCO_General office job.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_휴온스.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_신흥(연구개발).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_appcokorea.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_LG엔시스.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_k-vic_Business Analysis.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_GSRETAIL_Sales.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한국벤처투자.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_흥아타이어(기능).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_한화생명.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_유한양행.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_더마프로(경영지원).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_코리아세븐(영업).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_종로학평.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_SPC그룹.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_이투스(마케팅).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_can-suhyup_Financial office work.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_현대엠시트.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_bgfretail_Sales management.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_진에어.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_인터엠.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/인크루트_LG전자(HA사업본부).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_HIMO_General affairs.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit2/INCRUIT_nexentire_sales.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_lgchem_R&D.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_서울관광마케팅.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_한국철도공사_영업.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_nhchem.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_lge_SW R&D_201681915535.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_kesco.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_동원_식품관리pdf.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]사립학교_특수체육교사.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_코웨이_영업관리.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]LG서브원_자산매니저.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_도로교통공단.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_무역보험공사_리스크.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_vatech_oversea sales_201681110121.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_dongwonfnb_foodsales-_201681613749.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_KIA_Purchasing_201512395132.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_남양유업.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공[자기소개서샘플]삼호개발_현장기술.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]세종특별자치시_환경미화원.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_강영수특허법률사무소_Patent attorney.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_ldcc_Proglamming.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공[자기소개서샘플]외환은행_행원.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_shinyoung_bill.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_Uniqlo_manager (2).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_새롬정보시스템.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/SK텔레콤_합격자소서.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_롯데_영업.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_LG디스플레이_공정.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_sfire_service_201685115235.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]한국자산관리공사_압류재산현황조사.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_신용보증기금_합격자기소개서.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_서울보건복지인력개발원.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]어린이집_교사.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_thecircle_Business planning.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공[자기소개서샘플]이노션_카피라이터.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_ktrental_IT.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_LGE_SWR&D_201681915456.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_삼성중공업4.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_gsretail_Sales management_2017124102838.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_mobis_Purchasing_2016810133646.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]성형외과치과_병원코디네이터.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_국민연금관리공단2.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_Yeil_R&D_2016818171047.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_연세대학교 원주캠퍼스.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_lgdisplay.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_kolonfm_Product production.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_vitzrosys_Technology.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_kyowon_Educational goods envelopment.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_샘표(레시피).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_kiat.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]전기 정비 자기소개서(포스코)_신입.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_gioconda_Trade office.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_삼성카드고객서비스.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_금호타이어.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_대웅제약.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_LGE_Sales management_201681915659.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_autotec_Oversea sales-.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_빙그레_마케팅.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_GSretail_Sales11.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_삼천리자전거.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_대방건설.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]재무 회계 자기소개서(포스코)_경력.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_posco_Metal material.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_sushikoji_Food service-.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_jonggendang_sales.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_cesco_Service consultant.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_Incruit-Personnel management.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_CFOkorea.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]LIG_자산운용_201452293829.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_eland.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_신협.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_miraeikorn_Online marketing-.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/SK텔레콤_합격자소서_2010322151852.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_디바이스이앤지.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_Uplus_B2C.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_삼성중공업3.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_씨디컴.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_삼성중공업2.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_세원정공.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_gs칼텍스_설비.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_shi.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_모두투어.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_gsretail_sales_2016615145141_201681195043.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_HDcard_planning-_201681615201.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_wiseinvest_Marketing-.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공[자기소개서샘플]대한제강_전기설비관리.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_KDHC_Machine.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_대한적십자사.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공[자기소개서샘플]한국거래소_경영.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_samsung_Electricity.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_cyhds-trade.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_koreanair_Aviation (2).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/STX_그룹_합격자소서.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_pernodricard_Sales-.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_아프로존.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_lgchem_R&D 2.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_LGE_R&D_201681915166.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]KT&G_영업.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_날리지큐브.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_한국철도공사.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]철도공사_기관사.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_모두투어_여행상담사.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공[자기소개서샘플]일진다이아몬드_전략영업.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_여행사.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_lh_Civil.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_삼성웰스토리.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]에이텍_사무직.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_미쓰비시엘리베이터.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_samsungcnt_resort_2016816112014.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_대교 눈높이.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_비큐러스_총무.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_만도_합격자기소개서.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_금융보안원_전산보안.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_lgdisplay_quality control_201681195949.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_GSretail_sales_2016816115954.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_고향식품.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_동부팜한농.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_taejoon-academism.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_삼양_영업관리.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]국민카드_금융마케터.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]현대중공업_생산관리&품질관리.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_koreanair4.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]삼양그룹_경영지원물류.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_성일건설.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_디에이피.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_대웅제약 (1).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_경희대학교_합격자기소개서.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]동부대우전자_구매.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_대한적십자사2.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]명천문화재단(지방공기업)_경영지원_201479103055.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_서브원(구매파트).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_saehwaimc_Production control.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_한국철도공사_차량pdf.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_기아자동차(설계).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_seoulsemicon_HR.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]개인택시공제조합_손해사정직_2014521173226.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_서울신용평가정보.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_경기도지체장애인협회.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_기업은행.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_대교.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_Appen_웹.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_국민건강보험공단.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_서울시농수산식품공사.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_무역보험공사_201471415121.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_KHNP_Machine.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공[자기소개서샘플]KOTRA_전략마케팅.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]농산물품질관리원_연구직.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공[자기소개서샘플]동부대우전자_마케팅.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_hyundai_car it.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_금화PSC.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_koica.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_samsung_IM software.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_KITA_2015123101126.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_smrt_Train Security.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_메디톡스.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]공정거래위원회_상담직.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_ex_administration_2016816112841.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공[자기소개서샘플]두산중공업_시설관리.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_hyundaiwia_test management_201681095341.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_한국동서발전.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_books114_Publishing-.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_LGE_Oversea sales_2016819151754.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]장애인복지관_사회복지사.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_kia.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]LG경영개발원인화원_경영지원팀.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_ELAND-SE.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_기아자동차2.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_Mobis_R&D.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_INCRUIT_HR.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]보육원_특수교사.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]국제인천성모병원_간호사.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_카카오_.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_skec_Civil execution.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_HYUNSTEEL-R&D_201682311758.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_KIA_Product planning.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_서울특별시도시철도공사.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_LG화학_R&D.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_앞선데이터시스템.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_pagoda_Education consulting_20168111055.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_iwest_Intern_2016818173937.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_koreanair_R&D.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_lgcare_Marketing.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_sumifru_General office job.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]여행박사_상품개발.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_p&g_Industrial designer.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_국가정보원_정보_2017116155332.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]기업은행_일반행원.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_UPLUS_Corporate business.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_건화 엔지니어링.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_신코 중앙연구소.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_KWATER_.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공[자기소개서샘플]인천경제자유구역청_투자유치.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_신한기계_합격자기소개서.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_경기중소기업종합지원센터.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_mayabooks_Planning.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_동부그룹 동부익스프레스.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_kbi_Sales management.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]한화갤러리아_제주면세점(완료).docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_샘표2.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_samsung_R&D_20168119490.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_sebang_Management-.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공[자기소개서샘플]현대커머셜_개인보험지원.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_koica_General office job.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_SK하이닉스_공정.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_kitox_Office work assistant.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_P&G_Finance & Accounting_2016816131142.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_SEMES-FE.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_jeilpharm_production-_2016817112626.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]국가보호관찰소_교정직.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_hansung_University lecturer.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_노루페인트.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_두산전자.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_kfcc_sales_20168109523.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_wivis_Finance.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트제공_[자기소개서샘플]현대엠시트_품질관리.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_p-city_Hotel Sales.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_러그랜드.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_gngfirm_Sales-.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_삼성SDS.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_한국은행_종합기획.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_omron_sales.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_대한복지개발원_회계.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_라파스_합격자기소개서.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/인크루트_기업은행2.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/incruit_삼성 디스플레이_연구개발.docx
+/Users/nahyeonan/ssac/proj1/job4/datafiles/raw-data/incruit/INCRUIT_INFINIQ_Product qualiry-.docx

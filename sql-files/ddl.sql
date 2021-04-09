@@ -1,12 +1,30 @@
 CREATE TABLE IF NOT EXISTS USER (
   id           VARCHAR(20) NOT NULL PRIMARY KEY,
-  password     VARCHAR(20) NOT NULL,
+  password     VARCHAR(1000) NOT NULL,
   birth        DATE,
   email        VARCHAR(40),
   phone_number VARCHAR(12),
   address      VARCHAR(100),
-  gender       INTEGER
+  gender       INTEGER,
+    username     VARCHAR(20) NOT NULL DEFAULT 'annonymous',
+  is_active    BOOLEAN DEFAULT 1,
+  is_admin     BOOLEAN DEFAULT 0,
+  last_login    DATETIME,
 );
+
+-- CREATE TABLE IF NOT EXISTS myauth_user (
+--   id           VARCHAR(20) NOT NULL PRIMARY KEY,
+--   password     VARCHAR(1000) NOT NULL,
+--   birth        DATE,
+--   email        VARCHAR(40),
+--   phone_number VARCHAR(12),
+--   address      VARCHAR(100),
+--   gender       INTEGER,
+--     username     VARCHAR(20) NOT NULL DEFAULT 'annonymous',
+--   is_active    BOOLEAN DEFAULT 1,
+--   is_admin     BOOLEAN DEFAULT 0,
+--   last_login    DATETIME
+-- );
 
 CREATE TABLE IF NOT EXISTS INDUSTRY (
   industry_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY,
