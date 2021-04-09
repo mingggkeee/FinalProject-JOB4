@@ -7,7 +7,11 @@ import time
 import pyperclip
 import requests
 
+<<<<<<< HEAD
 # 저장 경로, 크롬드라이버 경로도 전달받아야 함
+=======
+# 저장 경로도 전달받아야 함
+>>>>>>> f3acc03ef0deef6a787f682d2d19c0da4d2e5fd8
 if sys.argv[1] is None or sys.argv[2] is None or sys.argv[3] is None:
     print("usage: python jobKoreaCrawler.py [own naver id] [own naver password] --os=<w or m>")
     print()
@@ -22,7 +26,11 @@ if len(sys.argv) > 4:
     print("usage: python jobKoreaCrawler.py [own naver id] [own naver password] --os=<w or m>")
     sys.exit(1)
 
+<<<<<<< HEAD
 if sys.argv[3] != '--os=w' and sys.argv[3] != '--os=m':
+=======
+if sys.argv[3] != 'w' and sys.argv[3] != 'm':
+>>>>>>> f3acc03ef0deef6a787f682d2d19c0da4d2e5fd8
     print("os should be w (window) or m (mac os)")
     print()
     print("===== Option =====")
@@ -31,6 +39,7 @@ if sys.argv[3] != '--os=w' and sys.argv[3] != '--os=m':
     print("\tm : mac os")
     sys.exit(1)
 
+<<<<<<< HEAD
 user_id = sys.argv[1]
 user_pw = sys.argv[2]
 user_os = sys.argv[3][-1]
@@ -44,6 +53,22 @@ options.add_argument('lang=ko_KR')
 driver = webdriver.Chrome(chromedriver, options=options)
 
 # driver = webdriver.Chrome(chromedriver)
+=======
+user_id = argv[1]
+user_pw = argv[2]
+user_os = argv[3][-1]
+
+
+chromedriver = "/Users/nahyeonan/Downloads/chromedriver"
+
+# options = webdriver.ChromeOptions()
+# options.add_argument('headless')  # 웹 브라우저를 띄우지 않는 headless chrome 옵션 적용
+# options.add_argument('disable-gpu')  # GPU 사용 안함
+# options.add_argument('lang=ko_KR')  # 언어 설정
+# driver = webdriver.Chrome(chromedriver, options=options)
+
+driver = webdriver.Chrome(chromedriver)
+>>>>>>> f3acc03ef0deef6a787f682d2d19c0da4d2e5fd8
 driver.get("https://www.jobkorea.co.kr/")
 time.sleep(1)
 
@@ -57,7 +82,11 @@ id_elm = driver.find_element_by_id('id')
 pw_elm = driver.find_element_by_id('pw')
 
 id_elm.click()
+<<<<<<< HEAD
 pyperclip.copy(user_id)
+=======
+pyperclip.copy(user_id)  # naver id = sys.argv[1]
+>>>>>>> f3acc03ef0deef6a787f682d2d19c0da4d2e5fd8
 if user_os == 'm':
     id_elm.send_keys(Keys.COMMAND, 'v')
 else:
@@ -65,7 +94,11 @@ else:
 time.sleep(1)
 
 pw_elm.click()
+<<<<<<< HEAD
 pyperclip.copy(user_pw)
+=======
+pyperclip.copy(user_pw)  # naver pw = sys.argv[2]
+>>>>>>> f3acc03ef0deef6a787f682d2d19c0da4d2e5fd8
 if user_os == 'm':
     pw_elm.send_keys(Keys.COMMAND, 'v')
 else:
@@ -88,6 +121,7 @@ driver.find_element_by_xpath("//div[contains(@class, 'firstPopUp')]/div/button")
 jobkorea = "https://www.jobkorea.co.kr"
 
 while True:
+<<<<<<< HEAD
     import re
     
     html = driver.page_source
@@ -97,18 +131,32 @@ while True:
     nums = "".join(re.findall("\d+", todayTotal.contents[0]))
     todayTotal = int(nums)
     
+=======
+    html = driver.page_source
+    soup = BeautifulSoup(html, 'html.parser')
+
+>>>>>>> f3acc03ef0deef6a787f682d2d19c0da4d2e5fd8
     addrs = soup.select("div > .ctTarget")[0].select("ul.selfLists > li > a")
     cnt = len(addrs)
 
     pages = soup.select("div.tplPagination")[0].select("ul > li")
 
+<<<<<<< HEAD
 #     print(pages)
 #     print(pages[0].select("span.now"))
+=======
+    print(pages)
+    print(pages[0].select("span.now"))
+>>>>>>> f3acc03ef0deef6a787f682d2d19c0da4d2e5fd8
 
     start_page = pages[0].select("span.now")[0].contents[0]
     start_page = int(start_page)
 
+<<<<<<< HEAD
 #     print(start_page, start_page+len(pages))
+=======
+    print(start_page, start_page+len(pages))
+>>>>>>> f3acc03ef0deef6a787f682d2d19c0da4d2e5fd8
 
     for j in range(start_page, start_page + len(pages)):
         try:
@@ -117,7 +165,11 @@ while True:
             pass
 
         for i in range(cnt):
+<<<<<<< HEAD
             f = open('/Users/nahyeonan/ssac/proj1/job4/datafiles/test/jk-' + str(j) + "-" + str(i) + '.txt', 'wt')
+=======
+            f = open('datafiles/soup' + str(j) + "-" + str(i) + '.txt', 'wt')
+>>>>>>> f3acc03ef0deef6a787f682d2d19c0da4d2e5fd8
             req = requests.get(jobkorea + addrs[i].attrs['href'])
             tex = req.text
             f.write(tex)
@@ -130,5 +182,9 @@ while True:
         sys.exit(1)
     except:
         print("error")
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> f3acc03ef0deef6a787f682d2d19c0da4d2e5fd8
 driver.quit()

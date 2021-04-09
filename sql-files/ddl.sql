@@ -1,10 +1,15 @@
 CREATE TABLE IF NOT EXISTS USER (
   id           VARCHAR(20) NOT NULL PRIMARY KEY,
+<<<<<<< HEAD
   password     VARCHAR(1000) NOT NULL,
+=======
+  password     VARCHAR(20) NOT NULL,
+>>>>>>> f3acc03ef0deef6a787f682d2d19c0da4d2e5fd8
   birth        DATE,
   email        VARCHAR(40),
   phone_number VARCHAR(12),
   address      VARCHAR(100),
+<<<<<<< HEAD
   gender       INTEGER,
     username     VARCHAR(20) NOT NULL DEFAULT 'annonymous',
   is_active    BOOLEAN DEFAULT 1,
@@ -26,6 +31,11 @@ CREATE TABLE IF NOT EXISTS USER (
 --   last_login    DATETIME
 -- );
 
+=======
+  gender       INTEGER
+);
+
+>>>>>>> f3acc03ef0deef6a787f682d2d19c0da4d2e5fd8
 CREATE TABLE IF NOT EXISTS INDUSTRY (
   industry_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY,
   name        VARCHAR(20)
