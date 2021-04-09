@@ -24,6 +24,7 @@ urlpatterns = [
     # custom apps
     path('myauth/', include('myauth.urls')),
     path('mypage/', include('mypage.urls')),
+    path('letter/', include('letter.urls')),
     # allauth : social login
     path('accounts/', include('allauth.urls')),
     # social login

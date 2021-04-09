@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     # custom
     'myauth.apps.MyAuthConfig',
     'mypage.apps.MypageConfig',
+    'letter.apps.LetterConfig',
 ]
 
 MIDDLEWARE = [
