@@ -7,6 +7,7 @@ import time
 import pyperclip
 import requests
 
+# 저장 경로도 전달받아야 함
 if sys.argv[1] is None or sys.argv[2] is None or sys.argv[3] is None:
     print("usage: python jobKoreaCrawler.py [own naver id] [own naver password] --os=<w or m>")
     print()

@@ -6,18 +6,19 @@
 
 <section id="places">
     <div class="container">
+        
+        <form action="{% url 'mypage:update' current_user.id %}" method="post" class="card pt-3">{% csrf_token %}
         <div class="col-12 grid-margin">
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">개인 정보</h4>
-                    <form class="form-sample">
                         <p class="card-description"> Personal info </p>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group row">
                                     <label class="col-sm-3 col-form-label">ID</label>
                                     <div class="col-sm-9">
-                                        <input type="text" class="form-control" />
+                                        <input type="text" class="" name="id" value='{{ current_user.id }}' />
                                     </div>
                                 </div>
                             </div>
@@ -25,7 +26,7 @@
                                 <div class="form-group row">
                                     <label class="col-sm-3 col-form-label">Phone Number</label>
                                     <div class="col-sm-9">
-                                        <input type="text" class="form-control" />
+                                        <input type="text" class="" name="phone_number" value="{{ current_user.phone_number }}"/>
                                     </div>
                                 </div>
                             </div>
@@ -35,9 +36,17 @@
                                 <div class="form-group row">
                                     <label class="col-sm-3 col-form-label">Gender</label>
                                     <div class="col-sm-9">
-                                        <select class="form-control">
-                                            <option>Male</option>
-                                            <option>Female</option>
+                                        <select name="gender" class="">
+                                            {% if current_user.gender is 0 %}
+                                            <option value="0" selected>Male</option>
+                                            {% else %}                                   
+                                            <option value="0">Male</option>
+                                            {% endif %}
+                                            {% if current_user.gender is 1 %}
+                                            <option value="1"  selected>Female</option>
+                                            {% else %}                                       
+                                            <option value="1">Female</option>
+                                            {% endif %}
                                         </select>
                                     </div>
                                 </div>
@@ -46,7 +55,7 @@
                                 <div class="form-group row">
                                     <label class="col-sm-3 col-form-label">Date of Birth</label>
                                     <div class="col-sm-9">
-                                        <input class="form-control" placeholder="dd/mm/yyyy" />
+                                        <input class="" name="birth" placeholder="dd/mm/yyyy" value="{{ current_user.birth|date:'Y-m-d' }}" />
                                     </div>
                                 </div>
                             </div>
@@ -54,14 +63,15 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group row">
-                                    <label class="col-sm-3 col-form-label">Category</label>
+                                    <label class="col-sm-3 col-form-label">Username</label>
                                     <div class="col-sm-9">
-                                        <select class="form-control">
+                                        <input type="text" class="" name="username" value="{{ current_user.username }}" />
+                                        <!-- <select class="form-control">
                                             <option>Category1</option>
                                             <option>Category2</option>
                                             <option>Category3</option>
                                             <option>Category4</option>
-                                        </select>
+                                        </select> -->
                                     </div>
                                 </div>
                             </div>
@@ -69,59 +79,59 @@
                                 <div class="form-group row">
                                     <label class="col-sm-3 col-form-label">Email</label>
                                     <div class="col-sm-9">
-                                        <input type="text" class="form-control" />
+                                        <input type="text" class="" name="email" value="{{ current_user.email }}"/>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <p class="card-description"> Address </p>
+                        <p class="card-description"> Password Change </p>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group row">
-                                    <label class="col-sm-3 col-form-label">Address 1</label>
+                                    <label class="col-sm-3 col-form-label">패스워드 입력</label>
                                     <div class="col-sm-9">
-                                        <input type="text" class="form-control" />
+                                        <input type="text" class="" />
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <!-- <div class="col-md-6">
                                 <div class="form-group row">
                                     <label class="col-sm-3 col-form-label">State</label>
                                     <div class="col-sm-9">
                                         <input type="text" class="form-control" />
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group row">
-                                    <label class="col-sm-3 col-form-label">Address 2</label>
+                                    <label class="col-sm-3 col-form-label">패스워드 확인</label>
                                     <div class="col-sm-9">
-                                        <input type="text" class="form-control" />
+                                        <input type="text" class="" />
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <!-- <div class="col-md-6">
                                 <div class="form-group row">
                                     <label class="col-sm-3 col-form-label">Postcode</label>
                                     <div class="col-sm-9">
                                         <input type="text" class="form-control" />
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group row">
-                                    <label class="col-sm-3 col-form-label">City</label>
+                                    <label class="col-sm-3 col-form-label">Address</label>
                                     <div class="col-sm-9">
-                                        <input type="text" class="form-control" />
+                                        <input type="text" class="" name="address" value="{{ current_user.address }}"/>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="form-group row">
+                                <!-- <div class="form-group row">
                                     <label class="col-sm-3 col-form-label">Country</label>
                                     <div class="col-sm-9">
                                         <select class="form-control">
@@ -131,10 +141,9 @@
                                             <option>Britain</option>
                                         </select>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
-                    </form>
                 </div>
             </div>
         </div>
@@ -143,7 +152,6 @@
                 <div class="card-body">
                     <h4 class="card-title">관심 직무</h4>
                     <p class="card-description">관심직무를 선택해주세요</p>
-                    <form class="forms-sample">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -182,47 +190,46 @@
                                     <div class="form-radio disabled">
                                         <label class="form-check-label">
                                             <input type="radio" class="form-check-input" name="optionsRadios2"
-                                                id="optionsRadios3" value="option3" disabled> Option three is disabled
+                                                id="optionsRadios3" value="option3" disabled> 영상·사진·촬영
                                         </label>
                                     </div>
                                     <div class="form-radio disabled">
                                         <label class="form-check-label">
                                             <input type="radio" class="form-check-input" name="optionsRadio2"
-                                                id="optionsRadios4" value="option4" disabled checked> Option four is
-                                            selected and disabled </label>
+                                                id="optionsRadios4" value="option4" disabled checked> 회계·세무·CPA
+                                            </label>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </form>
                 </div>
             </div>
         </div>
         <div class="col-md-6 grid-margin stretch-card">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title">Checkbox Flat Controls</h4>
-                    <p class="card-description">Checkbox and radio controls with flat design</p>
-                    <form class="forms-sample">
+                    <h4 class="card-title">관심 산업</h4>
+                    <p class="card-description">관심 산업을 선택해주세요</p>
+
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <div class="form-check form-check-flat">
                                         <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input"> Default </label>
+                                            <input type="checkbox" class="form-check-input"> 서비스업 </label>
                                     </div>
                                     <div class="form-check form-check-flat">
                                         <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" checked> Checked </label>
+                                            <input type="checkbox" class="form-check-input" checked> 금융·은행업 </label>
                                     </div>
                                     <div class="form-check form-check-flat">
                                         <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" disabled> Disabled </label>
+                                            <input type="checkbox" class="form-check-input" disabled> IT·정보통신업 </label>
                                     </div>
                                     <div class="form-check form-check-flat">
                                         <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" disabled checked> Disabled
-                                            checked </label>
+                                            <input type="checkbox" class="form-check-input" disabled checked> 판매·유통업
+                                            </label>
                                     </div>
                                 </div>
                             </div>
@@ -231,37 +238,48 @@
                                     <div class="form-radio form-radio-flat">
                                         <label class="form-check-label">
                                             <input type="radio" class="form-check-input" name="flatRadios1"
-                                                id="flatRadios1" value="" checked> Option one </label>
+                                                id="flatRadios1" value="" checked> 제조·생산·화학업 </label>
                                     </div>
                                     <div class="form-radio form-radio-flat">
                                         <label class="form-check-label">
                                             <input type="radio" class="form-check-input" name="flatRadios2"
-                                                id="flatRadios2" value="option2"> Option two </label>
+                                                id="flatRadios2" value="option2"> 교육업 </label>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="form-radio form-radio-flat disabled">
                                         <label class="form-check-label">
                                             <input type="radio" class="form-check-input" name="flatRadios3"
-                                                id="flatRadios3" value="option3" disabled> Option three is disabled
+                                                id="flatRadios3" value="option3" disabled> 건설업
                                         </label>
                                     </div>
                                     <div class="form-radio form-radio-flat disabled">
                                         <label class="form-check-label">
                                             <input type="radio" class="form-check-input" name="flatRadios4"
-                                                id="flatRadios4" value="option4" disabled checked> Option four is
-                                            selected and disabled
+                                                id="flatRadios4" value="option4" disabled checked>의료·제약업
                                         </label>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </form>
+
                 </div>
             </div>
         </div>
-
+        <div  class="text-center">
+            <input type="submit" value="저장하기" class="btn btn-info"/>
+        </div>
+        <!-- <form method="POST">
+            <div  class="text-center">
+                {% csrf_token %}
+                <br>
+                <p>정말로 탈퇴하시겠습니까?</p>
+                <input type="submit" value="탈퇴" />
+            </div>
+        </form> -->
+        </form>
     </div>
+
 </section>
 
 <!-- partial -->
