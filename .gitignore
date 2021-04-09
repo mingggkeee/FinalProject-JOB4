@@ -9,6 +9,8 @@ venv/
 test.py
 .vscode/
 
+datafiles/
+
 crawling/.ipynb_checkpoints
 datafiles/.ipynb_checkpoints
 crawling/.ipynb_checkpoints
