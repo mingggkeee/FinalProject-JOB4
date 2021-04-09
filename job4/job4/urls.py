@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from .views import HomeView
+from .views import HomeView, KakaoCallbackView, NaverCallbackView
 from django.views.generic.base import TemplateView
 
 urlpatterns = [
@@ -26,4 +26,7 @@ urlpatterns = [
     path('mypage/', include('mypage.urls')),
     # allauth : social login
     path('accounts/', include('allauth.urls')),
+    # social login
+    path('account/kakao/login/callback/', KakaoCallbackView.as_view(), name="kakao_callback"),
+    path('account/naver/login/callback/', NaverCallbackView.as_view(), name="naver_callback"),
 ]
