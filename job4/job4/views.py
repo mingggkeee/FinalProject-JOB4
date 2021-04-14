@@ -1,5 +1,5 @@
 from django.views.generic.base import TemplateView, View
-from django.shortcuts import redirect
+from django.shortcuts import redirect, render
 from myauth.models import User
 import requests
 
@@ -7,6 +7,13 @@ import requests
 class HomeView(TemplateView):
     template_name = 'home.html'
 
+class KakaoView(View):
+    def get(self, request):
+        app_rest_api_key = '9a0484415a32934fa843eab02d75fa8b'
+        redirect_uri = 'http://127.0.0.1:8000/account/kakao/login/callback/'
+        return redirect(
+            f"https://kauth.kakao.com/oauth/authorize?client_id={app_rest_api_key}&redirect_uri={redirect_uri}&response_type=code"
+        )
 
 class KakaoCallbackView(View):
     def get(self, request):
@@ -36,10 +43,13 @@ class KakaoCallbackView(View):
         birth = kakao_account.get("birthday")  # 0923 처럼 나옴
         gender = kakao_account.get("gender")
 
+        userId = email.split("@")[0]
+
+        request.session['user_id'] = userId
         request.session['username'] = nickname
         request.session['is_active'] = True
 
-        userId = email.split("@")[0]
+        print("kakao callback:", request.session.items())
 
         if not User.objects.filter(id=userId).exists():
             if gender == 'female':
@@ -53,6 +63,8 @@ class KakaoCallbackView(View):
                                        email=email)
             user.set_password(userId)
             user.save()
+
+        print("end of kakao callback")
         return redirect("/")
 
 
@@ -95,7 +107,7 @@ class NaverCallbackView(View):
 
         userId = email.split("@")[0]
 
-        request.session['username'] = email
+        request.session['user_id'] = userId
         request.session['is_active'] = True
 
         if not User.objects.filter(id=userId).exists():
@@ -111,5 +123,7 @@ class NaverCallbackView(View):
                                        phone_number=phone)
             user.set_password(userId)
             user.save()
+        else:
+            request.session['username'] = User.objects.get(id=userId).username
 
         return redirect("/")

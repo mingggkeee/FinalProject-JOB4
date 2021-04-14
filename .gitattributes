@@ -1,1 +1,5 @@
 *.psd filter=lfs diff=lfs merge=lfs -text
+job4/letter/gb_softmax_test_x.pkl filter=lfs diff=lfs merge=lfs -text
+job4/letter/gb_softmax_test_y.pkl filter=lfs diff=lfs merge=lfs -text
+job4/letter/rating_test_y.pkl filter=lfs diff=lfs merge=lfs -text
+job4/letter/rating_test_x.pkl filter=lfs diff=lfs merge=lfs -text

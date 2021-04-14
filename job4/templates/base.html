@@ -6,26 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
 
-
     <title>{% block title %}JOB4 | 취뽀{% endblock %}</title>
-
 
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/static/assets/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/static/assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/static/assets/img/favicons/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/static/assets/img/favicons/favicon.ico">
+    <link rel="shortcut icon" type="image/png" sizes="180x180" href="/static/img/customized/team-logo.png">
     <link rel="manifest" href="/static/assets/img/favicons/manifest.json">
     <meta name="msapplication-TileImage" content="/static/assets/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
-
 
     <!-- ===============================================-->
     <!--    Stylesheets-->
@@ -42,7 +35,7 @@
 <main class="main" id="top">
     <!-- Nav -->
     <nav class="navbar navbar-expand-lg fixed-top py-3 backdrop" data-navbar-on-scroll="data-navbar-on-scroll">
-        <div class="container"><a class="navbar-brand d-flex align-items-center fw-bold fs-2" href=""> <img
+        <div class="container"><a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="{% url 'Home' %}"> <img
                 class="d-inline-block align-top img-fluid" src="/static/img/customized/team-logo.svg" alt=""
                 width="50"/><span
                 class="text-primary fs-4 ps-2">JOB4</span></a>
@@ -52,8 +45,8 @@
                     aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="">Home</a></li>
-                    <li class="nav-item"><a class="nav-link text-600" href="">Analyze My Resume</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'Home' %}">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-600" href="{% url 'letter:analyze' %}">Analyze My Resume</a></li>
                     {% if request.session.is_active %}
                     <li class="nav-item"><a class="nav-link text-600" href="{% url 'mypage:home' %}">My Page </a></li>
                     {% endif %}
@@ -86,7 +79,7 @@
             <div class="row flex-center">
                 <div class="col-auto mb-4">
                     <ul class="list-unstyled list-inline mb-0">
-                        <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Home</a>
+                        <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="{% url 'Home' %}">Home</a>
                         </li>
                         <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Video</a>
                         </li>
@@ -155,6 +148,7 @@
 <!-- ===============================================-->
 <!--    JavaScripts-->
 <!-- ===============================================-->
+<script src="/static/js/vendor/jquery-1.12.4.min.js"></script>
 <script src="/static/vendors/@popperjs/popper.min.js"></script>
 <script src="/static/vendors/bootstrap/bootstrap.min.js"></script>
 <script src="/static/vendors/is/is.min.js"></script>

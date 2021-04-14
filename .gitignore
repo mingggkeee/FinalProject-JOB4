@@ -1,8 +1,8 @@
 .idea
 .DS_Store
-../.DS_Store
-../__pycache__
+__pycache__
 test.py
+.ipynb_checkpoints
 
 venv/
 
@@ -10,6 +10,10 @@ test.py
 .vscode/
 
 datafiles/
+job4/letter/gb_softmax_test_x.pkl
+job4/letter/gb_softmax_test_y.pkl 
+job4/letter/rating_test_y.pkl 
+job4/letter/rating_test_x.pkl
 
 crawling/.ipynb_checkpoints
 datafiles/.ipynb_checkpoints
