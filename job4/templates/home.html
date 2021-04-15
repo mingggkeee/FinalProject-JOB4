@@ -3,52 +3,223 @@
 {% load static %}
 
 {% block content %}
-    <!-- Searching -->
-    <section id="booking">
-        <!-- <div class="bg-holder" style="background-image:url(assets/img//gallery/booking.png);background-position:center;background-size:cover;">
-        </div> -->
-        <!--/.bg-holder-->
-  
-        <div class="container">
-          <div class="row">
+<!-- Searching -->
+<section id="booking">
+    <!-- <div class="bg-holder" style="background-image:url(assets/img//gallery/booking.png);background-position:center;background-size:cover;">
+    </div> -->
+    <!--/.bg-holder-->
+
+    <div class="container">
+        <div class="row">
             <div class="col-12 py-8 text-white">
-              <div class="d-flex flex-column flex-center">
-                <h2 class="text-dark fs-2 fs-md-3">싹(SSAC) 가능 JOB4</h2>
-                <h1 class="text-dark fs-2 fs-sm-4 fs-lg-7 fw-bold">자기소개서를 검색하세요</h1>
-              </div>
-              <form class="row gy-2 gx-md-2 gx-lg-4 flex-center my-6">
-                <div class="col-6 col-md-3">
-                  <label class="visually-hidden" for="inlineFormSelectPref">Destinations</label>
-                  <select class="form-select" id="inlineFormSelectPref">
-                    <option selected="">Corporations</option>
-<!--                    현재 mysql db에 존재하는 corporations 리스트가 보이게 js 작성?-->
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
+                <div class="d-flex flex-column flex-center">
+                    <h2 class="text-dark fs-2 fs-md-3">싹(SSAC) 가능 JOB4</h2>
+                    <h1 class="text-dark fs-2 fs-sm-4 fs-lg-7 fw-bold">자기소개서를 검색하세요</h1>
                 </div>
-                <div class="col-6 col-md-3">
-                  <label class="visually-hidden" for="autoSizingSelect">Package</label>
-                  <select class="form-select" id="autoSizingSelect">
-                    <option selected="">Task</option>
-<!--                    현재 mysql db에 존재하는 task 리스트가 보이게-->
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                </div>
-                <div class="col-6 col-md-3">
-                  <label class="visually-hidden" for="date">Date</label>
-                  <div class="input-group">
-                    <input class="form-control" id="date" type="date" />
-                  </div>
-                </div>
-                <div class="col-6 col-md-auto">
-                  <button class="btn btn-lg btn-primary" type="submit">Show</button>
-                </div>
-              </form>
+                <form class="row gy-2 gx-md-2 gx-lg-4 flex-center my-6">
+                    <div class="col-6 col-md-3">
+                        <label class="visually-hidden" for="inlineFormSelectPref">Destinations</label>
+                        <select class="form-select" id="inlineFormSelectPref">
+                            <option selected="">Corporations</option>
+                            <!--                    현재 mysql db에 존재하는 corporations 리스트가 보이게 js 작성?-->
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <label class="visually-hidden" for="autoSizingSelect">Package</label>
+                        <select class="form-select" id="autoSizingSelect">
+                            <option selected="">Task</option>
+                            <!--                    현재 mysql db에 존재하는 task 리스트가 보이게-->
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <label class="visually-hidden" for="date">Date</label>
+                        <div class="input-group">
+                            <input class="form-control" id="date" type="date"/>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-auto">
+                        <button class="btn btn-lg btn-primary" type="submit">Show</button>
+                    </div>
+                </form>
             </div>
-          </div>
         </div>
-      </section>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra-script %}
+<script type="text/javascript">
+
+  // 회사 이름
+
+  function getTop(element_id) {
+      var   t =   document.getElementById(element_id);
+
+      var   topPos = 2 + t.offsetHeight;//현재 요소의 높이
+      while(t.tagName.toLowerCase() != "body" &&
+           t.tagName.toLowerCase() != "html") {
+         topPos += t.offsetTop;//offsetTop : 상위 요소와의 y축 거리
+         t = t.offsetParent;   //상위 요소를 현재 요소에 대입
+      }
+      return topPos;
+   }
+
+   function getLeft(element_id) {
+     //"inlineFormSelectPref"
+     // autoSizingSelect
+      var   t =   document.getElementById(element_id);
+
+      var   leftPos   = 0;
+      while(t.tagName.toLowerCase() != "body" &&
+           t.tagName.toLowerCase() != "html") {
+         leftPos += t.offsetLeft;//t와 상위 요소 사이의 x축 거리
+         t = t.offsetParent;//t의 부모 요소
+      }
+      return leftPos;
+   }
+
+  $(function() {
+
+    var outerBox = $('<div></div>');
+      outerBox.css({
+         "border": "solid 1px",
+         "background-color": "white",
+         "width": "240px",
+         "display": "none",
+         "position": "absolute",
+         "left": getLeft('inlineFormSelectPref'),
+         "top": getTop('inlineFormSelectPref')
+      });
+      $('body').append(outerBox);
+
+      $('body').on('click', function(event) {
+         outerBox.css('display', 'none');
+      });
+
+    $("#inlineFormSelectPref").on('keyup', function(event) {
+
+      v = $(this).val()
+      if (v.length == 0) return;
+
+      //console.log($(this).val())
+      $.ajax({
+        "url": "/find/company",
+        "method": "get",
+        "data": { "key": v },
+        "dataType": "json",
+        "success": function(data, status, xhr) {
+          //data에 응답 내용이 저장되어 있습니다.
+          var result = eval(data);
+
+          outerBox.empty();
+
+               for (var i = 0; i < result.length; i++) {
+                  var innerBox = $('<div></div>');
+                  innerBox.text(result[i].fields.name);
+                  innerBox.attr("data-company_id", result[i].pk); // 변경
+                  innerBox.css({
+                     "padding": "5px"
+                  });
+                  innerBox.hover(function(event) {
+                     $(this).css('background-color', 'lightgray');
+                  }, function(event) {
+                     $(this).css('background-color', 'white');
+                  });
+                  innerBox.on('click', function(event) {
+                     $('#inlineFormSelectPref').val($(this).text());
+                     $('#company_id').val($(this).attr('data-company_id'));
+                     outerBox.css('display', 'none');
+
+                  });
+                  outerBox.append(innerBox);
+               }
+
+               outerBox.css("display", "block");
+
+        },
+        "error": function(xhr, status, err) {
+
+        }
+      })
+    });
+  });
+   /////////////////////
+   ////////////////////
+
+
+  $(function() {
+
+    var outerBox = $('<div></div>');
+      outerBox.css({
+         "border": "solid 1px",
+         "background-color": "white",
+         "width": "240px",
+         "display": "none",
+         "position": "absolute",
+         "left": getLeft('autoSizingSelect'),
+         "top": getTop('autoSizingSelect')
+      });
+      $('body').append(outerBox);
+
+      $('body').on('click', function(event) {
+         outerBox.css('display', 'none');
+      });
+
+    $("#autoSizingSelect").on('keyup', function(event) {
+
+      v = $(this).val()
+      if (v.length == 0) return;
+
+      //console.log($(this).val())
+      $.ajax({
+        "url": "/find/task",
+        "method": "get",
+        "data": { "key": v },
+        "dataType": "json",
+        "success": function(data, status, xhr) {
+          //data에 응답 내용이 저장되어 있습니다.
+          var result = eval(data);
+
+          outerBox.empty();
+
+               for (var i = 0; i < result.length; i++) {
+                  var innerBox = $('<div></div>');
+                  innerBox.text(result[i].fields.name);
+                  innerBox.attr("data-task_id", result[i].pk); // 변경
+                  innerBox.css({
+                     "padding": "5px"
+                  });
+                  innerBox.hover(function(event) {
+                     $(this).css('background-color', 'lightgray');
+                  }, function(event) {
+                     $(this).css('background-color', 'white');
+                  });
+                  innerBox.on('click', function(event) {
+                     $('#autoSizingSelect').val($(this).text());
+                     $('#task_id').val($(this).attr('data-task_id'));
+                     outerBox.css('display', 'none');
+
+                  });
+                  outerBox.append(innerBox);
+               }
+
+               outerBox.css("display", "block");
+
+        },
+        "error": function(xhr, status, err) {
+
+        }
+      })
+    });
+  });
+
+
+
+</script>
 {% endblock %}

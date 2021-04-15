@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'myauth.apps.MyAuthConfig',
     'mypage.apps.MypageConfig',
     'letter.apps.LetterConfig',
+    'bookmark.apps.BookmarkConfig',
 ]
 
 MIDDLEWARE = [

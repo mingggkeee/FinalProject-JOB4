@@ -81,6 +81,7 @@ from django.contrib.auth.models import (
     BaseUserManager, AbstractBaseUser
 )
 
+
 class MyUserManager(BaseUserManager):
 
     def create_user(self, username, id, password=None):
@@ -105,6 +106,7 @@ class MyUserManager(BaseUserManager):
         user.is_admin = True
         user.save(using=self._db)
         return user
+
 
 class User(AbstractBaseUser, models.Model):
     username = models.CharField(
@@ -153,4 +155,28 @@ class User(AbstractBaseUser, models.Model):
         # Simplest possible answer: All admins are staff
         return self.is_admin
 
+
 # ========== custom admin page ==========
+
+
+######## 추가 ###########
+
+class Task2(models.Model):
+    task_id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=20, blank=True, null=True)
+
+
+class Company2(models.Model):
+    company_id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=40)
+
+    class Meta:
+        unique_together = (('company_id', 'name'),)
+
+
+class Letter2(models.Model):
+    letter_id = models.AutoField(primary_key=True)
+    answer = models.CharField(max_length=10000, blank=True, null=True)
+    company = models.ForeignKey(Company2, models.DO_NOTHING, blank=True, null=True)
+    task = models.ForeignKey(Task2, models.DO_NOTHING, blank=True, null=True)
+    question = models.CharField(max_length=1000, blank=True, null=True)

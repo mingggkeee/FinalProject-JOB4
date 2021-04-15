@@ -25,6 +25,10 @@ urlpatterns = [
     path('myauth/', include('myauth.urls')),
     path('mypage/', include('mypage.urls')),
     path('letter/', include('letter.urls')),
+    path('bookmark/', include('bookmark.urls')),
+    # Home search
+    # path('find/company', FindCompanyView.as_view(), name="find_company"),
+    # path('find/task', FindTaskView.as_view(), name="find_task"),
     # allauth : social login
     path('accounts/', include('allauth.urls')),
     # social login
