@@ -12,41 +12,35 @@
     <div class="container">
         <div class="row">
             <div class="col-12 py-8 text-white">
-                <div class="d-flex flex-column flex-center">
-                    <h2 class="text-dark fs-2 fs-md-3">싹(SSAC) 가능 JOB4</h2>
-                    <h1 class="text-dark fs-2 fs-sm-4 fs-lg-7 fw-bold">자기소개서를 검색하세요</h1>
+              <div class="d-flex flex-column flex-center">
+                <h2 class="text-dark fs-2 fs-md-3">싹(SSAC) 가능 JOB4</h2>
+                <h1 class="text-dark fs-2 fs-sm-4 fs-lg-7 fw-bold">자기소개서를 검색하세요</h1>
+              </div>
+              <form class="row gy-2 gx-md-2 gx-lg-4 flex-center my-6" action="{% url 'letter:result' %}" id="searchForm" method="post">
+                {% csrf_token %}
+                <div class="col-6 col-md-3">
+                  <label class="visually-hidden" for="inlineFormSelectPref">Destinations</label>
+                  <input class="form-select" id="inlineFormSelectPref" type="company" name="company_name" autocomplete="off" placeholder="회사 이름" onfocus="this.placeholder=''" onblur="this.placeholder= '회사 이름'">
+                  </input>
+                  <input id="company_id" type="hidden" name="company_id">
                 </div>
-                <form class="row gy-2 gx-md-2 gx-lg-4 flex-center my-6">
-                    <div class="col-6 col-md-3">
-                        <label class="visually-hidden" for="inlineFormSelectPref">Destinations</label>
-                        <select class="form-select" id="inlineFormSelectPref">
-                            <option selected="">Corporations</option>
-                            <!--                    현재 mysql db에 존재하는 corporations 리스트가 보이게 js 작성?-->
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                    </div>
-                    <div class="col-6 col-md-3">
-                        <label class="visually-hidden" for="autoSizingSelect">Package</label>
-                        <select class="form-select" id="autoSizingSelect">
-                            <option selected="">Task</option>
-                            <!--                    현재 mysql db에 존재하는 task 리스트가 보이게-->
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                    </div>
-                    <div class="col-6 col-md-3">
-                        <label class="visually-hidden" for="date">Date</label>
-                        <div class="input-group">
-                            <input class="form-control" id="date" type="date"/>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-auto">
-                        <button class="btn btn-lg btn-primary" type="submit">Show</button>
-                    </div>
-                </form>
+                <div class="col-6 col-md-3">
+                  <label class="visually-hidden" for="autoSizingSelect">Package</label>
+                  <input class="form-select" id="autoSizingSelect" type="task" name="task_name" autocomplete="off" placeholder="직무 이름" onfocus="this.placeholder=''" onblur="this.placeholder= '회사 이름'">
+<!--                    현재 mysql db에 존재하는 task 리스트가 보이게-->
+                </input>
+                <input id="task_id" type="hidden" name="task_id">
+                </div>
+                <!-- <div class="col-6 col-md-3">
+                  <label class="visually-hidden" for="date">Date</label>
+                  <div class="input-group">
+                    <input class="form-control" id="date" type="date" />
+                  </div>
+                </div> -->
+                <div class="col-6 col-md-auto">
+                  <button class="btn btn-lg btn-primary" type="submit">Show</button>
+                </div>
+              </form>
             </div>
         </div>
     </div>
@@ -69,7 +63,6 @@
       }
       return topPos;
    }
-
    function getLeft(element_id) {
      //"inlineFormSelectPref"
      // autoSizingSelect
@@ -97,7 +90,6 @@
          "top": getTop('inlineFormSelectPref')
       });
       $('body').append(outerBox);
-
       $('body').on('click', function(event) {
          outerBox.css('display', 'none');
       });
@@ -118,7 +110,6 @@
           var result = eval(data);
 
           outerBox.empty();
-
                for (var i = 0; i < result.length; i++) {
                   var innerBox = $('<div></div>');
                   innerBox.text(result[i].fields.name);
@@ -139,7 +130,6 @@
                   });
                   outerBox.append(innerBox);
                }
-
                outerBox.css("display", "block");
 
         },
@@ -151,7 +141,6 @@
   });
    /////////////////////
    ////////////////////
-
 
   $(function() {
 
@@ -166,7 +155,6 @@
          "top": getTop('autoSizingSelect')
       });
       $('body').append(outerBox);
-
       $('body').on('click', function(event) {
          outerBox.css('display', 'none');
       });
@@ -187,7 +175,6 @@
           var result = eval(data);
 
           outerBox.empty();
-
                for (var i = 0; i < result.length; i++) {
                   var innerBox = $('<div></div>');
                   innerBox.text(result[i].fields.name);
@@ -208,7 +195,6 @@
                   });
                   outerBox.append(innerBox);
                }
-
                outerBox.css("display", "block");
 
         },

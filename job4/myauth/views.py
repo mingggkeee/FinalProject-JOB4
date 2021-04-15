@@ -1,14 +1,22 @@
 import json
 from functools import lru_cache
 
-from django.http import HttpResponse
-from django.shortcuts import render, redirect
+from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import render, redirect, reverse
 from django.views.generic import View, TemplateView
 from django.contrib import auth
 from django.conf import settings
 from django.contrib.auth.hashers import check_password, make_password
 
 from .models import User
+
+##### home search
+from django import forms
+
+from .models import Letter2
+from .models import Company2
+from .models import Task2
+
 
 
 class LoginView(TemplateView):
@@ -150,3 +158,35 @@ class DupCheckView(View):
         count = repository.select_count_by_userid(key)
         json_count = json.dumps(count, ensure_ascii=False)
         return HttpResponse(json_count, content_type="application/json")
+
+
+
+
+#### Home search
+class SearchView(View):
+    def post(self, request):
+    
+        # filtered_data = Letter.objects.filter(company=request.POST['company_name'], task=request.POST['task_name'])
+        
+        ## filtered_company_name =  Letter.objects.filter(company=request.POST['company_name'])
+        ## filtered_task_name =  Letter.objects.filter(task=request.POST['task_name'])
+        ## if filtered_company_name.exists() and filtered_task_name.exists():
+        ##    return HttpResponse(filtered_company_name[0].name, filtered_task_name[0].name)
+        ## else:
+        ##      return HttpResponse("입력한 검색어 없음")
+
+        filtered_company_name = Company2.objects.filter(name=request.POST['company_name'])
+
+        filtered_task_name =  Task2.objects.filter(name=request.POST['task_name'])
+
+        if filtered_company_name.exists() and filtered_task_name.exists():
+
+            # return HttpResponse(filtered_company_name[0].name + " , " + filtered_task_name[0].name, content_type="text/plain;charset=utf-8" )
+            return HttpResponseRedirect(reverse("letter:result"), args=(question.id,))
+
+        else:
+            
+            return HttpResponse("입력한 검색어 없음",  content_type="text/plain;charset=utf-8")
+
+ 
+    

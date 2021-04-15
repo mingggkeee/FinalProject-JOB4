@@ -5,15 +5,31 @@ from myauth.models import User
 from django.views.generic.detail import DetailView
 from django.urls import reverse_lazy
 
-class MyPageHomeView(TemplateView):
+class MyPageHomeView(TemplateView):    
+
+    # def get_context_data(self):    
+    #     context = super().get_context_data()
+    #     # print(request.session['user_id'])
+    #     user_id = self.request.session['user_id']
+    #     current_user = User.objects.filter(id=user_id)
+    #     # return JsonResponse(mypage_id, safe=False, json_dumps_params={'ensure_ascii':False})
+    #     print(current_user[0])
+    #     context['current_user'] = current_user[0]
+    #     return context
+
     def get(self, request, *args, **kwargs):
-        print(request.session.keys())
-        user_id = request.session['user_id']
+        user_id = self.request.session['user_id']
+        print(user_id)
         current_user = User.objects.filter(id=user_id)
+        print(current_user)
         context = {'current_user': current_user[0]}
         return render(request, "mypage/home.html", context=context)
 
 class MypageUpdateView(View):
+    # model = User
+    # fields = ['username', 'phone_number', 'gender', 'birth', 'address', 'email']
+    # success_url = reverse_lazy('mypage:home')
+
     def post(self, request, *args, **kwargs):
         users = User.objects.filter(id=request.POST['id'])
         user = users[0]

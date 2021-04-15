@@ -14,4 +14,7 @@ urlpatterns = [
     path('recover-pw/', views.RecoverPWView.as_view(), name='recover_pw'),
     path('recover-pw/request/', views.RecoverPWRequestView.as_view(), name='recover_pw_request'),
     path('recover-pw/request/done/', views.RecoverPWRequestDoneView.as_view(), name='recover_pw_request_done'),
+    
+    # Home search
+    path('search/', views.SearchView.as_view(), name='search'),
 ]

@@ -1,11 +1,12 @@
 from django.views.generic.base import TemplateView, View
-from django.shortcuts import redirect, render
+from django.shortcuts import redirect
 from myauth.models import User
 import requests
 
 
 class HomeView(TemplateView):
     template_name = 'home.html'
+
 
 class KakaoView(View):
     def get(self, request):
@@ -14,6 +15,7 @@ class KakaoView(View):
         return redirect(
             f"https://kauth.kakao.com/oauth/authorize?client_id={app_rest_api_key}&redirect_uri={redirect_uri}&response_type=code"
         )
+
 
 class KakaoCallbackView(View):
     def get(self, request):
@@ -63,8 +65,6 @@ class KakaoCallbackView(View):
                                        email=email)
             user.set_password(userId)
             user.save()
-
-        print("end of kakao callback")
         return redirect("/")
 
 
@@ -123,7 +123,43 @@ class NaverCallbackView(View):
                                        phone_number=phone)
             user.set_password(userId)
             user.save()
-        else:
-            request.session['username'] = User.objects.get(id=userId).username
 
         return redirect("/")
+
+
+#### Home search
+
+from django.views.generic.base import TemplateView, View
+from myauth.models import Company2, Task2
+from django.http import HttpResponse, JsonResponse
+from django.shortcuts import render, redirect
+
+from django.core import serializers
+
+
+class FindCompanyView(View):
+    def get(self, request):
+        # print( request.GET['key'] )
+        # Company.objects.filter(name=request.POST['key'])
+
+        searched_companies = Company2.objects.filter(name__startswith=request.GET['key'])
+        # print(find_data)
+
+        serialized_searched_companies = serializers.serialize('json', searched_companies) # serialize : instance -> json string
+        return JsonResponse(serialized_searched_companies, safe=False, json_dumps_params={'ensure_ascii':False})
+
+class FindTaskView(View):
+    def get(self, request):
+        # print( request.GET['key'] )
+        # Company.objects.filter(name=request.POST['key'])
+
+        searched_companies = Task2.objects.filter(name__startswith=request.GET['key'])
+        # print(find_data)
+
+        serialized_searched_companies = serializers.serialize('json', searched_companies) # serialize : instance -> json string
+        return JsonResponse(serialized_searched_companies, safe=False, json_dumps_params={'ensure_ascii':False})
+
+
+# class FindTaskView(View):
+#     def get(self, request):
+#         searched_task = Task.objects.filter(name__startswith=request.GET['key'])
