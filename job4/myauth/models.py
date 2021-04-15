@@ -9,13 +9,14 @@ from django.db import models
 
 
 class Bookmark(models.Model):
-    user_id = models.OneToOneField('User', models.DO_NOTHING, db_column='id', primary_key=True)
+    id = models.AutoField(primary_key=True)
+    user = models.ForeignKey('User', models.DO_NOTHING, db_column='user_id')
     letter = models.ForeignKey('Letter2', models.DO_NOTHING, db_column='letter_id')
 
     class Meta:
         # managed = False
         # db_table = 'BOOKMARK'
-        unique_together = (('user_id', 'letter'),)
+        unique_together = (('user', 'letter'),)
 
 
 class Company(models.Model):

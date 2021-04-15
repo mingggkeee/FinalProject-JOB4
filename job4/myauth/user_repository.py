@@ -1,7 +1,7 @@
 class UserRepository:
 
     def __init__(self):
-        self.connection_info = { 'host': '13.124.236.54', 'db': 'job4', 'user': 'ssac', 'password': 'Ssac123!@#', 'charset': 'utf8' }
+        self.connection_info = { 'host': 'job4-dbms.c5n1v2nvhdp6.ap-northeast-2.rds.amazonaws.com', 'db': 'job4', 'user': 'admin', 'password': 'Ssac123!', 'charset': 'utf8' }
 
     def select_count_by_userid(self, name_key):
 

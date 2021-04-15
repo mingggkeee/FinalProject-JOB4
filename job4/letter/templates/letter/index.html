@@ -146,6 +146,7 @@
                 </div>
             </div>
         </div>
+    </div>
 </section>
 
 {% endblock %}
@@ -204,7 +205,6 @@ function bar_item_click_handler(event, clicked_items){
     }
 
     word = clicked_items[0]._model.label;
-    // alert(word);
 
     $.ajax({
         "url": "/letter/company",
@@ -411,6 +411,14 @@ function bar_item_click_handler2(event, clicked_items){
       }
     });
 
+    $(".question").hover(function() {
+            $(this).css("color", "#3984F3");
+        },
+        function() {
+            $(this).css("color", "#7d7987");
+        }
+    );
+
     $(".question").on('click', function(event) {
         event.preventDefault();
         event.stopPropagation();
@@ -425,7 +433,8 @@ function bar_item_click_handler2(event, clicked_items){
         e.preventDefault();
         e.stopPropagation();
 
-        let id = $(".save").attr("id");
+        let idx = $(".save").index(this);
+        let id = $(".save").eq(idx).attr("id");
         let user = "{{ request.session.user_id }}";
 
         $.ajax({
@@ -434,17 +443,17 @@ function bar_item_click_handler2(event, clicked_items){
             "data": { "letter_id": id, "user_id": user },
             "dataType": "json",
             "success": function(data, status, xhr) {
-                alert("success");
-                alert(data);
-            
+                alert("저장되었습니다 !");
             },
             'error': function(xhr, status, err) {
-                alert(err);
+                alert("저장에 실패했습니다.");
             }
         });
     });
 
 })(jQuery); 
+
+
 
 </script>
 {% endblock %}

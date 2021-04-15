@@ -29,7 +29,6 @@ urlpatterns = [
     path('bookmark/', include('bookmark.urls')),
     path('mypage/', include('mypage.urls')),
     path('letter/', include('letter.urls')),
-    path('bookmark/', include('bookmark.urls')),
     # allauth : social login
     path('accounts/', include('allauth.urls')),
     # social login
