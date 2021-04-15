@@ -17,8 +17,9 @@
                         <div class="analytics-sparkle-line reso-mg-b-30">
                             <div class="analytics-content">
                                 <h5>기업</h5>
-                                <h4><span class="counter">{{ company_name }}</span> <span class="tuition-fees"></span></h4>
-                                
+                                <h4><span class="counter">{{ company_name }}</span> <span class="tuition-fees"></span>
+                                </h4>
+
                             </div>
                         </div>
                     </div>
@@ -27,7 +28,7 @@
                             <div class="analytics-content">
                                 <h5>직무</h5>
                                 <h4><span class="counter">{{ task_name }}</span> <span class="tuition-fees"></span></h4>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -82,14 +83,14 @@
                                 <div class="static-table-list">
                                     <table id="company_keyword" class="table">
                                         <thead>
-                                            <tr>
-                                                <th>순위</th>
-                                                <th>키워드</th>
-                                                <th>유사도</th>
-                                            </tr>
+                                        <tr>
+                                            <th>순위</th>
+                                            <th>키워드</th>
+                                            <th>유사도</th>
+                                        </tr>
                                         </thead>
                                         <tbody>
-                                           
+
                                         </tbody>
                                     </table>
                                 </div>
@@ -107,14 +108,14 @@
                                 <div class="static-table-list">
                                     <table id='task_keyword' class="table sparkle-table">
                                         <thead>
-                                            <tr>
-                                                <th>순위</th>
-                                                <th>키워드</th>
-                                                <th>유사도</th>
-                                            </tr>
+                                        <tr>
+                                            <th>순위</th>
+                                            <th>키워드</th>
+                                            <th>유사도</th>
+                                        </tr>
                                         </thead>
                                         <tbody>
-                                            
+
                                         </tbody>
                                     </table>
                                 </div>
@@ -125,27 +126,27 @@
             </div>
         </div>
     </div>
-    <br><br>
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="latest-blog-single blog-single-full-view">
                     <div class="blog-details blog-sig-details">
-                        <h2><a class="blog-ht">자소서 전문</a></h2>
-                        <button class="btn btn-lg btn-primary" type="submit" onclick="location.href='http://localhost:8000/'">스크랩</button>
-                        <br>
+                        <h2>자소서 전문</h2>
                         <span id='self-introduction'>
                         {% for qna in questions_answers %}
-                        <p>{{ qna.0 }}</p>
-                        <p>{{ qna.1 }}</p>
-                        <hr>
+                            <div class="mt-3"></div>
+                            <p class="question"><strong>{{ qna.0 }}</strong></p>
+                            <p class="answer" style="display: none;">{{ qna.1 }}</p>
+                            <button class="btn btn-primary save" id="{{ qna.2 }}" style="display: none;">Save</button>
                         {% endfor %}
                         </span>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-  </section>
+</section>
 
 {% endblock %}
 
@@ -231,11 +232,8 @@ function bar_item_click_handler(event, clicked_items){
         'error': function(xhr, status, err) {
             alert(err);
         }
-
-
         
     });
-
     
 }
 
@@ -413,8 +411,40 @@ function bar_item_click_handler2(event, clicked_items){
       }
     });
 
+    $(".question").on('click', function(event) {
+        event.preventDefault();
+        event.stopPropagation();
 
+        let index = $(".question").index(this);  // 0 부터 시작
+
+        $(".answer").eq(index).toggle();
+        $(".save").eq(index).toggle();
+    });
+
+    $(".save").on('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        let id = $(".save").attr("id");
+        let user = "{{ request.session.user_id }}";
+
+        $.ajax({
+            "url": "/bookmark/save",
+            "method": "get",
+            "data": { "letter_id": id, "user_id": user },
+            "dataType": "json",
+            "success": function(data, status, xhr) {
+                alert("success");
+                alert(data);
+            
+            },
+            'error': function(xhr, status, err) {
+                alert(err);
+            }
+        });
+    });
 
 })(jQuery); 
+
 </script>
 {% endblock %}

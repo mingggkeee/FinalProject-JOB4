@@ -9,13 +9,13 @@ from django.db import models
 
 
 class Bookmark(models.Model):
-    id = models.OneToOneField('User', models.DO_NOTHING, db_column='id', primary_key=True)
-    letter = models.ForeignKey('Letter', models.DO_NOTHING)
+    user_id = models.OneToOneField('User', models.DO_NOTHING, db_column='id', primary_key=True)
+    letter = models.ForeignKey('Letter2', models.DO_NOTHING, db_column='letter_id')
 
     class Meta:
         # managed = False
         # db_table = 'BOOKMARK'
-        unique_together = (('id', 'letter'),)
+        unique_together = (('user_id', 'letter'),)
 
 
 class Company(models.Model):
@@ -172,26 +172,3 @@ class User(AbstractBaseUser, models.Model):
 
 
 # ========== custom admin page ==========
-
-
-######## 추가 ###########
-
-class Task2(models.Model):
-    task_id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=20, blank=True, null=True)
-
-
-class Company2(models.Model):
-    company_id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=40)
-
-    class Meta:
-        unique_together = (('company_id', 'name'),)
-
-
-class Letter2(models.Model):
-    letter_id = models.AutoField(primary_key=True)
-    answer = models.CharField(max_length=10000, blank=True, null=True)
-    company = models.ForeignKey(Company2, models.DO_NOTHING, blank=True, null=True)
-    task = models.ForeignKey(Task2, models.DO_NOTHING, blank=True, null=True)
-    question = models.CharField(max_length=1000, blank=True, null=True)

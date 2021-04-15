@@ -96,11 +96,11 @@ WSGI_APPLICATION = 'job4.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '13.124.236.54',
+        'HOST': 'job4-dbms.c5n1v2nvhdp6.ap-northeast-2.rds.amazonaws.com',
         'PORT': '3306',
         'NAME': "job4",
-        'USER': "ssac",
-        'PASSWORD': "Ssac123!@#"
+        'USER': "admin",
+        'PASSWORD': "Ssac123!"
     }
 }
 

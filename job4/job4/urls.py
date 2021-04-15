@@ -30,17 +30,13 @@ urlpatterns = [
     path('mypage/', include('mypage.urls')),
     path('letter/', include('letter.urls')),
     path('bookmark/', include('bookmark.urls')),
-    # Home search
-    # path('find/company', FindCompanyView.as_view(), name="find_company"),
-    # path('find/task', FindTaskView.as_view(), name="find_task"),
     # allauth : social login
     path('accounts/', include('allauth.urls')),
     # social login
     path('account/kakao/login/', KakaoView.as_view(), name="kakao_login"),
     path('account/kakao/login/callback/', KakaoCallbackView.as_view(), name="kakao_callback"),
     path('account/naver/login/callback/', NaverCallbackView.as_view(), name="naver_callback"),
-
-    ### Home search
+    # Home search
     path('find/company', FindCompanyView.as_view(), name="find_company"),
     path('find/task', FindTaskView.as_view(), name="find_task"),
 

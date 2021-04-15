@@ -99,14 +99,12 @@ class ResultView(View):
         # 해당 자소서만 뽑기
         filtered_task_letter3 = Letter2.objects.filter(task=task_id, company=company_id)
         questions_answers = []
-        letter_ids = []
 
         for letter in filtered_task_letter3:
-            letter_ids.append(letter.letter_id)
-            questions_answers.append((letter.question, letter.answer))
+            questions_answers.append((letter.question, letter.answer, letter.letter_id))
 
         return render(request, 'letter/index.html',
-                      {"letter_id": letter_ids, "company_name": company_name, "task_name": task_name, "word_count": word_count[:10],
+                      {"company_name": company_name, "task_name": task_name, "word_count": word_count[:10],
                        "word_count2": word_count2[:10], "questions_answers": questions_answers})
 
 
