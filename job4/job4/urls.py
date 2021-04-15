@@ -15,20 +15,29 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from .views import HomeView, KakaoView, KakaoCallbackView, NaverCallbackView
+from .views import HomeView, KakaoCallbackView, NaverCallbackView
 from django.views.generic.base import TemplateView
+
+### Home Search
+from .views import FindCompanyView, FindTaskView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', HomeView.as_view(), name="Home"),
     # custom apps
     path('myauth/', include('myauth.urls')),
+    path('bookmark/', include('bookmark.urls')),
     path('mypage/', include('mypage.urls')),
     path('letter/', include('letter.urls')),
     # allauth : social login
     path('accounts/', include('allauth.urls')),
     # social login
-    path('account/kakao/login/', KakaoView.as_view(), name="kakao_login"),
     path('account/kakao/login/callback/', KakaoCallbackView.as_view(), name="kakao_callback"),
     path('account/naver/login/callback/', NaverCallbackView.as_view(), name="naver_callback"),
+
+    ### Home search
+    path('find/company', FindCompanyView.as_view(), name="find_company"),
+    path('find/task', FindTaskView.as_view(), name="find_task"),
+
+
 ]

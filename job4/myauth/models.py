@@ -66,14 +66,29 @@ class Question(models.Model):
     #     managed = False
     #     db_table = 'QUESTION'
 
-
 class Task(models.Model):
     task_id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=50, blank=True, null=True)
 
-    # class Meta:
-    #     managed = False
-    #     db_table = 'TASK'
+######## 추가 ###########
+
+class Task2(models.Model):
+    task_id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=20, blank=True, null=True)
+
+class Company2(models.Model):
+    company_id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=40)
+
+    class Meta:
+        unique_together = (('company_id', 'name'),)
+
+class Letter2(models.Model):
+    letter_id = models.AutoField(primary_key=True)
+    answer = models.CharField(max_length=10000, blank=True, null=True)
+    company = models.ForeignKey(Company2, models.DO_NOTHING, blank=True, null=True)
+    task = models.ForeignKey(Task2, models.DO_NOTHING, blank=True, null=True)
+    question = models.CharField(max_length=1000, blank=True, null=True)
 
 
 # ========== custom admin page ==========
