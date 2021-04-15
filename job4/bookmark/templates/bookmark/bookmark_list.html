@@ -8,10 +8,8 @@
 <section id="places">
     <div class="container">
         <h1>Bookmark List</h1>
-
         <ul>
         {% for bookmark in object_list %}
-            <!-- <li><a href="/bookmark/{{ bookmark.id }}/">{{ bookmark }}</a></li> -->
             <li><a href="{% url 'bookmark:detail' bookmark.id %}">{{ bookmark.id }} / {{ bookmark.letter_id }}</a></li>
             {% endfor %}
         </ul>

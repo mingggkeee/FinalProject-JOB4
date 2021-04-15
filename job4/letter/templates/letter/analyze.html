@@ -1,88 +1,143 @@
-<!DOCTYPE html>
 {% extends 'base.html' %}
 
 {% load static %}
 
+{% load math_extras %}
+
 {% block extra-style %}
-
-
+<link rel="stylesheet" href="/static/assets/css/rating-style.css">
+<script src="https://kit.fontawesome.com/85789069e2.js" crossorigin="anonymous"></script>
 {% endblock %}
 
 {% block content %}
-
-
 <section id="places">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="breadcome-list single-page-breadcome">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="breadcome-heading">
-                                <form role="search" class="sr-input-func">
-                                    <input type="text" placeholder="Search..." class="search-int form-control">
-                                    <a href="#"><i class="fa fa-search"></i></a>
-                                </form>
+        <form class="card pt-3" action="{% url 'letter:analyze_request' %}" id="analyze_request">
+            <div class="col-12 grid-margin">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Please write your letter.</h2>
+                        <h4 class="card-description">We will evaluate your letter based on our MODEL !</h4>
+                        <div class="row mt-3"></div>
+                        <div class="row">
+                            <div class="form-group row">
+                                <label class="col-form-label">Your Letter</label>
+                                <textarea id="letter-area" name="letter-area" rows="10" cols="50"
+                                          style="margin-left:16px">{{ result.content }}</textarea>
+
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <ul class="breadcome-menu">
-                                <li><a href="#">Home</a> <span class="bread-slash">/</span>
-                                </li>
-                                <li><span class="bread-blod">Text Editor</span>
-                                </li>
-                            </ul>
+                        <div class="row flex-center" style="margin-top: 30px">
+                            <div class="col-auto mb-4">
+                                <button class="btn btn-lg btn-primary" type="submit">Analyze
+                                </button>
+                            </div>
+
                         </div>
                     </div>
+                    <div class="row mt-5"></div>
+                    {% if result.analyze_done %}
+                    <div class="card-body model-info">
+                        <h3 class="card-title">Today's Model Information</h3>
+                        <p>Model name : Sequential Model [ gb_model, rating_model ]</p>
+                        <p>Accuracy : {{ result.gb_accuracy }} &nbsp&nbsp&nbsp {{
+                            result.rating_accuracy }}</p>
+                        <p>Training Set : </p>
+                        <p>Test Set : </p>
+                    </div>
+                    <div class="row mt-5"></div>
+                    <div class="card-body model-result">
+                        <h3 class="card-title">Analysis Result</h3>
+                        <br/>
+                        <h5>좋은점/아쉬운점 예측</h5>
+                        <br/>
+                        <div class="progress">
+                            <div class="progress-bar good-bar" role="progressbar"
+                                 style="width: {{ result.good | multiply:100 }}%"
+                                 aria-valuenow="{{ result.good | multiply:100 }}"
+                                 aria-valuemin="0" aria-valuemax="100">
+                                {{ result.good | multiply:100 }}%
+                            </div>
+                            <div class="progress-bar bg-danger bad-bar" role="progressbar"
+                                 style="width: {{ result.bad | multiply:100 }}%"
+                                 aria-valuenow="{{ result.bad | multiply:100 }}"
+                                 aria-valuemin="0" aria-valuemax="100">
+                                {{ result.bad | multiply:100 }}%
+                            </div>
+                        </div>
+                        <div class="row mt-5"></div>
+                        <p>
+                            <strong>
+                                {% if result.gb_result == 1 %}
+                                이 내용은 <span class="good-result">"좋은 점"</span>으로 평가받을 확률이
+                                높습니다.
+                                {% else %}
+                                이 내용은 <span class="bad-result">"아쉬운 점"</span>으로 평가받을 확률이
+                                높습니다.
+                                {% endif %}
+                            </strong>
+                        </p>
+                        <div class="row mt-5"></div>
+                        <h5>전체 평점 예측</h5>
+                        <!-- Rating Stars Box -->
+                        <section class='rating-widget'>
+                            <div class='rating-stars text-center'>
+                                <ul id='stars'>
+                                    <li class='star hover' title='Poor' data-value='1'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='Fair' data-value='2'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='Good' data-value='3'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='Excellent' data-value='4'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='WOW!!!' data-value='5'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <div class="row mt-5"></div>
+                        <h5>같은회사, 같은 직무의 합격자소서 분석/통계 보여주기 -> 회사, 직무 선택란이 필요하겠다</h5>
+                    </div>
+                    {% endif %}
                 </div>
             </div>
-        </div>
+        </form>
     </div>
 </section>
 {% endblock %}
+
 {% block extra-script %}
-<script src="/static/chart/js/wow.min.js"></script>
-<!-- price-slider JS
-    ============================================ -->
-<script src="/static/chart/js/jquery-price-slider.js"></script>
-<!-- meanmenu JS
-    ============================================ -->
-<script src="/static/chart/js/jquery.meanmenu.js"></script>
-<!-- owl.carousel JS
-    ============================================ -->
-<script src="/static/chart/js/owl.carousel.min.js"></script>
-<!-- sticky JS
-    ============================================ -->
-<script src="/static/chart/js/jquery.sticky.js"></script>
-<!-- scrollUp JS
-    ============================================ -->
-<script src="/static/chart/js/jquery.scrollUp.min.js"></script>
-<!-- mCustomScrollbar JS
-    ============================================ -->
-<script src="/static/chart/js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="/static/chart/js/scrollbar/mCustomScrollbar-active.js"></script>
-<!-- metisMenu JS
-    ============================================ -->
-<script src="/static/chart/js/metisMenu/metisMenu.min.js"></script>
-<script src="/static/chart/js/metisMenu/metisMenu-active.js"></script>
-<!-- Charts JS
-    ============================================ -->
-<script src="/static/chart/js/charts/Chart.js"></script>
-<script src="/static/chart/js/charts/bar-chart.js"></script>
-<!-- tab JS
-    ============================================ -->
-<script src="/static/chart/js/tab.js"></script>
-<!-- plugins JS
-    ============================================ -->
-<script src="/static/chart/js/plugins.js"></script>
-<!-- main JS
-    ============================================ -->
-<script src="/static/chart/js/main.js"></script>
-<!-- tawk chat JS
-    ============================================ -->
-<script src="/static/chart/js/tawk-chat.js"></script>
-<!-- sparkline JS
-    ============================================ -->
-<script src="/static/chart/js/sparkline/jquery.sparkline.min.js"></script>
-<script src="/static/chart/js/sparkline/sparkline-active.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript">
+    "use strict";
+
+    $(function () {
+        $('.model-info').each( function(args) {
+            $('.good-result').css("color", "#3984F3");
+            $('.bad-result').css("color", "#f55767");
+
+            let nums = "{{ result.rating_result | rating }}"
+
+            $('.rating-stars').append("<p><strong>" + nums + " / 5" + "</strong></p>");
+
+            let stars = $('li.star');
+            for (let i = 0; i < nums; i++) {
+                $(stars[i]).addClass('hover');
+            }
+        });
+    });
+
+
+
+
+
+
+
+</script>
 {% endblock %}
