@@ -2,11 +2,6 @@
 
 {% load static %}
 
-{% block extra-style %}
-
-
-{% endblock %}
-
 {% block content %}
 <section id="places">
     <div class="container">
@@ -44,8 +39,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="charts-single-pro responsive-mg-b-30">
                             <div class="alert-title">
-                                <h4>{{ company_name }} 자소서 단어 빈도수 분석</h4>
-                                <p></p>
+                                <h4>"{{ company_name }}" 자소서 단어 빈도수 분석</h4>
                             </div>
                             <div id="bar1-chart">
                                 <canvas id="barchart1"></canvas>
@@ -55,8 +49,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="charts-single-pro responsive-mg-b-30">
                             <div class="alert-title">
-                                <h4>{{ task_name }} 자소서 단어 빈도수 분석</h4>
-                                <p></p>
+                                <h4>"{{ task_name }}" 자소서 단어 빈도수 분석</h4>
                             </div>
                             <div id="bar1-chart">
                                 <canvas id="barchart2"></canvas>
@@ -76,7 +69,7 @@
                         <div class="sparkline8-list">
                             <div class="sparkline8-hd">
                                 <div class="main-sparkline8-hd">
-                                    <h4>{{ company_name }} 자소서 키워드 유사도 분석</h4>
+                                    <h4 id="show_name1"></h4>
                                 </div>
                             </div>
                             <div class="sparkline8-graph">
@@ -101,7 +94,7 @@
                         <div class="sparkline9-list mt-b-30 res-mg-t-30 analysis-progrebar-ctn">
                             <div class="sparkline9-hd">
                                 <div class="main-sparkline9-hd">
-                                    <h4>{{ task_name }} 자소서 키워드 유사도 분석</h4>
+                                    <h4 id="show_name2"></h4>
                                 </div>
                             </div>
                             <div class="sparkline9-graph">
@@ -205,18 +198,19 @@ function bar_item_click_handler(event, clicked_items){
     }
 
     word = clicked_items[0]._model.label;
-
+    // alert(word);
+    document.getElementById("show_name1").innerHTML = "\""+ word + "\" 키워드 유사도 분석";
     $.ajax({
         "url": "/letter/company",
         "method": "get",
         "data": { "key": word },
         "dataType": "json",
         "success": function(data, status, xhr) {
-            
+
             $('#company_keyword tbody').empty()
             for (var tr_idx = 0; tr_idx < data.length; tr_idx++) {
                 var tr = $('<tr></tr>');
-                
+
                 var td = $('<td></td>');
                 td.text(tr_idx+1)
                 tr.append(td)
@@ -232,9 +226,9 @@ function bar_item_click_handler(event, clicked_items){
         'error': function(xhr, status, err) {
             alert(err);
         }
-        
+
     });
-    
+
 }
 
 function bar_item_click_handler2(event, clicked_items){
@@ -244,18 +238,18 @@ function bar_item_click_handler2(event, clicked_items){
 
     word = clicked_items[0]._model.label;
     // alert(word);
-
+    document.getElementById("show_name2").innerHTML = "\""+ word + "\" 키워드 유사도 분석";
     $.ajax({
         "url": "/letter/task",
         "method": "get",
         "data": { "key": word },
         "dataType": "json",
         "success": function(data, status, xhr) {
-            
+
             $('#task_keyword tbody').empty()
             for (var tr_idx = 0; tr_idx < data.length; tr_idx++) {
                 var tr = $('<tr></tr>');
-                
+
                 var td = $('<td></td>');
                 td.text(tr_idx+1)
                 tr.append(td)
@@ -273,10 +267,10 @@ function bar_item_click_handler2(event, clicked_items){
         }
 
 
-        
+
     });
 
-    
+
 }
 
 (function ($) {
@@ -284,19 +278,17 @@ function bar_item_click_handler2(event, clicked_items){
     /*----------------------------------------*/
    /*  1.  Bar Chart
     /*----------------------------------------*/
-    
-   // alert("{{ word_count }}")
 
    var ctx = document.getElementById("barchart1");
    var barchart1 = new Chart(ctx, {
       type: 'bar',
       data: {
          labels: ["{{ word_count.0.0 }}" , "{{ word_count.1.0 }}", "{{ word_count.2.0 }}", "{{ word_count.3.0 }}", "{{ word_count.4.0 }}",
-                 "{{ word_count.5.0 }}", "{{ word_count.6.0 }}", "{{ word_count.7.0 }}", "{{ word_count.8.0 }}", "{{ word_count.9.0 }}"],
+                 "{{ word_count.5.0 }}", "{{ word_count.6.0 }}", "{{ word_count.7.0 }}", "{{ word_count.8.0 }}", "{{ word_count.9.0 }}", ],
          datasets: [{
             label: '자주 나오는 키워드',
-            data: ["{{ word_count.0.1 }}" , "{{ word_count.1.1 }}", "{{ word_count.2.1 }}", "{{ word_count.3.1 }}", "{{ word_count.4.1 }}",
-                  "{{ word_count.5.1 }}", "{{ word_count.6.1 }}", "{{ word_count.7.1 }}", "{{ word_count.8.1 }}", "{{ word_count.9.1 }}"],
+            data: [{{ word_count.0.1 }} , {{ word_count.1.1 }}, {{ word_count.2.1 }}, {{ word_count.3.1 }}, {{ word_count.4.1 }},
+                  {{ word_count.5.1 }}, {{ word_count.6.1 }}, {{ word_count.7.1 }}, {{ word_count.8.1 }}, {{ word_count.9.1 }},],
             backgroundColor: [
                'rgba(255, 99, 132, 0.2)',
                'rgba(54, 162, 235, 0.2)',
@@ -325,23 +317,22 @@ function bar_item_click_handler2(event, clicked_items){
          }]
       },
       options: {
+         //responsive: false,
          scales: {
             xAxes: [{
                ticks: {
-                  autoSkip: false,
-                  maxRotation: 0
-               },
-               ticks: {
-                 fontColor: "#fff", // this here
+
+                  fontColor: "black", // this here
                }
             }],
             yAxes: [{
                ticks: {
-                  autoSkip: false,
-                  maxRotation: 0
-               },
-               ticks: {
-                 fontColor: "#fff", // this here
+                    min: 0,
+
+               fontColor: "black", // this here
+                  // autoSkip: false,
+                  // maxRotation: 0,
+
                }
             }]
          },
@@ -354,11 +345,11 @@ function bar_item_click_handler2(event, clicked_items){
       type: 'bar',
       data: {
          labels: ["{{ word_count2.0.0 }}" , "{{ word_count2.1.0 }}", "{{ word_count2.2.0 }}", "{{ word_count2.3.0 }}", "{{ word_count2.4.0 }}",
-                 "{{ word_count2.5.0 }}", "{{ word_count2.6.0 }}", "{{ word_count2.7.0 }}", "{{ word_count2.8.0 }}", "{{ word_count2.9.0 }}"],
+                 "{{ word_count2.5.0 }}", "{{ word_count2.6.0 }}", "{{ word_count2.7.0 }}", "{{ word_count2.8.0 }}", "{{ word_count2.9.0 }}", ],
          datasets: [{
             label: '자주 나오는 키워드',
-            data: ["{{ word_count2.0.1 }}" , "{{ word_count2.1.1 }}", "{{ word_count2.2.1 }}", "{{ word_count2.3.1 }}", "{{ word_count2.4.1 }}",
-                  "{{ word_count2.5.1 }}", "{{ word_count2.6.1 }}", "{{ word_count2.7.1 }}", "{{ word_count2.8.1 }}", "{{ word_count2.9.1 }}"],
+            data: [{{ word_count2.0.1 }} , {{ word_count2.1.1 }}, {{ word_count2.2.1 }}, {{ word_count2.3.1 }}, {{ word_count2.4.1 }},
+                  {{ word_count2.5.1 }}, {{ word_count2.6.1 }}, {{ word_count2.7.1 }}, {{ word_count2.8.1 }}, {{ word_count2.9.1 }},],
             backgroundColor: [
                'rgba(255, 99, 132, 0.2)',
                'rgba(54, 162, 235, 0.2)',
@@ -390,21 +381,16 @@ function bar_item_click_handler2(event, clicked_items){
          scales: {
             xAxes: [{
                ticks: {
-                  autoSkip: false,
-                  maxRotation: 0
+
+                  fontColor: "black", // this here
                },
-               ticks: {
-                 fontColor: "#fff", // this here
-               }
             }],
             yAxes: [{
                ticks: {
-                  autoSkip: false,
-                  maxRotation: 0
+                  min : 0,
+
+                  fontColor: "black", // this here
                },
-               ticks: {
-                 fontColor: "#fff", // this here
-               }
             }]
          },
          onClick: bar_item_click_handler2,
@@ -451,8 +437,7 @@ function bar_item_click_handler2(event, clicked_items){
         });
     });
 
-})(jQuery); 
-
+})(jQuery);
 
 
 </script>

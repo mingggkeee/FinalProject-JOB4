@@ -40,8 +40,7 @@
                     <div class="card-body model-info">
                         <h3 class="card-title">Today's Model Information</h3>
                         <p>Model name : Sequential Model [ gb_model, rating_model ]</p>
-                        <p>Accuracy : {{ result.gb_accuracy }} &nbsp&nbsp&nbsp {{
-                            result.rating_accuracy }}</p>
+                        <p>Accuracy : {{ result.gb_accuracy }} &nbsp&nbsp&nbsp {{ result.rating_accuracy }}</p>
                         <p>Training Set : </p>
                         <p>Test Set : </p>
                     </div>
@@ -131,12 +130,6 @@
             }
         });
     });
-
-
-
-
-
-
 
 </script>
 {% endblock %}

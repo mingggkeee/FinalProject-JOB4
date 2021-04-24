@@ -17,95 +17,106 @@ tagger = Okt()
 
 # Create your views here.
 class ResultView(View):
-    # template_name = 'letter/index.html'
     def post(self, request):
 
         company_id = request.POST['company_id']
-        task_id =  request.POST['task_id']
+        task_id = request.POST['task_id']
+        print(task_id)
 
-        # 존재하지 않는 단어에 대해 예외처리 필요
-
-        filtered_company_letter2 = Letter2.objects.filter(company = company_id)
-
-        filtered_company = Company2.objects.filter(company_id = company_id)
-        company_name = filtered_company[0].name
-        
-        result = []
-        for letter in filtered_company_letter2:
-            result.append( letter.question )
-            result.append( letter.answer )
-        
         def get_noun(text):
             nouns = tagger.nouns(text)
             return [n for n in nouns if len(n) > 1]  # 2글자 이상인 명사만 추출
 
-        file = open("letter/stopwords.txt", "r", encoding='utf-8')
+        file = open("./letter/stopwords.txt", "r", encoding='utf-8')
         stopwords = []
         while True:
             line = file.readline()
             if not line:
                 break
             stopwords.append(line)
-
         file.close()
-
         stopwords = [w.replace('\n', '') for w in stopwords]
 
-        cv = CountVectorizer(tokenizer=get_noun, max_features=100)
-        tdm = cv.fit_transform(result)
-        words = cv.get_feature_names()
-        count_mat = tdm.sum(axis=0)
-        count = np.squeeze(np.asarray(count_mat))
+        # 데이터 조회 코드 작성
+        try:
+            filtered_company_letter2 = Letter2.objects.filter(company=company_id)
 
-        result = []
-        for w in words:
-            if w not in stopwords:
-                result.append(w)
+            filtered_company = Company2.objects.filter(company_id=company_id)
+            company_name = filtered_company[0].name
 
-        word_count = list(zip(result, count))
-        word_count = sorted(word_count, key=operator.itemgetter(1), reverse=True)
-        # loaded_model = KeyedVectors.load_word2vec_format("result.bin", binary=True) # 모델 로드
-        # loaded_model.most_similar(positive=["가장"], topn=10) # 유사 키워드 추천 알고리즘
+            result = []
+            for letter in filtered_company_letter2:
+                result.append(letter.question)
+                result.append(letter.answer)
+
+            cv = CountVectorizer(tokenizer=get_noun, max_features=100)
+            tdm = cv.fit_transform(result)
+            words = cv.get_feature_names()
+            count_mat = tdm.sum(axis=0)
+            count = np.squeeze(np.asarray(count_mat))
+
+            result = []
+            for w in words:
+                if w not in stopwords:
+                    result.append(w)
+
+            word_count = list(zip(result, count))
+            word_count = sorted(word_count, key=operator.itemgetter(1), reverse=True)
+        except ValueError:
+            company_id = 0
+            word_count = []
+            company_name = ''
 
         # 템플릿에서 읽을 수 있도록 조회된 데이터를 저장하는 코드 작성2
+        try:
+            filtered_task = Task2.objects.filter(task_id=task_id)
+            task_name = filtered_task[0].name
 
-        filtered_task = Task2.objects.filter(task_id = task_id)
-        task_name = filtered_task[0].name
+            filtered_task_letter2 = Letter2.objects.filter(task=task_id)
+            result2 = []
+            for letter in filtered_task_letter2:
+                result2.append(letter.question)
+                result2.append(letter.answer)
 
-        filtered_task_letter2 = Letter2.objects.filter(task = task_id)
-        result2 = []
-        for letter in filtered_task_letter2:
-            result2.append( letter.question )
-            result2.append( letter.answer )
-        
-        cv2 = CountVectorizer(tokenizer=get_noun, max_features=100)
-        tdm2 = cv2.fit_transform(result2)
-        words2 = cv2.get_feature_names()
-        count_mat2 = tdm2.sum(axis=0)
-        count2 = np.squeeze(np.asarray(count_mat2))
+            cv2 = CountVectorizer(tokenizer=get_noun, max_features=100)
+            tdm2 = cv2.fit_transform(result2)
+            words2 = cv2.get_feature_names()
+            count_mat2 = tdm2.sum(axis=0)
+            count2 = np.squeeze(np.asarray(count_mat2))
 
-        result3 = []
-        for w in words2:
-            if w not in stopwords:
-                result3.append(w)
+            result3 = []
+            for w in words2:
+                if w not in stopwords:
+                    result3.append(w)
 
-        word_count2 = list(zip(result3, count2))
-        word_count2 = sorted(word_count2, key=operator.itemgetter(1), reverse=True)
+            word_count2 = list(zip(result3, count2))
+            word_count2 = sorted(word_count2, key=operator.itemgetter(1), reverse=True)
+        except ValueError:
+            task_id = 0
+            word_count2 = []
+            task_name = ''
 
-        # print( word_count[:10] , word_count2[:10])
-        # loaded_model = KeyedVectors.load_word2vec_format("result.bin", binary=True) # 모델 로드
-        # loaded_model.most_similar(positive=["가장"], topn=10) # 유사 키워드 추천 알고리즘
-
-        # 해당 자소서만 뽑기
         filtered_task_letter3 = Letter2.objects.filter(task=task_id, company=company_id)
         questions_answers = []
-
+        error1 = ""
+        error2 = ""
+        error3 = ""
         for letter in filtered_task_letter3:
             questions_answers.append((letter.question, letter.answer, letter.letter_id))
 
+        if company_id == 0:
+            error1 = '홈에서 회사를 선택해주세요.'
+
+        elif task_id == 0:
+            error2 = '홈에서 직무를 선택해주세요.'
+
+        if len(questions_answers) < 2 and (company_id != 0 and task_id != 0):
+            error3 = '해당 회사의 직무 자소서가 없습니다.'
+
         return render(request, 'letter/index.html',
                       {"company_name": company_name, "task_name": task_name, "word_count": word_count[:10],
-                       "word_count2": word_count2[:10], "questions_answers": questions_answers})
+                       "word_count2": word_count2[:10], "questions_answers": questions_answers, "error1": error1,
+                       "error2": error2, "error3": error3})
 
 
 class AnalyzeView(TemplateView):
@@ -185,7 +196,7 @@ class AnalyzeRequestView(View):
                                   'content': content,
                                   'rating_result': float(np.argmax(rating_prediction[0])),
                                   'gb_accuracy': str(gb_acc),
-                                  'rating_accuracy': str(r_acc)
+                                  'rating_accuracy': str(r_acc),
                                   }
                        }
 
